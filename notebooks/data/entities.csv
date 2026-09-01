@@ -1,0 +1,5920 @@
+segment_id,entity,label
+0,Indigo,ORG
+0,DGC,ORG
+0,Second,ORDINAL
+0,Sansa,GPE
+0,two days,DATE
+0,Anurak Takur,PERSON
+0,TMC,ORG
+0,Shogatar Roy,PERSON
+0,BJP,ORG
+0,Shogatas,ORG
+0,Lok Sabha,PERSON
+0,DMK,ORG
+0,anti-Hindu,NORP
+0,Over 50,CARDINAL
+0,condemn impeachment motion,ORG
+0,Deepam,ORG
+0,India,GPE
+0,today,DATE
+0,Rahul Gandhi,PERSON
+0,zero hour,TIME
+0,Kirinu,PERSON
+0,India,GPE
+0,today,DATE
+0,50th,ORDINAL
+0,India,GPE
+0,today,DATE
+0,two,CARDINAL
+0,Muri,GPE
+0,Tamil Nadu's,PERSON
+0,tomorrow,DATE
+0,Maduray,GPE
+0,Madras,LOC
+0,BJP,ORG
+0,BJP,ORG
+0,DMK,ORG
+0,Anurra Takur,PERSON
+0,DMK,ORG
+0,Takur,PERSON
+0,This comes days,DATE
+0,Amit Sha,PERSON
+0,Justice,ORG
+0,Swami Natan,PERSON
+0,Over 50,CARDINAL
+0,Swaminatan,PERSON
+0,one,CARDINAL
+0,India,GPE
+0,anti-sanatan,NORP
+0,Sanatan Dharma,PERSON
+0,Ram,ORG
+0,Maduray,ORG
+0,Madras High Court,ORG
+0,Tamil Ladu,PERSON
+0,Aarthikai,GPE
+0,the Maduray Thiru Kundaram Temple,FAC
+0,Stalin,PERSON
+0,Hindus,NORP
+0,BJP,ORG
+0,DMK,ORG
+0,the end of the day,DATE
+0,Anaga,PERSON
+0,G. Swami,PERSON
+0,Natan,GPE
+0,India,GPE
+0,today,DATE
+0,Maduray,ORG
+0,Madras,LOC
+1,Tamil Nadu,PERSON
+1,DMK,ORG
+1,Tamil Nadu,FAC
+1,the last 100 years,DATE
+1,the year 1920,DATE
+1,Gapati,NORP
+1,the last 100 years,DATE
+1,Tamil Nadu,PERSON
+1,Hindu,NORP
+1,Tamil Nadu,PERSON
+1,Madras,LOC
+1,Maday,DATE
+1,Maduray,ORG
+1,Indigo,ORG
+1,Peter Albers,PERSON
+1,DGCA,ORG
+1,Poke Committee,ORG
+1,four,CARDINAL
+1,today,DATE
+1,Indigo,ORG
+1,F,ORG
+1,the first week of December,DATE
+1,Peter Elers,PERSON
+1,Indigo,ORG
+1,four,CARDINAL
+1,DGCA,ORG
+1,Indigo,ORG
+1,the first week of December,DATE
+1,Peter Elers,PERSON
+1,Indigo,ORG
+1,four,CARDINAL
+1,four,CARDINAL
+1,India,GPE
+1,Indigo,ORG
+1,15 days,DATE
+1,the first week of December,DATE
+1,DGCA,ORG
+1,Indigo,ORG
+1,Indigo,ORG
+1,Peter Albus,PERSON
+1,DGCS,NORP
+1,four,CARDINAL
+1,Indigo,ORG
+1,the first week of December,DATE
+1,Indigo,ORG
+1,Indigo,ORG
+1,DGCA,ORG
+1,four,CARDINAL
+1,Indigo,ORG
+1,the Indigo Airlines,ORG
+1,Indigo,ORG
+1,Peter Albus,PERSON
+1,two,CARDINAL
+1,two days,DATE
+1,Brah Mohunaidu,PERSON
+1,Indigo,ORG
+1,Indigo,ORG
+1,Indigo,ORG
+1,India,GPE
+2,one day,DATE
+2,two days,DATE
+2,FTL,ORG
+2,Indigo,ORG
+2,Karnataka,GPE
+2,Congress,ORG
+2,Sedaraya,ORG
+2,BJP,ORG
+2,TCM,ORG
+2,CM,ORG
+2,Delhi,GPE
+2,Karnataka,GPE
+2,Pharaoh,ORG
+2,DCM,ORG
+2,Karnataka,GPE
+2,Sidraaya,PERSON
+2,Delhi,GPE
+4,Karnataka,GPE
+4,Karnataka,GPE
+4,Yatra Sidraaya,PERSON
+4,DK Shukumar's,PERSON
+4,Diamond,ORG
+4,Karnataka,ORG
+4,BJP,ORG
+4,DK Shukumar,PERSON
+4,Sidraa,LOC
+4,DK Shukuma,PERSON
+4,Congress,ORG
+4,CM,ORG
+4,Sidraaya,PERSON
+4,Congress,ORG
+4,Delhi,GPE
+4,Karnataka,GPE
+4,CM,ORG
+4,Congress,ORG
+4,Sidraaya,PERSON
+4,DKS,ORG
+4,BJP,ORG
+4,Karnataka,GPE
+4,Congress,ORG
+4,BJP,ORG
+4,meme fest,ORG
+4,Chalawadi Nar,PERSON
+4,Swami,PERSON
+4,the saffron party,ORG
+4,CWC,ORG
+4,DPRK,ORG
+4,Congress,ORG
+4,Sagay Raj Bureau,ORG
+4,India,GPE
+4,today,DATE
+4,India,GPE
+4,Bangkok,GPE
+4,Thai,NORP
+4,Sorab,ORG
+4,Gorav Lutra,ORG
+4,two,CARDINAL
+4,Thai,NORP
+4,Fukit,FAC
+4,this hour,TIME
+4,Indian,NORP
+4,Thai,NORP
+4,two,CARDINAL
+4,yesterday,DATE
+4,Thai,NORP
+4,Gita,PERSON
+4,Sneha,PERSON
+4,Indian,NORP
+4,Thai,NORP
+4,Goa,PERSON
+4,MEA,ORG
+4,Thai,NORP
+4,ministry of external affairs,ORG
+4,Bangkok,GPE
+4,Lutra,ORG
+4,Phuket,GPE
+4,Thai,NORP
+4,Sneighha,PERSON
+4,India,GPE
+4,Thailand,GPE
+4,two,CARDINAL
+4,Thailand,GPE
+4,India,GPE
+4,Thai,NORP
+4,Gita,PERSON
+4,Indian,NORP
+4,Thailand,GPE
+4,Lutra,ORG
+4,5 days,DATE
+4,Lutra,ORG
+4,thousands of kilometers,QUANTITY
+4,Thailand,GPE
+4,Sodom,ORG
+4,Lutra,NORP
+4,25,CARDINAL
+4,Fuket,PERSON
+4,Lutras,ORG
+4,Bangkok,GPE
+4,Thai,NORP
+4,the ministry of the homeland detain,ORG
+4,Goa,PERSON
+4,India,GPE
+4,CBI,ORG
+4,Goa,LOC
+4,One,CARDINAL
+4,Anjuna beach,GPE
+4,Anjuna beach,GPE
+4,North Goa,LOC
+4,Goa,PERSON
+4,Goa,PERSON
+4,Burchch,PRODUCT
+4,Romeulin,ORG
+4,One,CARDINAL
+4,Goya,ORG
+4,yesterday,DATE
+4,Goya,ORG
+4,Dir Singh,PERSON
+4,Goa,GPE
+4,India,GPE
+4,today,DATE
+4,Lutra,ORG
+4,Burj,PERSON
+4,North Goa,LOC
+4,NOOCC,ORG
+4,NOOCC,ORG
+4,four,CARDINAL
+4,India,GPE
+4,Indian,NORP
+4,Lutra,ORG
+4,Bangkok,GPE
+4,Thai,NORP
+4,Lutra,ORG
+5,DEH,ORG
+5,Shamila Monttero,PERSON
+5,Siddhi Harbanker,PERSON
+5,Panchad,ORG
+5,Raguir Baker,PERSON
+5,Raguir Banker,ORG
+5,this afternoon,TIME
+5,Bragir Bakar,PERSON
+5,Goa,PERSON
+5,Lutra,ORG
+5,today,DATE
+5,Delhi,GPE
+5,today,DATE
+5,India,GPE
+5,Today,DATE
+5,Rahul Gandhi,PERSON
+5,the zero hour,TIME
+5,today,DATE
+5,Kirin Juju,PERSON
+5,India,GPE
+5,today,DATE
+5,millions,CARDINAL
+5,these days,DATE
+5,zero hour,TIME
+5,one,CARDINAL
+5,the next 5 or 10 years,DATE
+5,the day one,DATE
+5,Rahul Gandhi G. Government,PERSON
+5,BAC,ORG
+5,zero hour,TIME
+5,today,DATE
+5,Ral Gandhi,PERSON
+5,Lok Sabha,PERSON
+6,months,DATE
+6,Zubin,ORG
+6,"3,500",CARDINAL
+6,that night,TIME
+6,over 300,CARDINAL
+6,Zubin,ORG
+6,Sepan Garag,FAC
+6,Shamakanu Mahantaa,PERSON
+6,Sedh Sharma,PERSON
+6,Shaker Joti Gow,PERSON
+6,Swami Kos Singha,PERSON
+6,Amitrit,GPE
+6,Prava Mahanta,PERSON
+6,Pes Bashia,PERSON
+6,Nandeshwar Bora,PERSON
+6,four,CARDINAL
+6,seven,CARDINAL
+6,Shama Kanu Mahanta,ORG
+6,Sadhhat Shama,PERSON
+6,BNS,ORG
+6,Ajaka Kasam,PERSON
+6,SIT,ORG
+6,Zubin Gag,PERSON
+6,SIT,ORG
+6,19th December,DATE
+6,BNS,ORG
+6,last September October,DATE
+7,Rajnik Khan,PERSON
+7,75,DATE
+7,India,GPE
+7,Today,DATE
+7,Putin,PERSON
+7,India,GPE
+7,IndiaRussia,ORG
+7,India,GPE
+7,Today,DATE
+7,Putin,PERSON
+7,India,GPE
+7,India,GPE
+7,Today,DATE
+7,India,GPE
+7,Amazon,ORG
+7,Blinket,GPE
+7,Sana,PERSON
+7,25,CARDINAL
+7,11,CARDINAL
+7,Mumbai,GPE
+7,28,CARDINAL
+7,21,CARDINAL
+7,27,DATE
+7,15,CARDINAL
+7,Benaluru,GPE
+7,26,CARDINAL
+7,15,CARDINAL
+7,28,CARDINAL
+7,22,CARDINAL
+7,28,CARDINAL
+7,13,CARDINAL
+7,India,GPE
+7,Today,DATE
+7,100 million,CARDINAL
+7,N. You,PERSON
+7,India,GPE
+7,Today,DATE
+7,Taliva Day,DATE
+7,Superstar,PERSON
+8,Rajnikan,GPE
+8,75,DATE
+8,Tamil,PERSON
+8,Rajnik Khan's,PERSON
+8,Kamalasan,ORG
+8,75 years,DATE
+8,50 years,DATE
+8,K Stalin,PERSON
+8,The day,DATE
+8,Taliva,ORG
+8,Paria,ORG
+8,Chennai,GPE
+8,Kasi,PERSON
+8,one,CARDINAL
+8,second,ORDINAL
+8,Rajni,NORP
+8,Parapa,NORP
+8,Nilamuri,GPE
+8,berserk,GPE
+8,Rajni,NORP
+8,today,DATE
+8,Tamar,PRODUCT
+8,today,DATE
+8,Tamilan,ORG
+8,everyday,DATE
+8,Rajini,PERSON
+8,75,CARDINAL
+8,today,DATE
+8,One,CARDINAL
+8,Rajini Kh,PERSON
+8,Daniel,PERSON
+8,India,GPE
+8,today,DATE
+8,Chennai,ORG
+8,75 years,DATE
+8,Rohini,PERSON
+8,Parapa,NORP
+8,one,CARDINAL
+8,Raji Khal,PERSON
+8,Superstar,PERSON
+8,God,PERSON
+8,Superstar,PERSON
+8,Only one,CARDINAL
+8,Only one,CARDINAL
+8,Superstar,PERSON
+8,Rajinik,PERSON
+8,so many years,DATE
+8,Rajan,NORP
+8,Tal,PERSON
+8,Tal,GPE
+8,one,CARDINAL
+8,Rajnik,PERSON
+8,Today,DATE
+9,Rajigat,ORG
+9,75th,ORDINAL
+9,50th year,DATE
+9,Today,DATE
+9,a first day first,DATE
+9,Rajnik Khan,PERSON
+10,India,GPE
+10,Today,DATE
+10,Karnataka,GPE
+10,four,CARDINAL
+10,kendras,PERSON
+10,janoshi generic medicines,ORG
+10,yesterday,DATE
+10,Karnataka High Court,ORG
+10,Delhi,GPE
+10,India,GPE
+10,today,DATE
+10,Rahul Gandhi,PERSON
+10,Kirin Deiju,PERSON
+10,Roy,PERSON
+10,Makard,ORG
+10,Gajendra Singh Shikhawa,PERSON
+10,BJP,ORG
+10,Delhi,GPE
+10,Ura Takur,PERSON
+10,DMC,ORG
+10,Amir Khan,PERSON
+10,Lokesh Kanagaraj,PERSON
+10,one,CARDINAL
+10,Lokesh,PERSON
+10,air,ORG
+10,Rajnik Khan's,PERSON
+10,Rajkumar Hirani,PERSON
+10,Dada Sahibit,FAC
+10,Indian,NORP
+10,Media,ORG
+10,Entertainment Bureau,ORG
+10,India,GPE
+10,Today,DATE
+10,India,GPE
+10,Today,DATE
+10,Vizy,PERSON
+10,months,DATE
+10,Big India Today,ORG
+10,10 days,DATE
+10,House,ORG
+10,five,CARDINAL
+10,winter,DATE
+10,Delhi city,GPE
+10,winter,DATE
+10,around 350,CARDINAL
+10,India,GPE
+10,today,DATE
+10,zero hour,TIME
+10,today,DATE
+10,Today,DATE
+10,Lok Sabha,PERSON
+10,Rahul Gandhi,PERSON
+10,five,CARDINAL
+10,Sighha Modani,PERSON
+10,Goa,PERSON
+10,Lutra,ORG
+10,Bangkok,GPE
+10,India,GPE
+10,Indigo,ORG
+10,DGCA,ORG
+10,four,CARDINAL
+10,second,ORDINAL
+10,Sansa,GPE
+10,2 days,DATE
+10,Anurak Takur,PERSON
+10,Trinamul Congress MP,ORG
+10,TMC,ORG
+10,Shogatar Roy,PERSON
+10,BJP,ORG
+10,Anurak Taku Ricks Deepam,ORG
+10,Lok Sabha,PERSON
+10,DMK,ORG
+10,anti-Hindu,NORP
+10,50,CARDINAL
+10,Deepam,ORG
+10,India,GPE
+10,today,DATE
+10,Rahul Gandhi,PERSON
+10,Kirin Rajuju,PERSON
+10,Karnataka,GPE
+10,two,CARDINAL
+10,A day,DATE
+10,shifkumar,PERSON
+10,more than 50,CARDINAL
+10,Karnataka,ORG
+10,more than 47,CARDINAL
+10,between 2023 and 2025,DATE
+10,Expel Congress Emily,ORG
+10,Rahul Mam Kutil,PERSON
+10,14 days,DATE
+10,Thursday,DATE
+10,Palakad,GPE
+11,Messi,PERSON
+11,hours,TIME
+11,India,GPE
+11,3-day,DATE
+11,Kolkata,PERSON
+11,70,CARDINAL
+11,Modi,PERSON
+11,Superstar Rajnik Khan,PERSON
+11,75,DATE
+11,Tamil,PERSON
+11,weeks,DATE
+12,India,GPE
+12,today,DATE
+12,winter,DATE
+12,10 days,DATE
+12,10 long days,DATE
+12,India,GPE
+12,today,DATE
+12,millions,CARDINAL
+12,every single day,DATE
+12,weeks,DATE
+12,India,GPE
+12,Today,DATE
+12,winter,DATE
+12,Kirin Riiru,PERSON
+12,Advisory Committee,ORG
+12,the day,DATE
+12,Rahul Gandhi G.,PERSON
+12,the Lok Sabha's,FAC
+12,India,GPE
+12,today,DATE
+12,millions,CARDINAL
+12,a single minute,TIME
+12,today,DATE
+12,Delhi,GPE
+12,Delhi,GPE
+12,500,CARDINAL
+12,Sneha Morani,PERSON
+12,Sonel Mehotra Kapoor,PERSON
+12,Ber,PERSON
+12,India,GPE
+12,today,DATE
+12,Ashwaryia,ORG
+12,today,DATE
+12,zero hour,TIME
+12,Rahul Gandhi,PERSON
+12,Sodel,PERSON
+12,every single day,DATE
+12,about 10 days ago,DATE
+12,first,ORDINAL
+12,zero hour,TIME
+12,Rahul Gandhi,PERSON
+12,BAC,ORG
+12,BAC,ORG
+12,next week,DATE
+12,27 long years,DATE
+12,BJP,ORG
+12,the next one year,DATE
+12,the next 3 to four months,DATE
+12,Delhi,GPE
+12,two in zero hour,TIME
+12,a few moments,TIME
+12,Rahul Gandhi,PERSON
+12,many hours,TIME
+12,BSC,ORG
+12,Sneha,PERSON
+12,today,DATE
+12,a classic day,DATE
+12,one,CARDINAL
+12,10,CARDINAL
+13,3%,PERCENT
+13,US,GPE
+13,China,GPE
+13,US,GPE
+13,23%,PERCENT
+13,China,GPE
+13,34%,PERCENT
+13,India,GPE
+13,up to 43%,PERCENT
+13,previous years,DATE
+13,previous decades,DATE
+13,Kerala,GPE
+13,Onam,FAC
+13,Christmas,DATE
+13,Gulf,LOC
+13,India,GPE
+13,Kolkata,PERSON
+13,Diwali,NORP
+13,Bihar,GPE
+13,the entire season,DATE
+13,Kerala,GPE
+13,September,DATE
+13,24,CARDINAL
+13,Kerala,GPE
+13,Gulf,LOC
+13,Kerala,GPE
+13,every year,DATE
+13,Onam,PERSON
+13,Kumba,PERSON
+13,Priagar,GPE
+13,Priyagra,ORG
+13,10,CARDINAL
+13,Kerala,PERSON
+13,Diwali,NORP
+13,Diwali,PERSON
+13,October 25,DATE
+13,Priyagar Kumba,PERSON
+13,Jan 25,DATE
+13,one,CARDINAL
+13,ATF,ORG
+13,up to 40%,PERCENT
+13,40,CARDINAL
+13,45%,PERCENT
+13,ATF,ORG
+13,ATF,ORG
+13,ATF,ORG
+13,5%,PERCENT
+13,26,CARDINAL
+13,ATF,ORG
+13,Cindy G,PERSON
+13,ATF,ORG
+14,Bihar,PERSON
+14,Bihar,PERSON
+14,29%,PERCENT
+14,June 25,DATE
+14,4%,PERCENT
+14,one,CARDINAL
+14,Tamil Nadu,PERSON
+14,Manikam G,ORG
+14,5 4%,PERCENT
+14,1%,PERCENT
+14,ATF,ORG
+14,DGCA,ORG
+14,DGCA,ORG
+14,every 24 hours,TIME
+14,every month,DATE
+14,"the month, first week of the month",DATE
+14,this month,DATE
+14,1 month,DATE
+14,last year,DATE
+14,DGCA,GPE
+14,around 50,CARDINAL
+14,78,CARDINAL
+14,one,CARDINAL
+14,TMU,ORG
+15,the last 10 years,DATE
+15,2,CARDINAL
+15,udeska,ORG
+15,Today,DATE
+15,almost 1,CARDINAL
+15,57,CARDINAL
+15,Udan,GPE
+15,More than 3,CARDINAL
+15,"26,000",CARDINAL
+15,Udan,GPE
+15,more than 693,CARDINAL
+15,10 years,DATE
+15,Nirmula Sithar Raanji,PERSON
+15,10 years,DATE
+15,Udan,ORG
+15,10 more years,DATE
+16,the next few years,DATE
+16,the next 10 years,DATE
+16,120,CARDINAL
+16,120,CARDINAL
+16,today,DATE
+16,164,CARDINAL
+16,164,CARDINAL
+16,Vixid Bharat,PERSON
+16,the next 10 years,DATE
+16,120,CARDINAL
+16,Udan,ORG
+16,Fly 91,PERSON
+16,India 1,ORG
+16,9,CARDINAL
+16,19,CARDINAL
+16,three,CARDINAL
+16,the last 10 years,DATE
+16,the next 10 years,DATE
+16,2,CARDINAL
+16,three,CARDINAL
+16,Udan,ORG
+16,this last 18 months,DATE
+16,NOOCC,ORG
+16,three,CARDINAL
+16,two,CARDINAL
+16,NOOCC,ORG
+16,Odan,PERSON
+16,today,DATE
+16,today,DATE
+16,100,CARDINAL
+16,200,CARDINAL
+16,100 200,CARDINAL
+16,today,DATE
+16,Every month,DATE
+16,India,GPE
+16,Gulf,LOC
+16,Asia-Pacific,LOC
+16,India,GPE
+16,"1,700",CARDINAL
+16,"1,700",CARDINAL
+16,Airbus,ORG
+16,Boeing,ORG
+16,1700,DATE
+16,today,DATE
+16,India,GPE
+16,Russian,NORP
+16,MOU,ORG
+16,Star Air,ORG
+16,Embrier,PERSON
+16,2,CARDINAL
+16,Embrier,PERSON
+16,India,GPE
+16,"1,700",CARDINAL
+16,"1,700",CARDINAL
+16,days,DATE
+16,today,DATE
+16,India,GPE
+16,one,CARDINAL
+16,two decades,DATE
+16,three decades,DATE
+16,60 to 70%,PERCENT
+16,30%,PERCENT
+16,today,DATE
+17,five decades,DATE
+17,India,GPE
+17,today,DATE
+17,India,GPE
+17,This December,DATE
+17,50th,ORDINAL
+17,India,GPE
+17,Today,DATE
+17,India,GPE
+17,Five decades,DATE
+17,one,CARDINAL
+17,India,GPE
+17,this December,DATE
+17,Karnataka,GPE
+17,Congress,ORG
+17,next week,DATE
+17,Karnataka,GPE
+17,Karnataka,GPE
+17,BJP,ORG
+17,Shashikala,PERSON
+17,60 65%,PERCENT
+17,25 30%,PERCENT
+17,India,GPE
+17,Kuma,ORG
+17,overnight,TIME
+17,Today,DATE
+17,today,DATE
+17,Gandhi,PERSON
+17,one,CARDINAL
+17,1994,DATE
+17,the past one year,DATE
+17,today,DATE
+17,five,CARDINAL
+17,every day,DATE
+17,two,CARDINAL
+17,today,DATE
+17,five,CARDINAL
+17,at least 100,CARDINAL
+17,one,CARDINAL
+17,the day,DATE
+17,Indian,NORP
+17,Indian,NORP
+17,India,GPE
+17,today,DATE
+17,India,GPE
+17,Ki Van Singh,PERSON
+17,the World Health Organization's,ORG
+17,India,GPE
+17,annual,DATE
+17,130,CARDINAL
+17,Indian,NORP
+17,12,CARDINAL
+17,Zan Daria,PERSON
+17,WHO,ORG
+17,India,GPE
+17,India,GPE
+17,India,GPE
+17,NCR,ORG
+17,AQI,ORG
+17,130,CARDINAL
+17,more than 130,CARDINAL
+17,AQM,ORG
+17,Delhi,GPE
+17,2026 27 28,DATE
+17,2030,DATE
+17,NAQS,ORG
+17,WH,ORG
+17,about six to eight,CARDINAL
+17,Indian,NORP
+17,AQI,ORG
+17,Delhi,GPE
+17,NS,GPE
+17,400,CARDINAL
+17,Delhi,GPE
+17,NCR,ORG
+17,"year 1, year 2, year three or month one, month two, month three",DATE
+17,the Supreme Court,ORG
+18,India,GPE
+19,the last 10 or 12 years,DATE
+19,WH,ORG
+19,COVID,PERSON
+19,WH,ORG
+19,India,GPE
+19,China,GPE
+19,WHO,ORG
+19,WH,ORG
+19,WH,ORG
+19,WH,ORG
+19,WH,ORG
+19,India,GPE
+19,WH,ORG
+19,one,CARDINAL
+19,two,CARDINAL
+19,three,CARDINAL
+20,working hours,TIME
+21,Anandara,PERSON
+21,Anandaria,GPE
+21,TMC,ORG
+21,Shawat Roy,PERSON
+21,ISIS,ORG
+21,Delhi,GPE
+21,the second day in a row,DATE
+21,Shagada Roy,PERSON
+21,Singh Shakawad,PERSON
+21,Girat Singh,PERSON
+21,TMC,ORG
+21,Roy,PERSON
+21,BJP,ORG
+21,Delhi,GPE
+21,AQI,ORG
+21,BJP,ORG
+21,BJP,ORG
+21,Anra Takur,PERSON
+21,Omir,PERSON
+21,Lok Sabha,PERSON
+21,India,GPE
+21,Delhi,PERSON
+21,Shivani Sharma,PERSON
+21,Delhi,GPE
+21,Bureau,ORG
+21,India,GPE
+21,today,DATE
+21,2008,DATE
+21,ISIS,ORG
+21,Lionel Messi,PERSON
+21,India,GPE
+21,3-day,DATE
+21,Kolkata,GPE
+21,70,CARDINAL
+21,Narendra Modi,PERSON
+21,Messi,PERSON
+21,India,GPE
+21,two,CARDINAL
+21,ninth,ORDINAL
+21,seven,CARDINAL
+21,India,GPE
+21,Lionel Messi,PERSON
+21,3-day,DATE
+21,4,CARDINAL
+21,Kolkata,GPE
+21,India,GPE
+21,9:30 in the morning,TIME
+21,Saturday,DATE
+21,Messi,PERSON
+21,Mtab Banerjee,PERSON
+21,70,CARDINAL
+21,Messi,PERSON
+21,Messi,PERSON
+21,the Bhanandha Yubo Bharati Kirangan Stadium of,ORG
+21,Kolkata,GPE
+21,Matab Banerjee,PERSON
+21,Indian,NORP
+21,Ganguli,GPE
+21,Bollywood,ORG
+21,Shah Ruk Khan,PERSON
+21,Bengal,GPE
+21,Messi,PERSON
+21,Bengali,NORP
+21,Bengal,GPE
+21,Messi,PERSON
+21,Hyderabad,ORG
+21,7,CARDINAL
+21,7,CARDINAL
+21,the Rajiv Gandhi International Stadium,ORG
+21,Raven Thread,PERSON
+21,Mumbai,GPE
+21,2022,DATE
+21,World Cup,EVENT
+21,Spanish,NORP
+21,Luis Suarez,PERSON
+21,New Delhi,GPE
+21,Messi,PERSON
+21,Narendra Modi,PERSON
+21,the Arun Jetly Stadium,ORG
+21,India,GPE
+21,Lionol Messi,PERSON
+21,India,GPE
+21,Sinar Roy,PERSON
+21,Kolkata,GPE
+21,India,GPE
+21,today,DATE
+21,Messimania,GPE
+21,India,GPE
+21,Today,DATE
+21,five,CARDINAL
+21,Bengaluru,GPE
+21,India,GPE
+21,Today,DATE
+21,first,ORDINAL
+21,SIM,ORG
+21,Alokumar,GPE
+21,India,GPE
+21,today,DATE
+21,26th,ORDINAL
+21,9th,ORDINAL
+21,December,DATE
+21,67,CARDINAL
+21,close to,CARDINAL
+21,"65,000",CARDINAL
+21,nearly 13,CARDINAL
+21,Superstar Dashan,PERSON
+21,BJP,ORG
+21,Congress,ORG
+21,Karnataka,GPE
+21,Congress,ORG
+21,Sagay Raj,PERSON
+21,Bengaluru Bureau,ORG
+21,India,GPE
+21,today,DATE
+21,Sorav,PERSON
+21,Fuket,GPE
+21,Lutras,ORG
+21,India,GPE
+21,Thailand,GPE
+21,Sorab,ORG
+21,Lutra,ORG
+21,India,GPE
+21,India,GPE
+21,Interpol,ORG
+21,Thailand,GPE
+21,Thai,NORP
+21,25,CARDINAL
+21,India,GPE
+21,today,DATE
+21,George Co-owered,PERSON
+21,India First Life,ORG
+21,Bank of Boda,ORG
+21,Genali Central Hello,PERSON
+21,evening,TIME
+21,Super 6,ORG
+21,India,GPE
+21,Today,DATE
+21,Axatan Gopal,PERSON
+21,the next 1 hour,TIME
+21,the day,DATE
+21,this evening,TIME
+21,first,ORDINAL
+22,the week,DATE
+22,BJP,ORG
+22,Anurag Takur,PERSON
+22,Lok Sabha,PERSON
+22,DNK,ORG
+22,anti-Hindu,NORP
+22,DMK,ORG
+22,Deepun,GPE
+23,today,DATE
+23,Taliva Day,DATE
+23,Khan,PERSON
+23,75,DATE
+23,Tamil Nadu,FAC
+23,6:30 this evening,TIME
+23,Rajnik Khan,PERSON
+23,Parappa,PERSON
+23,today,DATE
+23,10,CARDINAL
+23,First,ORDINAL
+24,Parliament,ORG
+24,Rahul Gandhi's,PERSON
+24,Kiran Raja,PERSON
+24,Goa,PERSON
+24,Lutra,ORG
+24,Bangkok,GPE
+24,India,GPE
+24,Indigo,ORG
+24,DGCA,ORG
+24,four,CARDINAL
+24,four,CARDINAL
+24,Second,ORDINAL
+24,as many days,DATE
+24,Anurra Taco,ORG
+24,BJP,ORG
+24,TMC,ORG
+24,Roy,PERSON
+24,Tamil Nadu Deepam,ORG
+24,Anur Dhakur,PERSON
+24,BJP,ORG
+24,DMK,ORG
+24,anti-Hindu,NORP
+24,Madur Deepam,ORG
+24,Over 50,CARDINAL
+24,High Court,ORG
+24,Karnataka,GPE
+24,Two,CARDINAL
+24,their day,DATE
+24,Sidra Maya,PERSON
+24,Ahinda,NORP
+24,DK Shukumar,PERSON
+24,more than 50,CARDINAL
+24,Zubin Gar's,PERSON
+24,Four,CARDINAL
+24,Zubin,ORG
+24,two,CARDINAL
+24,Lel Messi,PERSON
+24,hours,TIME
+24,India,GPE
+24,3-day,DATE
+24,Kolkata,GPE
+25,70,CARDINAL
+25,Modi,PERSON
+25,Superstar Rajnik Khan,PERSON
+25,75,DATE
+25,Madur Deepam,ORG
+25,Tamil Nadu,FAC
+25,DMK,ORG
+25,BJP,ORG
+25,BJP,ORG
+25,Anurak Taku,GPE
+25,Lok Sabha,PERSON
+25,DMK,ORG
+25,anti-Hindu,NORP
+25,Tamil Nadu,PERSON
+25,more than 50,CARDINAL
+25,DMK,ORG
+25,Swami Nadatin,PERSON
+25,the Deepatun Pillar >>,WORK_OF_ART
+25,Tiruparan Kundra,FAC
+25,one,CARDINAL
+25,winter,DATE
+25,BJP,ORG
+25,DMK,ORG
+25,Tamil Nad,PERSON
+25,anti-Satan Dhan,NORP
+25,One,CARDINAL
+25,India,GPE
+25,anti-sanatan,NORP
+25,sanatan dharma,ORG
+25,Ram,ORG
+25,DMK,ORG
+25,Maduray,ORG
+25,Madras High Court,ORG
+25,Tamil Nadu,FAC
+25,Aarthai Deepam,ORG
+25,Madura,PRODUCT
+25,DMK,ORG
+25,Madras High Court,ORG
+25,Swami Natan,PERSON
+25,More than 50,CARDINAL
+25,DMK,ORG
+25,the Kartikai Deepam,ORG
+25,GMK,ORG
+25,Deepun,LOC
+25,today,DATE
+25,Tamil Nad,PERSON
+25,Pramm Madhav,ORG
+25,India,GPE
+25,today,DATE
+25,Anaga Queserv,ORG
+25,Chennai,ORG
+25,DMK,ORG
+25,BJP,ORG
+25,DMK,ORG
+25,DMK,ORG
+25,DMK,ORG
+25,the year 1920,DATE
+25,Datun,PERSON
+25,the last 100 years,DATE
+25,DMK,ORG
+25,Kartika Deepam,ORG
+25,December 4th,DATE
+25,today,DATE
+25,Maduray,ORG
+25,the Madras High Court,ORG
+25,Tamil Nadu,PERSON
+25,Hindu,NORP
+25,the last 100 years,DATE
+25,DMK,ORG
+25,Maday,DATE
+25,the Madras High Court,ORG
+25,Monday,DATE
+25,Anuka,PERSON
+25,the last many days,DATE
+25,India,GPE
+25,today,DATE
+25,Kartika Deepam,ORG
+25,Tamadu,GPE
+25,100 years,DATE
+25,Tamil Nadu,FAC
+25,the last many days,DATE
+25,Madur,GPE
+25,Maduray,GPE
+25,Murugan,PERSON
+25,Murugan,GPE
+25,Subramanya Swami,PERSON
+25,two,CARDINAL
+25,centuries,DATE
+25,Tamil Nadu,FAC
+25,Hindus,NORP
+25,this day,DATE
+25,this 100 years ago,DATE
+25,the last many decades,DATE
+25,just about 50,CARDINAL
+25,the last 100 years or,DATE
+25,Ganesha,NORP
+25,Tamil Nadu,FAC
+25,Uchipar,ORG
+25,This year,DATE
+25,Madur,PERSON
+25,Deepun,LOC
+25,December 1st,DATE
+25,Swami Natan,PERSON
+25,Deepatun,PERSON
+25,Dha,PERSON
+25,Muslim,NORP
+25,this year,DATE
+25,December 3rd,DATE
+25,Deepatun,PERSON
+25,the festival night,TIME
+25,Hindu,NORP
+25,CISF,ORG
+25,DMK,ORG
+25,DMK,ORG
+25,120,CARDINAL
+25,MPs,PRODUCT
+25,DMK,ORG
+25,MPs,PRODUCT
+25,Jr. Swami Natan,PERSON
+25,DNK,ORG
+25,months,DATE
+25,Tamil Nadu,FAC
+25,the coming weeks,DATE
+25,Tamil Nadu's,FAC
+25,Tiruparang,GPE
+25,Karanataka,GPE
+25,India,GPE
+25,today,DATE
+25,the last few days,DATE
+25,two,CARDINAL
+25,Sidraaya,PERSON
+25,DKR Kumar,PERSON
+25,Sidra Maya,PERSON
+25,Ahinda,PERSON
+25,Sidraaya,PERSON
+25,Bellagavi,GPE
+25,last night,TIME
+25,DK Shukumar,PERSON
+25,more than 50,CARDINAL
+25,Bellagawi,PERSON
+25,Sidraaya,PERSON
+25,DK Shukumar,PERSON
+25,DK Shukumar,PERSON
+25,Sidraaya,PERSON
+25,Keshakumar,GPE
+25,Sidra Maya,PERSON
+25,Delhi,GPE
+25,DCM,ORG
+25,CM,ORG
+25,Delhi,GPE
+25,Karnataka,GPE
+25,Sagar Raj,PERSON
+25,Bellagawi,PERSON
+25,two,CARDINAL
+25,two,CARDINAL
+25,Congress,ORG
+25,PCC,ORG
+25,congress,ORG
+25,one,CARDINAL
+25,DK Shukumar,PERSON
+25,The next day,DATE
+25,DK Shukumar,PERSON
+25,PCC,ORG
+25,Sidraha,PERSON
+25,that particular day,DATE
+25,Yatindra,GPE
+25,DK Shukumar,PERSON
+25,Yetra,NORP
+25,Sidra,GPE
+26,Ethra,PERSON
+26,Dameaya,PERSON
+26,one,CARDINAL
+26,19th,DATE
+26,Delhi,GPE
+26,Sagai,PERSON
+26,Karnataka,GPE
+26,Karnataka,GPE
+26,Karnataka,GPE
+26,BJP,ORG
+26,DKish Kumar,ORG
+26,Karnatak,GPE
+26,Congress,ORG
+26,BJP,ORG
+26,meme fest,ORG
+26,Chalawadi Nara,PERSON
+26,Swami,PERSON
+26,the saffron party,ORG
+26,CWC,ORG
+26,Congress,ORG
+26,India,GPE
+26,today,DATE
+26,Sidraaya,PERSON
+26,nearly 50,CARDINAL
+26,between May 2023 to November 2025,DATE
+26,BJP,ORG
+26,the Sidraaya Sarcara,LOC
+26,Congress,ORG
+26,Karnataka,GPE
+26,MLA Raju Kag,PERSON
+26,North Karnataka,GPE
+26,Andhra Pradesh,ORG
+26,Nine,CARDINAL
+26,35,CARDINAL
+26,Chhatur,GPE
+26,Modi,PERSON
+26,two,CARDINAL
+26,20-year,DATE
+26,six,CARDINAL
+26,2017,DATE
+26,Pulsar,GPE
+26,Dip,PERSON
+26,Super Six,EVENT
+26,Talva Rajni,ORG
+26,Kandita,GPE
+26,75,DATE
+26,India,GPE
+26,Today,DATE
+26,India,GPE
+26,India,GPE
+26,Today,DATE
+26,India,GPE
+26,today,DATE
+26,first,ORDINAL
+27,India,GPE
+27,today,DATE
+27,BJP,ORG
+27,Thailand,GPE
+27,Rajnik Khan's,PERSON
+27,75th,ORDINAL
+27,Padyapa,NORP
+27,decades,DATE
+27,Raji Kant,PERSON
+27,today,DATE
+27,Rajnikant,PERSON
+27,Shaw,ORG
+27,Mulum Malarum,ORG
+27,Aalapidan,PERSON
+27,Talpati,ORG
+27,Enderan,PRODUCT
+28,75th,ORDINAL
+28,Taliva,ORG
+28,Kant,PERSON
+28,Today,DATE
+28,Rajni,PERSON
+28,75,CARDINAL
+28,Kaliva,ORG
+28,God,PERSON
+28,Talib,ORG
+28,only one,CARDINAL
+28,Tamil Nad,PERSON
+28,Chennai,ORG
+28,Parappa,PERSON
+28,Kasi,PERSON
+28,one,CARDINAL
+28,second,ORDINAL
+28,Rajini,PERSON
+28,Parapa,NORP
+28,Nilburi,GPE
+28,berserk,GPE
+28,Rajni,NORP
+28,Taliva,ORG
+28,Narendra Modi,PERSON
+28,the years,DATE
+28,another year,DATE
+28,Anaga Queser,ORG
+28,India,GPE
+28,today,DATE
+28,Tamil Nadu,FAC
+28,one,CARDINAL
+28,Rajikhan,PERSON
+28,the years,DATE
+28,Kamal Hassan,PERSON
+28,Kant,PERSON
+28,the 1970s,DATE
+28,Kamill Hassan,PERSON
+28,Khan,PERSON
+28,first,ORDINAL
+28,Rajni,NORP
+28,Rajny,PERSON
+28,Salman Khan,PERSON
+28,one,CARDINAL
+28,Rajni,NORP
+28,2000,DATE
+28,Shivaji,PERSON
+28,millions,CARDINAL
+28,Tamil,PERSON
+28,80s,DATE
+28,Amitab Bachan,ORG
+28,Rajni,NORP
+28,Rajnikant,PERSON
+28,Rajni,ORG
+28,Shivaji,GPE
+28,Rajni,ORG
+28,Kant,PERSON
+28,Talivver,ORG
+28,Hanuman G,PERSON
+28,Rajasthan,GPE
+28,Wednesday,DATE
+28,Hundreds,CARDINAL
+29,Rati village,GPE
+29,Congress,ORG
+29,Dune Ethanol Private Limited,ORG
+29,Rati Kira,FAC
+29,Tuesday,DATE
+29,2 days,DATE
+29,Gulam Nabi,PERSON
+29,India,GPE
+29,today,DATE
+29,The India Today,ORG
+29,50 years,DATE
+29,the National Stock Exchanges,ORG
+29,India,GPE
+29,two,CARDINAL
+29,India,GPE
+29,the national stock exchange,ORG
+29,Mumbai,GPE
+29,Arun Puri,PERSON
+29,India,GPE
+29,today,DATE
+29,Kalipuri,GPE
+29,India,GPE
+29,India,GPE
+29,This afternoon,TIME
+29,the National Stock Exchange,ORG
+29,India,GPE
+29,Today,DATE
+29,50 years,DATE
+29,NYSE,ORG
+29,India,GPE
+29,two,CARDINAL
+29,India,GPE
+29,50-year,DATE
+29,India,GPE
+29,Today,DATE
+29,Today,DATE
+29,the Indire Day Group,FAC
+29,1975,DATE
+29,India,GPE
+29,every single day,DATE
+29,India,GPE
+29,50 remarkable years,DATE
+29,today,DATE
+29,India,GPE
+29,India,GPE
+29,today,DATE
+29,India,GPE
+29,50 years,DATE
+29,India,GPE
+29,today,DATE
+29,AI,GPE
+29,12 seconds,TIME
+29,11,CARDINAL
+29,India,GPE
+29,today,DATE
+29,NYSE,ORG
+29,India,GPE
+30,Mapuri,PERSON
+30,Nifty,NORP
+30,"26,000",CARDINAL
+30,first,ORDINAL
+30,5 days,DATE
+30,Business Today,ORG
+30,2025,DATE
+31,Bureau Report,ORG
+31,Business Today TV,ORG
+31,Indigo Airlines,ORG
+31,India,GPE
+31,FDTL,ORG
+31,India,GPE
+31,DGCA,ORG
+31,recent days,DATE
+31,hundreds even thousands,CARDINAL
+31,Indigo,ORG
+31,over 65%,PERCENT
+31,India,GPE
+31,first,ORDINAL
+31,DGCA,ORG
+31,two,CARDINAL
+31,first,ORDINAL
+31,July,DATE
+31,second,ORDINAL
+31,1st November,DATE
+31,the 1st,DATE
+31,November,DATE
+31,Indigo,ORG
+31,first,ORDINAL
+31,Indigo,ORG
+31,Airbus,ORG
+31,A320,PRODUCT
+31,"2,422",CARDINAL
+31,"only 2,357",CARDINAL
+31,first,ORDINAL
+31,Indigos,GPE
+31,FDTL,ORG
+31,DGCA,ORG
+31,Indigo,ORG
+31,A320,PRODUCT
+32,10th February 2026,DATE
+32,Karnataka,GPE
+32,Congress,ORG
+32,BJP,ORG
+32,the Grand Old Party,FAC
+32,meme fest,ORG
+32,Chalavadi Naran Swami,PERSON
+32,the saffron party,ORG
+32,Congress,ORG
+32,Sagay Raj Bureau,ORG
+32,India,GPE
+32,today,DATE
+32,India,GPE
+32,Today,DATE
+32,100 million,CARDINAL
+32,N. Co-owered,PERSON
+32,Galaxy Health Insurance,ORG
+32,Kalyan,PERSON
+33,the big year end,DATE
+33,Durandhar,ORG
+33,Durandanda,ORG
+33,a very chilly,DATE
+33,winter afternoon,TIME
+33,Vijay Chalk,PERSON
+33,Delhi,GPE
+33,Durand,NORP
+34,first,ORDINAL
+34,Indigo,ORG
+34,DGCA,ORG
+34,four,CARDINAL
+34,Lutra,ORG
+34,Bangkok,GPE
+34,India,GPE
+34,Second,ORDINAL
+34,Sans,NORP
+34,2 days,DATE
+34,Ranurat,NORP
+34,Takur,PERSON
+34,TMC,ORG
+34,Shogata Roy,PERSON
+34,BJP,ORG
+34,Shogata,ORG
+35,India,GPE
+35,today,DATE
+35,Rahul Gandhi,PERSON
+35,Kiran Viji,PERSON
+35,India,GPE
+35,today,DATE
+35,50th,ORDINAL
+35,ITG,LOC
+35,NYSE,ORG
+35,one,CARDINAL
+35,One,CARDINAL
+35,two,CARDINAL
+35,Durandar,ORG
+35,Islamophobic,ORG
+35,Singh star,ORG
+35,Durandhar,ORG
+35,India,GPE
+35,Pakistan,GPE
+35,Anupama Chopra's,ORG
+35,hours,TIME
+35,Bollywood,ORG
+35,Ritik Roshan,PERSON
+35,Akshaiakumar Madhur Bandharakar,PERSON
+35,Smitty Rani,PERSON
+35,Bollywood,PERSON
+35,India,GPE
+35,six,CARDINAL
+35,Gulf,LOC
+35,UAE,GPE
+35,Qatar,GPE
+35,Saudi Arabia,GPE
+35,Kuwait,GPE
+35,one,CARDINAL
+35,India,GPE
+35,today,DATE
+35,Durand,NORP
+35,the weekend,DATE
+35,first,ORDINAL
+35,Durandar,ORG
+35,the last one week,DATE
+35,this evening,TIME
+35,Kal Nhata,PERSON
+35,Wati Chhatui,PERSON
+35,Rakkesh Bedi,ORG
+35,Ashutto,ORG
+35,two,CARDINAL
+35,Bollywood,ORG
+35,one,CARDINAL
+35,Ashoto,PERSON
+35,Koma Nhatra,ORG
+35,first,ORDINAL
+35,Kashmir,LOC
+35,Twitter,PERSON
+35,the last few hours,TIME
+35,Christianity,NORP
+35,Hitler,PERSON
+35,Hindu Muslim,NORP
+35,first,ORDINAL
+35,Kerala,GPE
+35,Kashmir,LOC
+35,one,CARDINAL
+35,Kl Nahhata,ORG
+35,one,CARDINAL
+35,one,CARDINAL
+35,today,DATE
+35,Anupama Chopra,ORG
+35,a couple of days,DATE
+35,Ashto,ORG
+35,Adityhar,WORK_OF_ART
+35,Swati,GPE
+35,Indian,NORP
+35,Durant,PERSON
+35,the Indian Express Investigative Bureau,ORG
+35,IC814,NORP
+35,one,CARDINAL
+35,Islamophobic,ORG
+35,anti-Indian,NORP
+35,Muslim,NORP
+35,one,CARDINAL
+35,one,CARDINAL
+35,one,CARDINAL
+35,Pakistan,GPE
+35,Pakistan,GPE
+35,four,CARDINAL
+35,Cargill,ORG
+35,IC814,NORP
+35,Pahel Gao,PERSON
+35,Bala,PERSON
+35,Pakistan,GPE
+35,India,GPE
+35,India,GPE
+35,India,GPE
+35,Pakistan,GPE
+35,Acho,PERSON
+35,ACU,ORG
+36,Islamophobic,ORG
+36,Priti,GPE
+36,two,CARDINAL
+37,Parana,PERSON
+37,Parjana,PERSON
+37,Gujarat,GPE
+37,2007,DATE
+37,Baras,PERSON
+38,Padma,GPE
+38,Movie,NORP
+38,second,ORDINAL
+38,2014,DATE
+38,democrat,NORP
+39,Tandav,LOC
+39,Uttar Pradesh,ORG
+40,one,CARDINAL
+40,Koma Nahata,PERSON
+40,a Ritik Roshan,PERSON
+40,one,CARDINAL
+40,Twitter,PERSON
+41,Ritik Roshan,PERSON
+41,Kuml,PERSON
+43,today,DATE
+43,Rakkesh Bedi,ORG
+43,Durander,PERSON
+43,first,ORDINAL
+43,Rakkesh Bedi,ORG
+43,Koma Lhata,ORG
+43,Rakkesh,ORG
+43,one,CARDINAL
+43,today,DATE
+43,Adita,ORG
+43,one,CARDINAL
+43,two two and a half hours,DATE
+43,Serbia,GPE
+43,today,DATE
+43,last year,DATE
+43,Raj,PERSON
+43,the second half,DATE
+44,half,CARDINAL
+44,India,GPE
+44,Pakistani,NORP
+44,one day,DATE
+46,five,CARDINAL
+46,Durand,NORP
+46,Durand,GPE
+46,India,GPE
+46,today,DATE
+46,Swati,GPE
+46,Ashoto,PERSON
+46,Swati,GPE
+46,KL,PERSON
+46,Ashotosh,PERSON
+46,today,DATE
+46,Juu a Shah Ruk Khan,PERSON
+46,Amir Khan,PERSON
+47,Swati,GPE
+47,Nahata,PERSON
+47,Ritik,ORG
+48,second,ORDINAL
+48,Fritic,ORG
+49,Amir Khan,PERSON
+50,India,GPE
+50,India India,FAC
+50,India,GPE
+50,India,GPE
+50,Asha,PERSON
+50,today,DATE
+50,Parukon,PERSON
+51,today,DATE
+51,Ashoto,PERSON
+51,Ashotosh,PERSON
+51,Durand,NORP
+52,first,ORDINAL
+52,2013,DATE
+52,the last 13 14 years,DATE
+52,one day,DATE
+52,"3,700",CARDINAL
+52,"3,700",CARDINAL
+52,Twitter,PERSON
+52,second,ORDINAL
+52,the last 10 years,DATE
+53,the millions of dollars,MONEY
+53,Twitter,PERSON
+53,second,ORDINAL
+53,Kla >>,PERSON
+53,Turandan,GPE
+53,Hindi,GPE
+53,the first week,DATE
+53,more than 170,CARDINAL
+53,the second week,DATE
+53,almost 170,CARDINAL
+53,India,GPE
+53,first,ORDINAL
+53,Hindi,GPE
+53,Monday,DATE
+53,Tuesday,DATE
+53,Monday,DATE
+53,Tuesday,DATE
+53,Monday,DATE
+53,Thursday,DATE
+54,Swati Ashotosh,FAC
+54,Google,ORG
+54,Delhi,GPE
+55,Putin,PERSON
+55,India,GPE
+55,IndiaRussia,ORG
+55,India,GPE
+55,Today,DATE
+55,Putin,PERSON
+55,India,GPE
+55,India,GPE
+55,Today,DATE
+55,India,GPE
+56,Amazon,ORG
+56,Blinket,GPE
+56,Sana,PERSON
+56,25,CARDINAL
+56,11,CARDINAL
+56,Mumbai,GPE
+56,28,CARDINAL
+56,21,CARDINAL
+56,27,DATE
+56,15,CARDINAL
+56,Bangaluru,PERSON
+56,26,CARDINAL
+56,15,CARDINAL
+56,28,CARDINAL
+56,22,CARDINAL
+56,28,CARDINAL
+56,13,CARDINAL
+56,India,GPE
+56,Today,DATE
+56,100 million,CARDINAL
+57,AQI,ORG
+57,one day,DATE
+57,Delhi,GPE
+57,Rahul Gandhi,PERSON
+57,Kiran Rajigu,PERSON
+57,the day one,DATE
+57,Rahul Gandhi G. Government,PERSON
+57,BAC,ORG
+57,days,DATE
+57,AQI,ORG
+57,Indian,NORP
+57,Delhi,GPE
+57,India,GPE
+57,India,GPE
+57,today,DATE
+57,IQ Air,ORG
+57,WH,ORG
+57,the Rajya Sabha,ORG
+57,India,GPE
+57,Vardhan Singh,PERSON
+57,WH,ORG
+57,India,GPE
+57,annual,DATE
+57,130th Indian,NORP
+57,12,CARDINAL
+57,Loi Road,FAC
+57,one,CARDINAL
+57,Raja Sabha MP Manoja,ORG
+57,Bihar,GPE
+57,Kjasi Yadav,ORG
+57,Sanjay Yadav,PERSON
+57,Laluji,ORG
+57,Kju Gi,PERSON
+58,Two,CARDINAL
+58,Maharashtra,NORP
+59,three,CARDINAL
+59,two,CARDINAL
+59,three,CARDINAL
+59,five,CARDINAL
+59,three,CARDINAL
+59,two,CARDINAL
+60,two,CARDINAL
+60,2010,DATE
+60,Number two,CARDINAL
+60,past 18 months,DATE
+60,Almost every second night,TIME
+61,L,ORG
+61,Bihar,GPE
+61,5 years,DATE
+61,"10,000",CARDINAL
+61,two,CARDINAL
+61,Bihar,GPE
+61,one,CARDINAL
+61,manoji,PERSON
+61,Shivanari,ORG
+61,Rohini,NORP
+61,Tjasu,ORG
+62,Sivan G,PERSON
+62,9:00 p.m.,TIME
+62,Saturdays,DATE
+62,8:00 p.m.,TIME
+62,Sundays,DATE
+62,Manoja,PERSON
+63,Bihar,GPE
+63,RJD,PERSON
+63,today,DATE
+63,The India Today,ORG
+63,50 years,DATE
+63,India,GPE
+63,today,DATE
+63,NSC,ORG
+63,the National Stock Exchange,ORG
+63,Mumbai,GPE
+63,Arun Puri,PERSON
+63,India,GPE
+63,today,DATE
+63,Kalipuri,GPE
+63,India,GPE
+63,India,GPE
+63,This afternoon,TIME
+63,the National Stock Exchange,ORG
+63,India,GPE
+63,Today,DATE
+63,50 years,DATE
+63,NC,GPE
+63,India,GPE
+63,two,CARDINAL
+63,India,GPE
+63,50-year,DATE
+63,India,GPE
+63,Today,DATE
+63,Today,DATE
+63,the India Day Group,FAC
+63,1975,DATE
+63,India,GPE
+63,every single day,DATE
+63,NYSE,ORG
+63,India,GPE
+63,50 remarkable years,DATE
+63,today,DATE
+63,India,GPE
+63,India,GPE
+63,today,DATE
+63,India,GPE
+63,50 years,DATE
+63,India,GPE
+63,today,DATE
+63,AI,GPE
+63,12 seconds,TIME
+63,11,CARDINAL
+64,India,GPE
+64,today,DATE
+64,NYSE,ORG
+64,India,GPE
+64,Muri,PERSON
+64,"26,000",CARDINAL
+64,first,ORDINAL
+64,5 days,DATE
+64,Business Today,ORG
+64,2025,DATE
+64,Bureau Report,ORG
+64,Business Today TV,ORG
+64,India,GPE
+64,Today,DATE
+64,100 million,CARDINAL
+64,India,GPE
+64,Today,DATE
+64,100 million,CARDINAL
+64,India,GPE
+64,Today,DATE
+64,100 million,CARDINAL
+64,Adani,ORG
+64,Century Ply Club,ORG
+64,Hint Thermals for All Co.,ORG
+64,Vizy,PERSON
+65,India,GPE
+65,Today,DATE
+65,Vizy,PERSON
+65,evening,TIME
+65,BJP,ORG
+65,DMK,ORG
+65,Tamil Nad,PERSON
+65,BJP,ORG
+65,DMK,ORG
+65,anti-Satan Dharm,ORG
+65,DMK,ORG
+65,BJP,ORG
+65,Barbrey,PERSON
+65,Tamil Nad,PERSON
+65,56,CARDINAL
+65,Supreme Court,ORG
+65,Supreme Court,ORG
+65,Tamil Nad,PERSON
+65,the Tamil Nadh,FAC
+65,India,GPE
+65,one,CARDINAL
+65,India,GPE
+65,anti-sanatan,NORP
+65,BJP,ORG
+65,Stalin,PERSON
+65,BNK,ORG
+65,56,CARDINAL
+65,India,GPE
+65,first,ORDINAL
+65,Swaminatan,PERSON
+65,the sixth century,DATE
+65,Thiru Paran,ORG
+65,Subramanya Swami,PERSON
+65,Maduray,GPE
+65,BJP,ORG
+65,DNK,ORG
+65,India,GPE
+65,India,GPE
+65,first,ORDINAL
+65,Lutra,ORG
+65,Bangkok Bangkok,ORG
+65,India,GPE
+65,Indigo,ORG
+65,DGCA,ORG
+65,four,CARDINAL
+65,India,GPE
+65,today,DATE
+65,Rahul Gandhi,PERSON
+65,Kiran Jiu,PERSON
+65,Anorak,PERSON
+65,tako,PRODUCT
+65,Lok Sabha,PERSON
+65,DMK,ORG
+65,anti-Hindu,NORP
+65,More than 50,CARDINAL
+65,India,GPE
+65,Today,DATE
+65,50th,ORDINAL
+65,India,GPE
+65,Today,DATE
+65,NSE,ORG
+65,Tamil Nad,PERSON
+65,BJP,ORG
+65,DMK,ORG
+65,More than 50,CARDINAL
+65,Madras High Court,ORG
+65,DMK,ORG
+65,Deepthun,PERSON
+65,DMK,ORG
+65,BJP,ORG
+65,DMK,ORG
+65,One,CARDINAL
+65,India,GPE
+65,anti-sanatan,NORP
+65,Sanatan Dharma,PERSON
+65,Ram,ORG
+65,DMK,ORG
+65,Maduray,ORG
+65,Madras High Court,ORG
+65,Tamil Nadu,FAC
+65,Maduray,PRODUCT
+65,Madras,LOC
+65,DMK,ORG
+65,Earlier this week,DATE
+65,56,CARDINAL
+65,Swaminatan,PERSON
+65,DMK,ORG
+65,DMK,ORG
+65,today,DATE
+65,Deepatun,PERSON
+66,decade,DATE
+66,"Proom Madhav, Bureau Report",ORG
+66,India,GPE
+66,Today,DATE
+66,two,CARDINAL
+66,One,CARDINAL
+67,Justice Senra,PERSON
+67,the Delhi High Court,ORG
+67,one,CARDINAL
+67,Justice Dingra,ORG
+67,first,ORDINAL
+67,the supreme court,ORG
+67,SLP,ORG
+67,three,CARDINAL
+67,two,CARDINAL
+68,One,CARDINAL
+68,20,CARDINAL
+68,TKS Ilan Gowan,ORG
+68,DMK,ORG
+68,Swami Natan,PERSON
+68,two,CARDINAL
+68,Deepam,ORG
+68,Barry Masjid,PERSON
+68,supreme court,ORG
+68,Supreme Court,ORG
+68,two,CARDINAL
+68,Supreme Court,ORG
+68,One,CARDINAL
+68,three,CARDINAL
+68,two,CARDINAL
+68,Supreme Court,ORG
+68,Supreme Court,ORG
+68,India,GPE
+68,Supreme Court,ORG
+68,five,CARDINAL
+68,seven,CARDINAL
+68,11,CARDINAL
+68,13,CARDINAL
+68,two,CARDINAL
+68,three,CARDINAL
+68,Dra,PERSON
+68,India,GPE
+68,Today,DATE
+69,Sarvan A. Sarvan,PERSON
+69,DMK,ORG
+69,Rohan Gupta,PERSON
+69,the Bharty Jantaa party,ORG
+69,Ki Dhanjay,PERSON
+69,the Supreme Court,ORG
+69,Sarvan Anurak Takur,PERSON
+69,Parliament,ORG
+69,Hindus,NORP
+69,Tamil Nad,PERSON
+69,DMK,ORG
+69,Anurra Takur,PERSON
+69,the Golo Salanga,FAC
+69,Anurak Takur,PERSON
+69,Dingra,PERSON
+69,the Delhi High Court,ORG
+69,Burther,PERSON
+69,midnight,TIME
+69,F,PRODUCT
+69,Goli Maru Salona,PERSON
+69,Murder,PERSON
+69,midnight,TIME
+69,the Madras High Court,ORG
+69,BJP,ORG
+69,BJP,ORG
+69,one,CARDINAL
+69,North India,LOC
+69,BJP,ORG
+69,Hinduism,NORP
+69,sanatan dharma,PERSON
+69,us sanatan dharma,ORG
+69,Hinduism,GPE
+69,Hindus,NORP
+69,DMK BJP,ORG
+69,Sanatan Dharm,ORG
+69,Rohan Gupta,GPE
+69,Rohan Gupta,PERSON
+69,Hindu,NORP
+69,Charitable Endowment Department,ORG
+69,Sarvan,PERSON
+69,Hindu,NORP
+69,anti-Hindu,NORP
+69,Hindu,NORP
+69,India,GPE
+69,India,GPE
+69,India,GPE
+69,India,GPE
+69,Sanatan,LOC
+69,Sanatan,GPE
+69,Sarvan,PERSON
+69,the Tamil Nadi,FAC
+70,Amita,PERSON
+70,Supreme,ORG
+70,Supreme,ORG
+70,one,CARDINAL
+70,one,CARDINAL
+70,one,CARDINAL
+70,one,CARDINAL
+70,Servan,PERSON
+70,Gupta,PERSON
+70,Seran,PERSON
+70,10 seconds,TIME
+70,Rammita,PERSON
+70,Ramicha,PERSON
+70,Sabimala,GPE
+70,Tamil Nadu,PERSON
+70,Tamil Nadu,PERSON
+70,Delhi,GPE
+70,Tamil Nadu,PERSON
+70,Justice Digra,PERSON
+70,Dhan,PERSON
+70,Rohan,PERSON
+70,10 seconds,TIME
+70,Servan,PERSON
+70,Supreme Court,ORG
+70,Sanatan,PERSON
+70,San,PERSON
+70,Dhan,PERSON
+70,Dhan,PERSON
+70,Dhanjay,PERSON
+71,DMK,ORG
+71,CISF,ORG
+71,Number one,CARDINAL
+71,Number two,CARDINAL
+71,the next 24 hours,TIME
+71,48 hours,TIME
+71,DMK,ORG
+71,Shakharay,GPE
+71,DMK,ORG
+71,Tamil,GPE
+72,Hindus,NORP
+72,Muslims,NORP
+72,Babri,ORG
+72,Tamil Nad,PERSON
+72,Tamil Nad,PERSON
+72,DMK,ORG
+72,Babri,ORG
+72,Vijay,ORG
+72,DMK,ORG
+72,all year,DATE
+72,Vijay,ORG
+72,Tamil Nad,PERSON
+72,Hindu,NORP
+72,Saran,PERSON
+72,BJP,ORG
+72,Muslim,NORP
+72,DMK,ORG
+72,Hindus,NORP
+72,Muslim,NORP
+72,DMK,ORG
+72,Hindus,NORP
+72,BJP,ORG
+72,BJP,ORG
+72,Hindus,NORP
+72,Hindus,NORP
+72,BJP DMK,ORG
+72,Hindus,NORP
+72,triparang gundam,PERSON
+72,last 100 years,DATE
+72,BJP,ORG
+72,today,DATE
+72,India,GPE
+72,English,LANGUAGE
+72,a thousand year old,DATE
+72,some years back,DATE
+72,Gupta,PERSON
+72,Gupta,PERSON
+72,DMK,ORG
+72,Tamil Nad,PERSON
+72,two minutes,TIME
+72,BJP,ORG
+72,Hindus Hindus,PERSON
+72,DMK,ORG
+72,Supreme Court,ORG
+72,Tamil Nadu,PERSON
+72,Hindus,NORP
+72,10 seconds,TIME
+72,BJP,ORG
+72,anti-Hindu,NORP
+72,India,GPE
+72,27%,PERCENT
+72,MK,PERSON
+72,BJP,ORG
+72,Dhanjay,PERSON
+72,Danja,PERSON
+72,MPs,ORG
+72,DMK,ORG
+72,days,DATE
+72,midnight,TIME
+72,DMK,ORG
+72,DMK,ORG
+72,India,GPE
+72,the Congress party,ORG
+72,the samajwadi party,ORG
+72,Udhav Tak,PERSON
+72,chalak moan,PERSON
+72,Tamil Nad,PERSON
+72,DMK,ORG
+72,Shakharay,PERSON
+72,Moan Bhagwat,PERSON
+72,RSS,ORG
+72,Hindu,NORP
+72,Tamil Nad,PERSON
+72,Thiruparan Kundaram,LOC
+72,Turuparam Kundam,PERSON
+72,six,CARDINAL
+72,Muruga,PERSON
+72,Kartika,PERSON
+72,Tamil,PERSON
+72,DMK,ORG
+72,DMK,ORG
+72,Dravidaram,ORG
+72,Hindu,NORP
+72,DMK,ORG
+73,Aayodhya,PERSON
+73,Muslims,NORP
+73,a particular day,DATE
+73,Kartika,PERSON
+73,Deepawi,GPE
+74,the Vijay Kachi,FAC
+74,the days,DATE
+75,weeks,DATE
+75,Pakistan,GPE
+75,Pakistan,GPE
+75,Shavas Sharif,PERSON
+75,Shabas Sharif,PERSON
+75,about 40 minutes,TIME
+75,5 minutes,TIME
+75,10 minutes,TIME
+75,40 minutes,TIME
+75,Russian,NORP
+75,Vladimir Putin,PERSON
+75,RT,GPE
+75,Pakistani,NORP
+75,Putin,PERSON
+75,Turkeykey,GPE
+75,Arduan,PERSON
+75,minutes,TIME
+75,Navas Shar,FAC
+75,Sharif,PERSON
+75,Putin,PERSON
+75,Turkeykey,GPE
+75,Arduhan,PERSON
+75,Sharif,PERSON
+75,two,CARDINAL
+75,Gita Mo,PERSON
+75,Gita,PERSON
+75,40 minutes,TIME
+75,40 minutes,TIME
+75,Putin,PERSON
+75,two,CARDINAL
+75,Turkey,GPE
+75,Russia,GPE
+75,Pakistan,GPE
+75,Turkey,GPE
+75,Russia,GPE
+75,Russia,GPE
+75,Pakistan,GPE
+75,Gita,PERSON
+75,Kangana,PERSON
+75,Navash,ORG
+75,Shabas Sharif,PERSON
+75,Pakistan,GPE
+76,India,GPE
+76,Today,DATE
+76,50th,ORDINAL
+76,India,GPE
+76,Today,DATE
+76,NC,GPE
+76,Century Fly Club,ORG
+76,Century Ply Club Prime Rahob,ORG
+76,Sana,PERSON
+76,25,CARDINAL
+76,11,CARDINAL
+76,Mumbai,GPE
+76,28,CARDINAL
+76,21,CARDINAL
+76,27,DATE
+76,15,CARDINAL
+76,Bangaluru,PERSON
+76,26,CARDINAL
+76,15,CARDINAL
+76,28,CARDINAL
+76,22,CARDINAL
+76,28,CARDINAL
+76,13,CARDINAL
+76,India,GPE
+76,Today,DATE
+76,50 years,DATE
+76,the National Stock Exchange,ORG
+76,India,GPE
+76,two,CARDINAL
+76,India,GPE
+76,India,GPE
+76,the National Stock Exchange,ORG
+76,Mumbai,GPE
+76,Arun Puri,PERSON
+76,the India Today,ORG
+76,Khalipuri,GPE
+76,India,GPE
+76,India,GPE
+76,This afternoon,TIME
+76,the National Stock Exchange,ORG
+76,India,GPE
+76,Today,DATE
+76,50 years,DATE
+76,NC,GPE
+76,India,GPE
+76,two,CARDINAL
+76,India,GPE
+76,50-year,DATE
+76,India,GPE
+76,Today,DATE
+76,Today,DATE
+76,1975,DATE
+76,India,GPE
+76,every single day,DATE
+76,India,GPE
+76,50 remarkable years,DATE
+76,today,DATE
+76,India,GPE
+76,India,GPE
+76,today,DATE
+76,India,GPE
+76,50 years,DATE
+76,India,GPE
+76,today,DATE
+76,AI,GPE
+76,12 seconds,TIME
+76,11,CARDINAL
+76,India,GPE
+76,today,DATE
+76,NYD,ORG
+76,India,GPE
+76,Sukuri,GPE
+77,Nifty,NORP
+77,"26,000",CARDINAL
+77,first,ORDINAL
+77,5 days,DATE
+77,Business Today,ORG
+77,2025,DATE
+77,Business Today TV,ORG
+77,Century Club,ORG
+77,Century Ply Club Prime Rahob,ORG
+78,Karnataka,GPE
+78,kendras,PERSON
+78,four,CARDINAL
+78,genocidic kendras,PERSON
+78,yesterday,DATE
+78,Karnataka High Court,ORG
+78,India,GPE
+78,Today,DATE
+78,100 million,CARDINAL
+78,India,GPE
+78,today,DATE
+78,100 million,CARDINAL
+78,Century Prime Club,ORG
+78,Century Ply Club,ORG
+78,Amir Khan,PERSON
+78,Lokesh Kanagaraj,PERSON
+78,Reigniting,ORG
+78,one,CARDINAL
+78,Lokesh,PERSON
+78,air,ORG
+78,Rajnik Khan's,PERSON
+78,Rajkumar Hirani,PERSON
+78,Indian,NORP
+78,Media,ORG
+79,Entertainment Bureau,ORG
+79,India,GPE
+79,Today,DATE
+79,tonight,TIME
+79,JK Tire Puncture Guard,ORG
+79,India,GPE
+79,Today,DATE
+79,Vizy,PERSON
+79,"Over 1,600",CARDINAL
+79,Indigo,ORG
+79,December 5th,DATE
+79,"4,63",CARDINAL
+79,one week,DATE
+79,Nearly six,CARDINAL
+79,winter,DATE
+79,Indico,ORG
+79,week,DATE
+79,a week,DATE
+79,India,GPE
+79,India,GPE
+79,Indigo Airlines,ORG
+79,thousands,CARDINAL
+79,"over 1,600",CARDINAL
+79,a single day,DATE
+79,Today,DATE
+79,India,GPE
+79,Sumit Susilan,ORG
+79,Amit Singh,PERSON
+79,Sanjay Lazar,PERSON
+79,Aayas Consultants,ORG
+79,Jitendra Bharava,PERSON
+79,Air India,ORG
+79,Sanat K,PERSON
+79,IAD,ORG
+79,Sherik Panag,PERSON
+79,first,ORDINAL
+79,Indigo,ORG
+79,Indigo,ORG
+79,K Rammon Naidu,PERSON
+79,Rammon Naidu,PERSON
+79,Indigo,ORG
+79,Third,ORDINAL
+79,fourth,ORDINAL
+79,fifth,ORDINAL
+79,first,ORDINAL
+79,Indigo,ORG
+79,first,ORDINAL
+79,Indigo,ORG
+79,Indigo,ORG
+79,DGCA,ORG
+79,January 2024,DATE
+79,Indigo,ORG
+79,"5,463",CARDINAL
+79,March,DATE
+79,"5,85",CARDINAL
+79,December,DATE
+79,four,CARDINAL
+79,DGCA,ORG
+79,Indigo,ORG
+79,DGCA,ORG
+79,Indigo,ORG
+79,winter,DATE
+79,Indigo,ORG
+79,"1,200",CARDINAL
+79,November,DATE
+79,Indigo,ORG
+79,DGCA,ORG
+79,December 4th,DATE
+79,625,CARDINAL
+79,the next day,DATE
+79,last Friday,DATE
+79,1623,DATE
+79,13,CARDINAL
+79,Air India,ORG
+79,26,CARDINAL
+79,Accasa Air 15:1,ORG
+79,SpiceJet,ORG
+79,first,ORDINAL
+79,Indigo,ORG
+79,Jitendra Bharava,PERSON
+79,day one,DATE
+79,Indigo,ORG
+80,six,CARDINAL
+80,first,ORDINAL
+80,DGCA,ORG
+80,DGC,ORG
+80,Indigo,ORG
+80,DGC,ORG
+80,all these months,DATE
+80,Rajiv,PERSON
+80,second,ORDINAL
+80,MDTL,ORG
+80,1st of November,DATE
+80,DGCA,PERSON
+80,DGCA,PERSON
+80,Air India DGC,ORG
+80,Indigo,ORG
+80,Sanjay Lazar,PERSON
+80,DGCA,ORG
+80,Barov,PERSON
+80,DGCA,ORG
+80,section 8,LAW
+80,DGCA,NORP
+80,1934,DATE
+80,1937,DATE
+80,134A,CARDINAL
+80,section 3,LAW
+80,Ahmedabad,PERSON
+80,Rajep uh Air Marshall Keeler,PERSON
+80,monthly,DATE
+80,Air India,ORG
+80,last years,DATE
+80,two months,DATE
+80,DGCA,ORG
+80,seven,CARDINAL
+80,12,CARDINAL
+80,that day,DATE
+80,a few months ago,DATE
+80,Rajib,PERSON
+80,today,DATE
+80,DGCA,ORG
+80,four,CARDINAL
+80,DGC,ORG
+80,Indigo,ORG
+80,90%,PERCENT
+80,10%,PERCENT
+80,DGCA,GPE
+80,DGCA,ORG
+80,FDDT,ORG
+80,Indigo,ORG
+80,90%,PERCENT
+80,95%,PERCENT
+80,Indigo,ORG
+80,Indigo,ORG
+80,Sumit Susilan,PERSON
+80,Indigo,ORG
+80,Indigo,ORG
+80,Indigo,ORG
+81,every 9 days,DATE
+81,one,CARDINAL
+81,the winter,DATE
+81,the winter,DATE
+81,past 6 month,DATE
+81,Indigo,ORG
+81,Indigo,ORG
+81,65%,PERCENT
+81,November,DATE
+81,DGC,ORG
+81,first week of December,DATE
+81,1600,CARDINAL
+81,last month,DATE
+81,Indigo,ORG
+81,Amit Singh,PERSON
+81,Indigo,ORG
+81,DGCA,ORG
+81,DGCA,ORG
+81,Indigo,ORG
+81,first,ORDINAL
+81,four,CARDINAL
+81,Indigo,ORG
+81,yesterday,DATE
+81,November,DATE
+81,FTL,ORG
+81,1st of December,DATE
+81,DGCA,ORG
+81,Indigo,ORG
+81,DGC,ORG
+81,DGCA,ORG
+81,Indigo,ORG
+81,the 1st of December,DATE
+81,FDLTL,ORG
+81,a few months,DATE
+82,three more months,DATE
+82,Amit Singh,PERSON
+82,DGCA,ORG
+83,Jendra,GPE
+83,Indigo,ORG
+83,Indigo,ORG
+83,66%,PERCENT
+83,FDTL,ORG
+83,two,CARDINAL
+83,Raji,PERSON
+83,first,ORDINAL
+83,DGC,ORG
+83,Indigo,ORG
+83,November 30th,DATE
+83,3rd,ORDINAL
+83,fourth,ORDINAL
+83,5th,ORDINAL
+83,December,DATE
+83,DGCA,ORG
+83,monopizing 65%,PERCENT
+83,2011,DATE
+83,six,CARDINAL
+83,Indigo,ORG
+83,20%,PERCENT
+83,Indigo,ORG
+83,Kingfisher,PERSON
+83,28%,PERCENT
+83,2019,DATE
+83,Javis,PERSON
+83,up to 50%,PERCENT
+83,first,ORDINAL
+83,60%,PERCENT
+83,SpiceJet,ORG
+83,18%,PERCENT
+83,4%,PERCENT
+83,Indigo,ORG
+83,3rd,ORDINAL
+83,fourth,ORDINAL
+83,fifth,ORDINAL
+83,December,DATE
+83,DGC,ORG
+83,DGC,ORG
+83,last minute,TIME
+83,Indigo,ORG
+83,Indigo,ORG
+83,65%,PERCENT
+83,another couple of months,DATE
+83,DGCA,ORG
+83,DGCA,ORG
+83,Sanjay Lazar,PERSON
+83,the 1st of December,DATE
+83,Indigo,ORG
+83,call,PERSON
+83,90%,PERCENT
+84,DGCA,NORP
+84,CBC,ORG
+84,JDG,ORG
+84,a thousand,CARDINAL
+84,November,DATE
+84,the 1st of December,DATE
+84,one minute,TIME
+84,winter,DATE
+84,number one,CARDINAL
+84,two,CARDINAL
+84,November,DATE
+84,1200,CARDINAL
+84,the 1st of December,DATE
+85,Indigo,ORG
+85,Sherb Panag Sherbir,FAC
+85,Indigo,ORG
+85,Indigo,ORG
+85,two,CARDINAL
+85,First,ORDINAL
+85,Indigo,ORG
+85,Indigo,ORG
+85,Rahi,PERSON
+85,Indian,NORP
+85,Indigo,ORG
+85,Indian,NORP
+85,2024,DATE
+85,2020,DATE
+85,mid 2025,DATE
+85,1st November,DATE
+85,Indigo,ORG
+85,Indigo,ORG
+85,FDTL,ORG
+85,1st of December,DATE
+85,1st of June,DATE
+85,1st of November,DATE
+85,1st of November to February 2026,DATE
+85,up to 1st,DATE
+85,November,DATE
+85,February,DATE
+85,Indian,NORP
+85,one,CARDINAL
+85,one,CARDINAL
+85,second,ORDINAL
+85,Rajiv,PERSON
+85,the last couple of years,DATE
+85,the Reserve Bank of India,ORG
+85,RBI,ORG
+86,DGCA,ORG
+86,DGCA,ORG
+86,17,CARDINAL
+86,NOC,ORG
+86,two years,DATE
+87,Indigo,ORG
+87,Indigo,ORG
+87,Indigo,ORG
+87,tomorrow,DATE
+87,Sebie,PERSON
+87,T plus two days,DATE
+87,RBI,ORG
+87,DGC,ORG
+87,Indigo,ORG
+87,second,ORDINAL
+87,Indigo,ORG
+87,first,ORDINAL
+87,Amit Singh,PERSON
+87,10%,PERCENT
+87,every day,DATE
+87,DGCA,NORP
+87,DGCA,ORG
+87,the 10%,PERCENT
+87,10%,PERCENT
+87,No 10%,PERCENT
+87,up to 100%,PERCENT
+87,Indigo,ORG
+87,about 90,CARDINAL
+87,5%,PERCENT
+87,another 5%,PERCENT
+87,Firstly,ORDINAL
+87,One minute,TIME
+87,One minute,TIME
+87,One minute,TIME
+87,one minute,TIME
+87,Indigo,ORG
+87,India,GPE
+87,DGCA,ORG
+87,DGC,ORG
+87,DGCA,PERSON
+87,yesterday,DATE
+87,Indigo,ORG
+87,Yani,PERSON
+87,DGCA,ORG
+87,One,CARDINAL
+87,DGCA,ORG
+87,CAS,ORG
+87,UK,GPE
+87,Today,DATE
+87,DGCA,PERSON
+87,50%,PERCENT
+87,DGCA,ORG
+87,five,CARDINAL
+87,10%,PERCENT
+87,DGCA,ORG
+87,100%,PERCENT
+87,Susilan,PERSON
+87,India,GPE
+87,Indigo,ORG
+87,India,GPE
+87,first,ORDINAL
+87,DC,GPE
+87,NOOCC,ORG
+87,Turkish,NORP
+87,Air India,ORG
+87,NOC,ORG
+87,Campbell,ORG
+87,Air India,ORG
+87,DGCA,NORP
+87,NOC,ORG
+87,DCA,ORG
+87,Air India,ORG
+87,Indigo,ORG
+87,2500,CARDINAL
+87,A320,PRODUCT
+87,3 months,DATE
+87,6 month,DATE
+87,Indigo,ORG
+87,Indigo,ORG
+87,the days ahead,DATE
+87,Sanjay Lazar,PERSON
+87,DGCA,ORG
+87,every day,DATE
+87,November,DATE
+87,Peter Elbert,PERSON
+87,Amit,ORG
+87,Sushilan,PERSON
+87,two,CARDINAL
+87,One,CARDINAL
+87,Peter Alers,PERSON
+87,COO,ORG
+87,second,ORDINAL
+87,Susilan,PERSON
+87,DGCA,NORP
+87,Sanjay,NORP
+87,one,CARDINAL
+87,one,CARDINAL
+87,Lazar,PERSON
+87,10%,PERCENT
+87,DGCA,ORG
+87,India,GPE
+87,DGCA,ORG
+87,DGCA,ORG
+87,Jendra Baraba,PERSON
+87,Indigo,ORG
+88,Third,ORDINAL
+88,fourth,ORDINAL
+88,fifth,ORDINAL
+88,10%,PERCENT
+88,10%,PERCENT
+88,Indigo,ORG
+88,Indigo,ORG
+88,Indigo,ORG
+88,Indian,NORP
+88,Indigo,ORG
+88,Peter Elbert,PERSON
+88,Peter Elers,PERSON
+88,15 more days,DATE
+88,the second day 4th of December,DATE
+88,DGC,ORG
+88,Indigo,ORG
+89,DGCA,NORP
+89,Rajat,PERSON
+89,day,DATE
+89,day,DATE
+89,Indigo,ORG
+89,marshall Danoa,PERSON
+90,Rahul Barta,PERSON
+90,Switzerland,GPE
+91,today,DATE
+91,DGC,ORG
+91,Indigo,ORG
+91,DGCA,PERSON
+91,first,ORDINAL
+91,DGCA,ORG
+91,Indigo,ORG
+91,DGCA,ORG
+91,scan,NORP
+91,one,CARDINAL
+91,second,ORDINAL
+91,Rajib,PERSON
+91,Indigo,ORG
+91,India,GPE
+91,DGCA,ORG
+91,winter,DATE
+91,Indigo,ORG
+91,one,CARDINAL
+92,NOOCC,ORG
+92,NCO,ORG
+92,NOC,ORG
+92,DGCA,ORG
+92,NOC,ORG
+92,Rob,PERSON
+92,10 minutes,TIME
+92,third,ORDINAL
+92,the years,DATE
+92,Indian,NORP
+92,the years,DATE
+92,Sahara Airways,ORG
+92,the mid '90s to 2019,DATE
+92,Air Dean,PERSON
+92,2003 to 2008,DATE
+92,Kingfisher,PERSON
+92,2012,DATE
+92,"9,000",CARDINAL
+92,Vijay Malia,PERSON
+92,Paramount Airways,ORG
+92,first,ORDINAL
+92,Go Airlines,ORG
+92,2005,DATE
+92,23,CARDINAL
+92,MDLR,ORG
+92,Air Costa,ORG
+92,Zumeare,PERSON
+92,Air Asia,ORG
+92,Vistara,LOC
+92,Air India,ORG
+92,Susan,PERSON
+92,India,GPE
+92,Rahul Barti,PERSON
+92,Rahul Gangal,PERSON
+92,Indigo,ORG
+92,billions,CARDINAL
+92,avian,NORP
+92,Indian,NORP
+92,India,GPE
+92,India,GPE
+92,India,GPE
+92,Udan,GPE
+92,months,DATE
+92,162,CARDINAL
+92,around 74,CARDINAL
+92,only 10,CARDINAL
+92,days,DATE
+92,Bombay,GPE
+92,Bombay,GPE
+92,Pune,LOC
+92,India,GPE
+92,India,GPE
+92,Sanjay Lazar,PERSON
+92,five,CARDINAL
+92,the next 5 years,DATE
+92,the years,DATE
+92,Prul Patel,PERSON
+92,20 years ago,DATE
+92,Raan Naidu,PERSON
+92,Ram Naidu,PERSON
+92,two,CARDINAL
+92,at least one,CARDINAL
+92,Sushilan,PERSON
+92,50,CARDINAL
+92,ATF,ORG
+92,UDF,ORG
+92,Indigo,ORG
+92,Indigo,ORG
+92,15 20,CARDINAL
+92,1992,DATE
+92,Barava,GPE
+92,Air India,ORG
+92,Air India,ORG
+92,Air India's,ORG
+92,Air India,ORG
+92,today,DATE
+92,Barava,PERSON
+92,Indigos,GPE
+92,65%,PERCENT
+92,five,CARDINAL
+92,Indigo,ORG
+92,thousand,CARDINAL
+92,Air India 570,ORG
+92,90%,PERCENT
+92,Rajip,ORG
+92,India,GPE
+92,India,GPE
+93,India,GPE
+93,mediumsiz,ORG
+93,Amit Singh,PERSON
+93,FDA,ORG
+93,February,DATE
+93,the last week,DATE
+93,FTL,ORG
+93,1992,DATE
+93,FTL,ORG
+93,2012,DATE
+93,2019,DATE
+93,24,CARDINAL
+93,fourth,ORDINAL
+93,India,GPE
+93,Indigo,ORG
+93,one,CARDINAL
+93,only one,CARDINAL
+93,India,GPE
+93,5 years,DATE
+93,Indian,NORP
+93,Sherbi,PERSON
+93,Indigo,ORG
+93,Rahul Bharta,PERSON
+93,Indigo,ORG
+93,United States,GPE
+93,876 million,CARDINAL
+93,5.2,CARDINAL
+93,the previous year,DATE
+93,China,GPE
+93,741 million,CARDINAL
+93,18.7,CARDINAL
+93,UK,GPE
+93,third,ORDINAL
+93,261 million,CARDINAL
+93,7.3,CARDINAL
+93,Spain,GPE
+93,India,GPE
+93,fifth,ORDINAL
+93,211,CARDINAL
+93,11.1,CARDINAL
+93,Rajep,PERSON
+93,Indigo,ORG
+94,the years,DATE
+94,Ronald Reagan,PERSON
+94,nine,CARDINAL
+94,English,LANGUAGE
+94,DGCA,ORG
+94,5 years later,DATE
+94,Indigo,ORG
+94,India,GPE
+94,more than two decades ago,DATE
+95,Lazar,PERSON
+95,a 30 second,TIME
+95,Sherby,GPE
+95,PMO,ORG
+95,three,CARDINAL
+95,the next 5 years,DATE
+95,Indigo,ORG
+95,the new year,DATE
+95,Jin,PERSON
+95,India,GPE
+95,today,DATE
+95,100 million,CARDINAL
+95,India,GPE
+95,Today,DATE
+95,100 million,CARDINAL
+95,India,GPE
+95,Today,DATE
+95,100 million,CARDINAL
+95,India,GPE
+95,today,DATE
+95,100 million,CARDINAL
+95,Maria Shakil,PERSON
+95,10 days,DATE
+95,winter,DATE
+95,one day,DATE
+95,millions,CARDINAL
+95,the final week kicks,DATE
+95,Delhi,GPE
+95,India,GPE
+95,Rahul Gandhi's,PERSON
+95,Indians,NORP
+95,WH,ORG
+96,first,ORDINAL
+96,today,DATE
+96,NEU,ORG
+96,"Tagore, Wand Matram",ORG
+96,Electoral Reforms,ORG
+96,winter,DATE
+96,one,CARDINAL
+96,one,CARDINAL
+96,thousands every year,DATE
+96,India,GPE
+96,Today,DATE
+96,Rahul Gandhi,PERSON
+96,first,ORDINAL
+96,the day one,DATE
+96,Rahul Gandhi G.,PERSON
+96,Congress,ORG
+96,one,CARDINAL
+96,WHO,ORG
+96,India,GPE
+96,Delhi,GPE
+96,January to November,DATE
+96,years,DATE
+96,one,CARDINAL
+96,India,GPE
+96,today,DATE
+96,tonight,TIME
+96,Vimlinduja,GPE
+96,Bhavya,ORG
+96,the Congress party,ORG
+96,Anil Gupta,PERSON
+96,Delhi BJP board,ORG
+96,CPS,ORG
+96,CPCB,ORG
+96,Vimlain Duja,PERSON
+96,India,GPE
+96,Maria,PERSON
+96,Europe,LOC
+96,America,GPE
+96,India,GPE
+96,Indian,NORP
+96,just couple of days ago,DATE
+96,India,GPE
+96,Michael,PERSON
+96,the Supreme Court,ORG
+96,last year,DATE
+96,Lancet,ORG
+96,a million and a half,CARDINAL
+96,each year,DATE
+96,India,GPE
+96,eight,CARDINAL
+96,WH,ORG
+96,BJP,ORG
+96,BJP,ORG
+96,the Congress BJP,ORG
+96,Amadi,PERSON
+96,Tanil Gupta,PERSON
+96,Delhi,GPE
+96,BJP,ORG
+96,Delhi,GPE
+96,the previous years,DATE
+96,February,DATE
+96,September,DATE
+96,AQ,ORG
+96,October November,DATE
+96,December,DATE
+96,AQA,ORG
+96,the previous years,DATE
+96,Delhi,GPE
+96,one day,DATE
+96,India,GPE
+96,EPI,ORG
+96,India,GPE
+96,the national ambient air,ORG
+96,2009,DATE
+96,12,CARDINAL
+96,AK,ORG
+96,eight,CARDINAL
+96,WH,ORG
+96,India,GPE
+96,Congress,ORG
+96,India,GPE
+96,one,CARDINAL
+96,India,GPE
+96,India,GPE
+96,India,GPE
+96,Delhi,GPE
+96,Delhi,GPE
+96,Delhi,GPE
+96,Delhi,GPE
+96,India,GPE
+96,India,GPE
+96,Delhi,GPE
+96,AQI,ORG
+96,Ki,PERSON
+96,Singh,GPE
+96,Bhava,PERSON
+96,treasury,ORG
+96,WHO,ORG
+96,WHO,ORG
+96,India,GPE
+96,WH,ORG
+96,today,DATE
+96,Delhi,PERSON
+96,WHO,ORG
+96,some years,DATE
+96,next tomorrow,DATE
+96,daily,DATE
+96,hourly,TIME
+96,NCR,ORG
+96,first,ORDINAL
+96,India,GPE
+96,"20,000",CARDINAL
+96,6 years,DATE
+96,130,CARDINAL
+96,Beijing,GPE
+96,Beijing,GPE
+96,billion to2 billion US,MONEY
+96,Maria,PERSON
+96,Delhi,GPE
+96,India,GPE
+96,almost 90%,PERCENT
+96,India,GPE
+96,the end of the day,DATE
+96,India,GPE
+96,Hana,GPE
+96,Delhi,GPE
+96,Uttar Pradesh,ORG
+96,Gorgano,GPE
+96,Delhi,GPE
+96,Delhi,GPE
+96,Gupta,PERSON
+96,50%,PERCENT
+96,CPCB,ORG
+96,70%,PERCENT
+96,Delhi,GPE
+96,India,GPE
+96,Congress,ORG
+96,India,GPE
+96,Delhi,GPE
+96,Delhi NCR,PERSON
+96,Indogitic,NORP
+96,one,CARDINAL
+96,India,GPE
+96,Modi,PERSON
+97,the next 10 years,DATE
+97,almost 10 to,CARDINAL
+98,90% %,PERCENT
+98,today,DATE
+98,Maria,PERSON
+98,overnight,TIME
+98,India,GPE
+98,today,DATE
+98,Rahul Gandhi,PERSON
+98,Sanjay Singh,PERSON
+98,almost a week,DATE
+98,Anil Gupta,PERSON
+98,2009,DATE
+99,today,DATE
+99,50,DATE
+99,AK,ORG
+99,100,CARDINAL
+99,Delhi NCR,ORG
+99,1 2,CARDINAL
+99,three,CARDINAL
+99,Delhi,GPE
+99,Gupta,PERSON
+99,100,CARDINAL
+99,India,GPE
+100,500,CARDINAL
+100,half,CARDINAL
+100,500,CARDINAL
+100,500,CARDINAL
+100,Maria,GPE
+100,two,CARDINAL
+100,One,CARDINAL
+100,one,CARDINAL
+100,two,CARDINAL
+100,12 months,DATE
+101,Gupta,PERSON
+101,Delhi,GPE
+101,Delhi,GPE
+101,the month of June,DATE
+101,this season,DATE
+101,Delhi,GPE
+101,Gupta,PERSON
+101,Baba,GPE
+101,30 30 seconds,TIME
+101,Gupta,PERSON
+101,first,ORDINAL
+101,Delhi,GPE
+101,"28,58 kilometers",QUANTITY
+101,8 months,DATE
+101,"30,000 metric tons",QUANTITY
+101,one,CARDINAL
+101,AQI,ORG
+101,eight eight,DATE
+101,six,CARDINAL
+101,2.5,CARDINAL
+101,10,CARDINAL
+101,one day,DATE
+101,Vim Lindu,PERSON
+101,Gus,PERSON
+101,30,CARDINAL
+101,40,CARDINAL
+101,90%,PERCENT
+101,RTI,ORG
+101,90,CARDINAL
+101,2.5,CARDINAL
+101,Vimlindu,GPE
+101,Vime Ducha,PERSON
+101,Bangalore,PERSON
+101,Delhi,GPE
+101,AC,ORG
+101,AC,ORG
+101,the hour,TIME
+101,Mimu Ja Dr.,PERSON
+101,Gupta Babia,PERSON
+102,India,GPE
+102,Today,DATE
+102,India,GPE
+102,India,GPE
+102,Today,DATE
+102,India,GPE
+102,today,DATE
+102,first,ORDINAL
+102,India,GPE
+102,today,DATE
+102,BJP,ORG
+102,Thailand,GPE
+102,CCTV,ORG
+102,Madhya Pradesh,GPE
+102,Malhargar,ORG
+102,India,GPE
+102,10,CARDINAL
+102,just last month,DATE
+102,CCTV,ORG
+102,11:39 a.m.,TIME
+102,August 29,DATE
+102,18-year-old,DATE
+102,Sanhan Lal,PERSON
+102,The same day,DATE
+102,Malhar,GPE
+102,Suhan Lal,PERSON
+102,2 kilos,QUANTITY
+102,714,CARDINAL
+102,5:00 p.m.,TIME
+102,Malahar,GPE
+102,Sanhanal,ORG
+102,CCTV,ORG
+102,Mandasur MP,ORG
+102,Vinodkumar Mina,PERSON
+102,December 9th,DATE
+102,Vinodkumar Mina,PERSON
+102,CCTV,ORG
+102,Lal,PERSON
+102,SP,ORG
+102,SP,ORG
+102,Vinodkumar Mina,PERSON
+102,six,CARDINAL
+102,Lal,PERSON
+102,first,ORDINAL
+103,Ravish Pal,PERSON
+103,Singh Bureau,ORG
+103,India,GPE
+103,today,DATE
+103,Gita Mo,PERSON
+103,India Today Global,ORG
+103,Narendra Modi,PERSON
+103,4-day,DATE
+103,West Asia,LOC
+103,Africa,LOC
+103,three,CARDINAL
+103,Jordan,GPE
+103,Ethiopia,GPE
+103,Oman,GPE
+103,the 15th to the 18th of December,DATE
+103,Modi,PERSON
+103,first,ORDINAL
+103,Jordan,GPE
+103,75th,ORDINAL
+103,India,GPE
+103,Jordan,GPE
+103,Modi,PERSON
+103,Ethiopia,GPE
+103,first,ORDINAL
+103,Oman,GPE
+103,second,ORDINAL
+103,Oman,GPE
+103,the 70th year,DATE
+103,Sultan Hayam bin Tariq's,PERSON
+103,India,GPE
+103,2023,DATE
+103,Narendra Modi's,PERSON
+103,Jordan,GPE
+103,first,ORDINAL
+103,India,GPE
+103,West Asia,LOC
+103,West Asia,LOC
+103,years,DATE
+103,Farane Khan,PERSON
+103,Narendra Modi,PERSON
+103,three,CARDINAL
+103,Jordan,GPE
+103,Oman,GPE
+103,Ethiopia,GPE
+103,Jordan,GPE
+103,15th,ORDINAL
+103,December,DATE
+103,West Asia,LOC
+103,years,DATE
+103,Modi,GPE
+103,Aman,ORG
+103,Modi,GPE
+103,first,ORDINAL
+103,Jordan,GPE
+103,2018,DATE
+103,Ramla,ORG
+103,India,GPE
+103,Jordan,GPE
+103,75 years,DATE
+103,the Ministry of External Affairs,ORG
+103,Jordan,PERSON
+103,West Asian,NORP
+103,Israel,GPE
+103,Palestine,GPE
+103,Muslim,NORP
+103,Jerusalem,GPE
+103,Palestinian,NORP
+103,Gaza,GPE
+103,Arab,NORP
+103,Jordan,PERSON
+103,Modi,PERSON
+103,India,GPE
+103,Arab,NORP
+103,Jordan,PERSON
+103,King Abdullah,PERSON
+103,Jordan,GPE
+103,Jordan,GPE
+103,West Asia,LOC
+103,Jordan,PERSON
+103,two,CARDINAL
+103,India,GPE
+103,two,CARDINAL
+103,West Asia,LOC
+103,India,GPE
+103,Jordan,GPE
+103,fourth,ORDINAL
+103,nearly $2.9 billion,MONEY
+103,2023 24,DATE
+103,India,GPE
+103,Jordan,GPE
+103,the India Middle East Europe,FAC
+103,IMC,ORG
+103,Jordan,GPE
+103,Aman,ORG
+103,Indian,NORP
+103,India,GPE
+103,West Asia,LOC
+103,Jordan,PERSON
+103,Mediterranean,LOC
+103,Indian,NORP
+103,Aman,ORG
+103,Jordan,PERSON
+103,India,GPE
+103,Kashmir,LOC
+103,first,ORDINAL
+103,two,CARDINAL
+103,Modi,GPE
+103,Modi,GPE
+103,Jordan,PERSON
+103,India,GPE
+103,New Delhi,GPE
+103,Aman,ORG
+103,West Asia,LOC
+103,Farhan Khan,PERSON
+103,India,GPE
+103,Today,DATE
+103,The United States,GPE
+103,Venezuela,GPE
+103,Trump,PERSON
+103,Nicolas Maduro,PERSON
+103,US,GPE
+103,Venezuelan,NORP
+103,Washington,GPE
+103,Caracus,GPE
+103,US,GPE
+103,Trump,ORG
+103,the September 2nd,EVENT
+103,Trump,PERSON
+103,Benzulan,NORP
+103,Nicholas Maduro,PERSON
+103,Trump,PERSON
+103,Maduro,PERSON
+103,the United States,GPE
+103,three,CARDINAL
+103,Maduro,ORG
+103,Silia Flores,PERSON
+103,Maduro,ORG
+103,six,CARDINAL
+103,Venezuela,GPE
+103,Narako,PERSON
+103,2016,DATE
+103,multi-million dollar,MONEY
+103,18 years,DATE
+103,2022,CARDINAL
+103,Venezuela,GPE
+103,days,DATE
+103,US,GPE
+103,33,CARDINAL
+103,US,GPE
+103,Mondro,ORG
+103,one,CARDINAL
+103,millions,CARDINAL
+103,"11,888",CARDINAL
+103,Venezuela,GPE
+103,thousands,CARDINAL
+103,Aaragua,GPE
+103,MS-13,PERSON
+103,Venezuela,GPE
+103,Venezuela,GPE
+103,US,GPE
+103,Venezuela,GPE
+103,Venezuela,GPE
+103,one,CARDINAL
+103,Maduro,PERSON
+103,Yesterday,DATE
+103,Paris,GPE
+103,Caribbean,LOC
+103,Atlantic,LOC
+103,Caribbean,LOC
+103,Venezuela,GPE
+103,Caribbean,LOC
+103,Venezuela,GPE
+103,The US Treasury Department,ORG
+103,six,CARDINAL
+103,Venezuelan,NORP
+103,six,CARDINAL
+103,Maduro,PERSON
+103,Mahashwhat Talala Bureau,ORG
+103,India,GPE
+103,Today,DATE
+103,India,GPE
+103,today,DATE
+103,Brazil,GPE
+103,Luis Inasio Lula D Silva,PERSON
+103,Venezuela,GPE
+103,Brazil,GPE
+103,Venezuelan,NORP
+103,Maduro,PERSON
+103,US,GPE
+103,India Today,ORG
+103,YouTube,PRODUCT
+103,Venezuela,GPE
+103,Venezuelan,NORP
+103,Venezuela,GPE
+104,US,GPE
+104,Guayo,PERSON
+104,Gu,PERSON
+104,Mexico,GPE
+104,one,CARDINAL
+105,decades,DATE
+105,"more than 1,400",CARDINAL
+105,India,GPE
+105,India,GPE
+105,Joti Shukla,PERSON
+105,Mexico,GPE
+105,decades,DATE
+105,India,GPE
+105,"January 1st, 2026",DATE
+105,Mexico,GPE
+105,between 5,DATE
+105,50%,PERCENT
+105,"more than 1,460",CARDINAL
+105,India,GPE
+105,China,GPE
+105,four,CARDINAL
+105,First,ORDINAL
+105,Mexico,GPE
+105,Chinese,NORP
+105,China,GPE
+105,Mexico,GPE
+105,a hundred billion,MONEY
+105,Mexican,NORP
+105,Chinese,NORP
+105,Mexico,GPE
+105,US,GPE
+105,Mexico,GPE
+105,Second,ORDINAL
+105,Mexico,GPE
+105,Washington,GPE
+105,US Mexico,GPE
+105,2026,DATE
+105,Biden,PERSON
+105,Donald Trump,PERSON
+105,Mexico,GPE
+105,Chinese,NORP
+105,non-FDA,ORG
+105,Mexico,GPE
+105,US,GPE
+105,Third,ORDINAL
+105,Shenbomb,PERSON
+105,fourth,ORDINAL
+105,nearly $4 billion,MONEY
+105,Mexico,GPE
+105,India,GPE
+105,China,GPE
+105,India,GPE
+105,India,GPE
+105,nearly a billion dollars,MONEY
+105,Mexico,GPE
+105,every year,DATE
+105,January,DATE
+105,50%,PERCENT
+105,Indian,NORP
+105,Mexico,GPE
+105,up to $700 million,MONEY
+105,25 to 50%,PERCENT
+105,$900 million,MONEY
+105,35 to 40%,PERCENT
+105,over half,CARDINAL
+105,30%,PERCENT
+105,between 15 and 30%,DATE
+105,India,GPE
+105,nearly $9 billion,MONEY
+105,Mexico,GPE
+105,last year,DATE
+105,25 to 40%,PERCENT
+105,India,GPE
+105,Mexico,GPE
+105,China,GPE
+105,India,GPE
+105,Mexican,NORP
+105,US,GPE
+105,Indian,NORP
+105,Chinese,NORP
+105,Mexican,NORP
+105,Joti Shukla,PERSON
+105,Mirror Report,ORG
+105,India,GPE
+106,Kilmer Abrego,PERSON
+106,Donald Trump,PERSON
+106,US,GPE
+106,Maryland,GPE
+106,Trump,ORG
+106,the United States,GPE
+107,NATO,ORG
+107,Mark Rut,PERSON
+107,Russia,GPE
+107,Russia,GPE
+107,NATO,ORG
+107,5 years,DATE
+107,Latvia,GPE
+107,Estonia,GPE
+107,Lithuania,GPE
+107,NATO,ORG
+107,Eastern Europe,LOC
+107,NATO,ORG
+107,Chinese,NORP
+107,Jakun,PERSON
+107,Japanese,NORP
+107,12th,ORDINAL
+107,National Memorial Day,EVENT
+107,Nanjing Massacre,ORG
+107,December 13th,DATE
+107,This year,DATE
+107,80th,ORDINAL
+107,Chinese,NORP
+107,Japanese,NORP
+107,China,GPE
+107,Taiwan,GPE
+108,Donald Trump,PERSON
+108,the US Agency for,ORG
+108,International Development and/Global Aid Programs,ORG
+108,The US Agency,ORG
+108,roughly half,CARDINAL
+108,IUTF,ORG
+108,Kenya,GPE
+109,India Today Global,ORG
+109,Statecraft,ORG
+109,Bangladesh,GPE
+109,Awami League,ORG
+109,Hassina,PERSON
+109,BNP,ORG
+109,Bangladesh,GPE
+109,February 2026,DATE
+109,Nobel,WORK_OF_ART
+109,Muhammad Eunis,PERSON
+109,first,ORDINAL
+109,Shik Hassina,PERSON
+109,The Awami League,ORG
+109,India,GPE
+109,2024,DATE
+109,BNP,ORG
+109,Jamaat,PERSON
+109,2014,DATE
+109,February 2026,DATE
+109,Bangladesh,GPE
+109,Statecraft,PERSON
+109,Gita Moan,PERSON
+109,Bangladesh,GPE
+109,Ununice,ORG
+109,February 2026,DATE
+109,2024,DATE
+109,the Awami League,ORG
+109,2014,DATE
+109,Hassina,PERSON
+109,Hassina,PERSON
+109,Awami League,ORG
+109,UNICE,ORG
+109,Awami League,PERSON
+109,February 2026,DATE
+109,"Over 1,300",CARDINAL
+109,Awami League,ORG
+109,Hassa,ORG
+109,Awami League,ORG
+109,BNP,ORG
+109,2014,DATE
+109,2018,DATE
+109,UNUNIS,PERSON
+109,2026,DATE
+109,the Awami League,ORG
+109,February 2026,DATE
+109,Hassina,GPE
+109,Jamaad,PERSON
+109,Millions,CARDINAL
+109,Awami League,ORG
+109,India,GPE
+109,December 2025,DATE
+109,Ununice,ORG
+109,February 2026,DATE
+109,Awami League,ORG
+109,decades,DATE
+110,Karnataka,GPE
+110,four,CARDINAL
+110,yesterday,DATE
+110,Karnataka High Court,ORG
+110,India,GPE
+110,Today,DATE
+111,100 million,CARDINAL
+111,Amir Khan,PERSON
+111,Lokesh Kanagaraj,PERSON
+111,one,CARDINAL
+111,Lokesh,PERSON
+111,air,ORG
+111,Rajnik Khan's,PERSON
+111,Amir,PERSON
+111,Rajkumar Hirani,PERSON
+111,Indian,NORP
+111,Media,ORG
+112,Entertainment Bureau,ORG
+112,India,GPE
+112,Today,DATE
+112,India,GPE
+112,Today,DATE
+112,India,GPE
+112,Today,DATE
+112,Harshetta Auja,PERSON
+112,Lutra,ORG
+112,Bangkok,GPE
+112,India,GPE
+112,Indigo,ORG
+112,DGCA,ORG
+112,four,CARDINAL
+112,India,GPE
+112,today,DATE
+112,Rahul Gandhi,PERSON
+112,Kiran Reiju,PERSON
+112,Lok Sabha,PERSON
+112,DMK,ORG
+112,50,CARDINAL
+112,condemn impeachment motion,ORG
+112,India,GPE
+112,today,DATE
+112,50th,ORDINAL
+112,NSE,ORG
+112,India,GPE
+112,today,DATE
+112,Rahul Gandhi,PERSON
+112,Kiran Rajigu,PERSON
+112,urg,PERSON
+112,India,GPE
+112,today,DATE
+112,millions,CARDINAL
+112,these days,DATE
+112,zero hour,TIME
+112,one,CARDINAL
+112,the next 5 or 10 years,DATE
+112,the day,DATE
+112,Rahul Gandhi G. Government,PERSON
+112,BAC,ORG
+113,Lutra,ORG
+113,Goa,PERSON
+113,25,CARDINAL
+113,just a few days,DATE
+113,India,GPE
+113,Bangkok,GPE
+113,between 48 to 72 hours,DATE
+113,Luther,PERSON
+113,India,GPE
+113,Lutras,ORG
+113,Fuket,PERSON
+113,Bangkok,GPE
+113,Delhi,GPE
+113,CBI,ORG
+113,Goa,PERSON
+113,25,CARDINAL
+113,the morning,TIME
+113,Sunday,DATE
+113,India,GPE
+113,today,DATE
+113,first,ORDINAL
+113,Bangkok,GPE
+113,2 to three days,DATE
+113,India,GPE
+113,Lutas,ORG
+113,India,GPE
+113,today,DATE
+113,42,CARDINAL
+113,North Delhi,GPE
+113,Fuket,PERSON
+113,India,GPE
+113,Today,DATE
+113,Burch,ORG
+113,Romeo,ORG
+113,25,CARDINAL
+113,Goa,PERSON
+113,Lutras,ORG
+113,India,GPE
+113,Singh,GPE
+113,Vidya Pura,PERSON
+113,India,GPE
+113,today,DATE
+113,Tamil Nad,PERSON
+113,BJP,ORG
+113,DMK,ORG
+113,over 50,CARDINAL
+113,DMK,ORG
+113,Deepun,LOC
+113,BJP,ORG
+113,DMK,ORG
+113,anti-Satan,NORP
+113,One,CARDINAL
+113,India,GPE
+113,anti-sanatan,NORP
+113,Sanatan Dharma,PERSON
+113,Ram,ORG
+113,DMK,ORG
+113,Maduray,ORG
+113,Madras High Court,ORG
+113,Tamil Nadu,FAC
+113,Maduray,PRODUCT
+113,Madras,LOC
+113,DMK,ORG
+113,Earlier this week,DATE
+113,56,CARDINAL
+113,Swami Natan,PERSON
+113,DMK,ORG
+113,DMK,ORG
+113,today,DATE
+113,Deepatun,PERSON
+113,Deepam,ORG
+114,decade,DATE
+114,"Proom Madhav, Bureau Report",ORG
+114,India,GPE
+114,Today,DATE
+114,the second day in a row,DATE
+114,Roy,PERSON
+114,Makard,ORG
+114,Gajjindra Singh Shakawad,PERSON
+114,Girat Singh,PERSON
+114,TMC,ORG
+114,Roy,PERSON
+114,BJP,ORG
+114,Delhi,GPE
+114,BJP,ORG
+114,Anat Takur,PERSON
+114,Omir,PERSON
+114,Lok Sabha,PERSON
+114,India,GPE
+114,Delhi,PERSON
+115,Shivani Sharma,ORG
+115,Delhi,GPE
+115,India,GPE
+115,today,DATE
+115,The India Today,ORG
+115,50 years,DATE
+115,India,GPE
+115,two,CARDINAL
+115,India,GPE
+115,Puri,PERSON
+115,3 2 1,DATE
+115,the National Stock Exchange,ORG
+115,Mumbai,GPE
+115,Arun Puri,PERSON
+115,the India Today,ORG
+115,Khalipuri,GPE
+115,India,GPE
+115,India,GPE
+115,This afternoon,TIME
+115,the National Stock Exchange,ORG
+115,India,GPE
+115,Today,DATE
+115,50 years,DATE
+115,NC,GPE
+115,India,GPE
+115,Two,CARDINAL
+115,India,GPE
+115,50-year,DATE
+115,India,GPE
+115,Today,DATE
+115,Today,DATE
+115,India,GPE
+115,1975,DATE
+115,India,GPE
+115,every single day,DATE
+115,India,GPE
+115,50 remarkable years,DATE
+115,today,DATE
+115,India,GPE
+115,India,GPE
+115,today,DATE
+115,NC,ORG
+115,India,GPE
+115,50 years,DATE
+116,India,GPE
+116,today,DATE
+116,AI,GPE
+116,AI,GPE
+117,12 seconds,TIME
+117,11,CARDINAL
+117,India,GPE
+117,today,DATE
+117,NYSE,ORG
+117,India,GPE
+117,Muri,PERSON
+117,Nifty,NORP
+117,"26,000",CARDINAL
+117,first,ORDINAL
+117,5 days,DATE
+117,Business Today,ORG
+117,2025,DATE
+117,Business Today TV,ORG
+117,Messi,PERSON
+117,only hours,TIME
+117,3-day,DATE
+117,Kolkata,GPE
+117,70 feet,QUANTITY
+117,the 2022,EVENT
+117,World Cup,EVENT
+117,Messi,PERSON
+117,India,GPE
+117,two,CARDINAL
+117,ninth,ORDINAL
+117,seven,CARDINAL
+117,India,GPE
+117,Lionel Messi,PERSON
+117,3-day,DATE
+117,four,CARDINAL
+117,Kolkata,GPE
+117,India,GPE
+117,9:30 in the morning,TIME
+117,Saturday,DATE
+117,Messi,PERSON
+117,Mtab Banerjee,PERSON
+117,70,CARDINAL
+117,Messi,PERSON
+117,Messi,PERSON
+117,the Viveananda Yubhari Kirangan Stadium of,ORG
+117,Kolkata,GPE
+117,Matab Banerjee,PERSON
+117,Indian,NORP
+117,S of Ganguli,WORK_OF_ART
+117,Bollywood,ORG
+117,Shahuk Khan,PERSON
+117,Bengal,GPE
+117,Messi,PERSON
+117,Bengali,NORP
+117,Bengal,GPE
+117,Messi,PERSON
+117,Hyderabad,ORG
+117,7,CARDINAL
+117,7,CARDINAL
+117,the Rajiv Gandhi International Stadium,ORG
+117,Raven Thread,PERSON
+117,Mumbai,GPE
+117,2022,DATE
+117,World Cup,EVENT
+117,Spanish,NORP
+117,Luis Suarez,PERSON
+117,New Delhi,GPE
+117,Messi,PERSON
+117,Narendra Modi,PERSON
+117,the Arun Jetti Stadium,FAC
+117,India,GPE
+117,Messi,PERSON
+117,India,GPE
+117,Anidan Sarroy,PERSON
+117,Kolkata,GPE
+117,India,GPE
+117,today,DATE
+117,Rajnik Khan,PERSON
+117,75th,ORDINAL
+117,50th year,DATE
+117,Indian,NORP
+117,Tamil Nad,PERSON
+117,Kh,PERSON
+117,Today,DATE
+117,Rajni,ORG
+117,75,CARDINAL
+117,Taliva,ORG
+117,God,PERSON
+117,only one,CARDINAL
+117,Tamil Nad,PERSON
+117,Chennai,ORG
+117,the Rajin Khan's,FAC
+117,Kasi,PERSON
+117,one,CARDINAL
+117,second,ORDINAL
+117,Rajini,PERSON
+117,Parapa,NORP
+117,Nilari,ORG
+117,berserk,GPE
+117,Rajni,NORP
+118,Taliva,ORG
+118,Narendra Modi,PERSON
+118,the years,DATE
+118,another year,DATE
+118,Anag,ORG
+118,India,GPE
+118,today,DATE
+118,the India Today,ORG
+118,India,GPE
+118,Today,DATE
+118,India,GPE
+118,Today,DATE
+118,five decades,DATE
+118,India,GPE
+118,today,DATE
+118,India,GPE
+118,This December,DATE
+118,50th,ORDINAL
+118,India,GPE
+118,Today,DATE
+118,India,GPE
+118,Five decades,DATE
+118,one,CARDINAL
+118,India,GPE
+118,this December,DATE
+118,Sana,PERSON
+118,Delhi 560,PERSON
+118,Mumbai,GPE
+118,163,CARDINAL
+118,Kolkata 320,PERSON
+118,154,CARDINAL
+118,171,CARDINAL
+118,165,CARDINAL
+118,Humah,ORG
+118,Huma,PERSON
+119,the year,DATE
+119,Maharani,GPE
+119,Delhi,GPE
+119,100% %,PERCENT
+119,Alia,PERSON
+119,Mommy Papa,PERSON
+119,Delhi,GPE
+119,Delhi,GPE
+119,about one,CARDINAL
+119,November 2025,DATE
+119,four,CARDINAL
+119,Delhi,GPE
+119,Maharani,GPE
+119,Single Salma,FAC
+119,Delhi,GPE
+119,Johnny,PERSON
+119,Maharani Rani Bharti,PERSON
+119,Delhi,GPE
+120,"Next season,",DATE
+120,fourth season,DATE
+120,Koreshi,PERSON
+120,Koreshi,PERSON
+120,next year,DATE
+120,Toronto Film Festival,EVENT
+120,first,ORDINAL
+120,2025,CARDINAL
+120,Bollywood,PERSON
+120,two,CARDINAL
+120,20s,DATE
+120,first,ORDINAL
+120,OTT,ORG
+120,a long day,DATE
+120,Delhi,GPE
+120,Mumbai,GPE
+120,Instagram,PERSON
+120,72 two hours,TIME
+120,Kureshi,ORG
+120,three days,DATE
+120,some four,CARDINAL
+120,two,CARDINAL
+120,today,DATE
+122,the day,DATE
+123,Bollywood,GPE
+124,"Over 1,600",CARDINAL
+124,Indigo,ORG
+124,December,DATE
+125,5th,ORDINAL
+125,"4,063",CARDINAL
+125,one week,DATE
+125,Nearly six,CARDINAL
+125,winter,DATE
+125,Roundt,ORG
+125,Indigo,ORG
+125,Round Table,ORG
+125,week,DATE
+125,India,GPE
+125,Indigo Airlines,ORG
+125,thousands,CARDINAL
+125,"over 1,600",CARDINAL
+125,a single day,DATE
+126,Today,DATE
+126,India,GPE
+126,Sumit Susilan,ORG
+126,Amit Singh,PERSON
+126,Sanjay Lazar,PERSON
+126,Aayas Consultants,ORG
+126,Jitendra Bharava,PERSON
+126,Air India,ORG
+126,Sanat,ORG
+126,IAD,ORG
+126,first,ORDINAL
+126,Indigo,ORG
+126,Indigo,ORG
+126,K Rammon Naidu,PERSON
+126,Rammon Naidu,PERSON
+126,third,ORDINAL
+126,first,ORDINAL
+126,Indigo,ORG
+126,first,ORDINAL
+126,Indigo,ORG
+126,Indigo,ORG
+126,DGCA,ORG
+126,January 2024,DATE
+126,Indigo,ORG
+126,"5,463",CARDINAL
+126,March,DATE
+126,"5,85",CARDINAL
+126,December,DATE
+126,four,CARDINAL
+126,DGCA,ORG
+126,Indigo,ORG
+126,DGCA,ORG
+126,Indigo,ORG
+126,winter,DATE
+126,Indigo,ORG
+126,"1,200",CARDINAL
+126,November,DATE
+126,Indigo,ORG
+126,DGCA,ORG
+126,December 4th,DATE
+126,625,CARDINAL
+126,the next day,DATE
+126,last Friday,DATE
+126,1623,DATE
+126,Indigo,ORG
+126,13 to1,QUANTITY
+126,Air India,ORG
+126,26:1,CARDINAL
+126,Accasa Air 15:1,ORG
+126,SpiceJet,ORG
+126,7:1,CARDINAL
+126,first,ORDINAL
+126,Indigo,ORG
+126,Chitendra Barava,PERSON
+126,day one,DATE
+126,six,CARDINAL
+126,first,ORDINAL
+126,DGCA,ORG
+126,DGC,ORG
+126,DGCA,ORG
+126,all these months,DATE
+126,second,ORDINAL
+126,MDTL,ORG
+126,1st,DATE
+126,November,DATE
+126,DGCA,PERSON
+126,DGCA,PERSON
+126,Air India DGC,ORG
+126,Indigo,ORG
+126,Sanjay Lazar,PERSON
+126,DGCA,ORG
+126,Barov,PERSON
+126,DGCA,ORG
+126,section 8,LAW
+126,DGCA,NORP
+126,1934,DATE
+126,1937,DATE
+126,134A,CARDINAL
+126,section 3,LAW
+126,Ahmedabad,PERSON
+126,Marshall Keeler,PERSON
+126,monthly,DATE
+126,Air India,ORG
+126,last years,DATE
+126,two months,DATE
+126,DGCA,ORG
+126,seven,CARDINAL
+126,12,CARDINAL
+126,that day,DATE
+127,a few months ago,DATE
+127,Rajib,PERSON
+127,today,DATE
+127,DGCA,ORG
+127,four,CARDINAL
+127,DGC,ORG
+127,Indigo,ORG
+127,Indigo,ORG
+127,90%,PERCENT
+127,10%,PERCENT
+127,DGCA,GPE
+127,DGCA,ORG
+127,FDDT,ORG
+127,Indigo,ORG
+127,90%,PERCENT
+127,95%,PERCENT
+127,Indigo,ORG
+127,Indigo,ORG
+127,Sumit Susilan,PERSON
+127,Indigo,ORG
+127,Indigo,ORG
+127,Indigo,ORG
+127,every 9 days,DATE
+127,one,CARDINAL
+127,the winter,DATE
+127,the winter,DATE
+127,past 6 month,DATE
+127,Indigo,ORG
+127,Indigo,ORG
+127,65%,PERCENT
+127,November,DATE
+127,DGC,ORG
+127,first week of December,DATE
+127,1600,CARDINAL
+127,Indigo,ORG
+127,last month,DATE
+127,Indigo,ORG
+127,Amit Singh,PERSON
+127,Indigo,ORG
+127,DGCA,ORG
+127,DGCA,ORG
+127,Indigo,ORG
+127,first,ORDINAL
+127,four,CARDINAL
+128,yesterday,DATE
+128,November,DATE
+128,FTA,ORG
+128,1st of December,DATE
+128,DGCA,ORG
+128,Indigo,ORG
+128,DGC,ORG
+128,DGCA,ORG
+128,Indigo,ORG
+128,the 1st of December,DATE
+128,FDLTL,ORG
+128,a few months,DATE
+129,three more months,DATE
+129,Amit Singh,PERSON
+130,DGCA,ORG
+130,Jendra,GPE
+130,Indigo,ORG
+130,Indigo,ORG
+130,66%,PERCENT
+130,two,CARDINAL
+130,Raji,PERSON
+130,first,ORDINAL
+130,DGC,ORG
+130,Indigo,ORG
+130,November 30th,DATE
+130,3rd,ORDINAL
+130,fourth,ORDINAL
+130,5th,ORDINAL
+130,December,DATE
+130,DGCA,ORG
+130,65%,PERCENT
+130,2011,DATE
+130,six,CARDINAL
+130,Indigo,ORG
+130,20%,PERCENT
+130,Indigo,ORG
+130,IND of Kingfisher,ORG
+130,28%,PERCENT
+130,2019,DATE
+130,Javis,PERSON
+130,up to 50%,PERCENT
+130,first,ORDINAL
+130,60%,PERCENT
+130,SpiceJet,ORG
+130,18%,PERCENT
+130,4%,PERCENT
+130,Indigo,ORG
+130,3rd,ORDINAL
+130,fourth,ORDINAL
+130,fifth,ORDINAL
+130,December,DATE
+130,DGC,ORG
+130,DGC,ORG
+130,last minute,TIME
+130,Indigo,ORG
+130,Indigo,ORG
+130,65%,PERCENT
+130,another couple of months,DATE
+130,DGCA,ORG
+130,DGCA,ORG
+130,Sherbir,PERSON
+130,Sanjay Lazar,PERSON
+130,the 1st of December,DATE
+130,Indigo,ORG
+130,call,PERSON
+130,90%,PERCENT
+130,DGCA,NORP
+130,CBC,ORG
+130,JDG,ORG
+130,a thousand,CARDINAL
+130,November,DATE
+130,the 1st of December,DATE
+130,one minute,TIME
+130,winter,DATE
+130,Number two,CARDINAL
+130,November,DATE
+130,1200,CARDINAL
+130,the 1st of December,DATE
+131,Indigo,ORG
+131,Sherb Panag,GPE
+131,Indigo,ORG
+131,Indigo,ORG
+131,two,CARDINAL
+131,First,ORDINAL
+131,Indigo,ORG
+131,Indigo,ORG
+131,Rahi,PERSON
+131,Indian,NORP
+131,Indigo,ORG
+131,Indian,NORP
+131,2024,DATE
+131,2020,DATE
+131,mid 2025,DATE
+131,1st November,DATE
+131,Indigo,ORG
+131,Indigo,ORG
+131,FDTL,ORG
+131,1st of December,DATE
+131,1st of June,DATE
+131,1st of November,DATE
+131,1st of November to February 2026,DATE
+131,up to 1st,DATE
+131,November,DATE
+131,February,DATE
+131,Indian,NORP
+131,one,CARDINAL
+131,one,CARDINAL
+132,second,ORDINAL
+132,Rajiv,PERSON
+132,the last couple of years,DATE
+132,the Reserve Bank of India,ORG
+132,RBI,ORG
+132,DGCA,ORG
+132,DGCA,ORG
+132,17,CARDINAL
+132,NOC,ORG
+132,two years,DATE
+132,Indigo,ORG
+132,Indigo,ORG
+132,Indigo,ORG
+132,tomorrow,DATE
+132,Sebie,PERSON
+132,T plus two days,DATE
+132,RBI,ORG
+132,DGC,ORG
+132,Indigo,ORG
+132,second,ORDINAL
+132,Indigo,ORG
+132,first,ORDINAL
+132,Amit Singh,PERSON
+132,10%,PERCENT
+132,every day,DATE
+132,DGCA,NORP
+132,DGCA,ORG
+132,the 10%,PERCENT
+132,10%,PERCENT
+132,No 10%,PERCENT
+132,up to 100%,PERCENT
+132,Indigo,ORG
+132,about 90,CARDINAL
+132,5%,PERCENT
+132,another 5%,PERCENT
+132,Firstly,ORDINAL
+132,One minute,TIME
+132,One minute,TIME
+132,One minute,TIME
+132,one minute,TIME
+132,Indigo,ORG
+132,India,GPE
+132,DGCA,ORG
+132,DGC,ORG
+132,DGC,ORG
+132,yesterday,DATE
+132,Indigo,ORG
+132,Yani,PERSON
+132,DGCA,ORG
+132,One,CARDINAL
+132,DGCA,ORG
+132,CAS,ORG
+132,UK,GPE
+132,Today,DATE
+132,DGCA,PERSON
+132,50%,PERCENT
+132,DGCA,ORG
+132,five,CARDINAL
+132,10%,PERCENT
+132,DGCA,ORG
+132,100%,PERCENT
+132,Susilan,PERSON
+132,India,GPE
+132,India,GPE
+132,first,ORDINAL
+132,DC,GPE
+132,NOOCC,ORG
+132,Turkish,NORP
+132,Air India,ORG
+132,NOC,ORG
+132,Campbell,ORG
+132,Air India,ORG
+132,DGCA,NORP
+132,NOC,ORG
+132,DCA,ORG
+132,Air India,ORG
+132,Indigo,ORG
+132,2500,CARDINAL
+132,A320,PRODUCT
+132,3 months,DATE
+132,6 month,DATE
+132,Indigo,ORG
+132,Indigo,ORG
+132,the days ahead,DATE
+132,Sanjay Lazar,PERSON
+133,DGCA,ORG
+133,every day,DATE
+133,November,DATE
+133,Peter Elbert,PERSON
+133,Amit,ORG
+133,Sushilan,PERSON
+133,two,CARDINAL
+133,One,CARDINAL
+133,Peter Albert,PERSON
+133,COO,ORG
+133,second,ORDINAL
+133,Sushilan,PERSON
+133,DGCA,NORP
+133,Sanjay,NORP
+133,one,CARDINAL
+133,one,CARDINAL
+133,Lazar,PERSON
+133,10%,PERCENT
+133,DGCA,ORG
+133,India,GPE
+134,DGCA,ORG
+134,DGCA,ORG
+134,Jendra Bharava,PERSON
+134,Indigo,ORG
+134,Third,ORDINAL
+134,fourth,ORDINAL
+134,fifth,ORDINAL
+134,10%,PERCENT
+134,10%,PERCENT
+134,Indigo,ORG
+134,Indigo,ORG
+134,Indigo,ORG
+134,Indian,NORP
+134,Indigo,ORG
+134,Peter Elbert,PERSON
+134,Tamal,GPE
+134,Peter Elers,PERSON
+134,Indigo,ORG
+134,15 more days,DATE
+134,the second day 4th of December,DATE
+134,DGC,ORG
+134,Indigo,ORG
+135,DGCA,NORP
+135,Rajat,PERSON
+135,day,DATE
+135,day,DATE
+135,Indigo,ORG
+135,marshall Danoa,PERSON
+136,Rahul Barta,PERSON
+136,Switzerland,GPE
+137,today,DATE
+137,DGC,ORG
+137,Indigo,ORG
+137,DGCA,PERSON
+137,first,ORDINAL
+137,DGCA,ORG
+137,Indigo,ORG
+137,DGCA,ORG
+137,scan,NORP
+137,second,ORDINAL
+137,Rajep,PERSON
+137,Indigo,ORG
+137,India,GPE
+137,DGCA,ORG
+137,winter,DATE
+137,Indigo,ORG
+137,one,CARDINAL
+138,NOOCC,ORG
+138,NCO,ORG
+138,NOC,ORG
+138,DGCA,ORG
+138,NOC,ORG
+138,Rob,PERSON
+138,10 minutes,TIME
+138,third,ORDINAL
+138,the years,DATE
+138,Indian,NORP
+138,the years,DATE
+138,Sahara Airways,ORG
+138,the mid '90s to 2019,DATE
+138,Air Dean,PERSON
+138,2003 to 2008,DATE
+138,Kingfisher,PERSON
+138,2012,DATE
+138,"9,000",CARDINAL
+138,Vijay Malia,PERSON
+138,Paramount Airways,ORG
+138,first,ORDINAL
+138,Go Airlines,ORG
+138,2005,DATE
+138,23,CARDINAL
+138,MDLR,ORG
+138,Air Costa,ORG
+138,Zumeare,PERSON
+138,Air Asia,ORG
+138,Vistara,LOC
+138,Air India,ORG
+138,Susilan,PERSON
+138,India,GPE
+138,Rahul Barti,PERSON
+138,Rahul Gangal,PERSON
+138,Indigo,ORG
+138,billions,CARDINAL
+138,Indian,NORP
+138,India,GPE
+138,India,GPE
+138,India,GPE
+138,Udan,GPE
+138,months,DATE
+138,162,CARDINAL
+138,around 74,CARDINAL
+138,only 10,CARDINAL
+138,days,DATE
+138,Bombay,GPE
+138,Bombay,GPE
+138,Pune,LOC
+138,India,GPE
+138,India,GPE
+138,Sanjay Lazar,PERSON
+138,five,CARDINAL
+138,the next 5 years,DATE
+138,the years,DATE
+138,Prul Patel,PERSON
+138,20 years ago,DATE
+138,Raan Naidu,PERSON
+138,Ram Naidu,PERSON
+138,two,CARDINAL
+138,at least one,CARDINAL
+138,Sushilan,PERSON
+138,50,CARDINAL
+138,ATF,ORG
+138,UDF,ORG
+138,Indigo,ORG
+138,Indigo,ORG
+138,15 20,CARDINAL
+138,1992,DATE
+138,Jendra Barava,PERSON
+138,Air India,ORG
+138,Air India,ORG
+138,Air India's,ORG
+138,Air India,ORG
+138,today,DATE
+138,Barava,PERSON
+138,Indigos,GPE
+138,65%,PERCENT
+138,five,CARDINAL
+138,Indigo,ORG
+138,Air India 570,ORG
+138,90%,PERCENT
+138,Rajep,PERSON
+138,one,CARDINAL
+138,India,GPE
+138,India,GPE
+138,Air India,ORG
+138,mediumsiz,ORG
+138,Amit Singh,PERSON
+138,February,DATE
+138,the last week,DATE
+138,FTL,ORG
+138,1992,DATE
+138,2011,DATE
+138,2012,DATE
+138,2019,DATE
+138,24,CARDINAL
+138,fourth,ORDINAL
+138,India,GPE
+138,Indigo,ORG
+138,one,CARDINAL
+138,only one,CARDINAL
+138,India,GPE
+138,5 years,DATE
+138,Indian,NORP
+138,Sherbi,PERSON
+138,Indigo,ORG
+138,Rahul Barta,PERSON
+138,Indigo,ORG
+138,United States,GPE
+138,876 million,CARDINAL
+138,5.2,CARDINAL
+138,the previous year,DATE
+138,China,GPE
+138,741 million,CARDINAL
+138,18.7,CARDINAL
+138,UK,GPE
+138,third,ORDINAL
+138,261 million,CARDINAL
+138,7.3,CARDINAL
+138,Spain,GPE
+138,India,GPE
+138,fifth,ORDINAL
+138,211,CARDINAL
+138,11.1,CARDINAL
+139,the years,DATE
+139,Ronald Reagan,PERSON
+139,nine,CARDINAL
+139,English,LANGUAGE
+139,DGCA,ORG
+139,five years later,DATE
+139,Indigo,ORG
+139,India,GPE
+139,more than two decades ago,DATE
+139,Lazar,PERSON
+139,a 30 second,TIME
+139,Sherby,GPE
+139,PMO,ORG
+139,three,CARDINAL
+139,the next 5 years,DATE
+139,Indigo,ORG
+139,the new year,DATE
+139,Jin,PERSON
+139,five decades,DATE
+139,India,GPE
+139,today,DATE
+139,India,GPE
+139,This December,DATE
+139,50th,ORDINAL
+139,India,GPE
+139,Today,DATE
+139,India,GPE
+139,Five decades,DATE
+139,one,CARDINAL
+139,India,GPE
+139,this December,DATE
+139,India,GPE
+139,Today,DATE
+139,100 million,CARDINAL
+139,India,GPE
+139,Today,DATE
+139,100 million,CARDINAL
+139,India,GPE
+139,Today,DATE
+139,100 million,CARDINAL
+140,evening,TIME
+140,BJP,ORG
+140,DMK,ORG
+140,Tamil Nad,PERSON
+140,BJP,ORG
+140,DMK,ORG
+140,DMK,ORG
+140,BJP,ORG
+140,Barbrey,PERSON
+140,Tamil Nad,PERSON
+140,56,CARDINAL
+140,Supreme Court,ORG
+140,Supreme Court,ORG
+140,Tamil Nad,PERSON
+140,The Tamil Nadh,FAC
+140,India,GPE
+140,first,ORDINAL
+140,One,CARDINAL
+140,India,GPE
+140,anti-sanatan,NORP
+140,Deepam Rao,ORG
+140,BJP,ORG
+140,Stalin,PERSON
+140,Deepun,GPE
+140,BNK,ORG
+140,56,CARDINAL
+140,India,GPE
+140,first,ORDINAL
+140,Deepam,ORG
+140,Tamil Nad,PERSON
+140,BJP,ORG
+140,DMK,ORG
+140,More than 50,CARDINAL
+140,Madras,LOC
+140,DMK,ORG
+140,Deepun,GPE
+140,DMK,ORG
+140,BJP,ORG
+140,DMK,ORG
+140,One,CARDINAL
+140,India,GPE
+140,anti-sanatan,NORP
+140,Sanatan Dharma,PERSON
+140,Ram,ORG
+140,DMK,ORG
+140,Maduray,ORG
+140,Madras High Court,ORG
+140,Tamiladu,ORG
+140,Maduray,PRODUCT
+140,Madras,LOC
+140,DMK,ORG
+140,Earlier this week,DATE
+140,56,CARDINAL
+140,Swami Natan,PERSON
+140,DMK,ORG
+140,DMK,ORG
+140,today,DATE
+140,Deepatun,PERSON
+140,Deepam,ORG
+140,decade,DATE
+140,"Proom Madhav, Bureau Report",ORG
+140,India,GPE
+140,Today,DATE
+140,two,CARDINAL
+140,One,CARDINAL
+140,Essen Dhingra,PERSON
+140,the Delhi High Court,ORG
+140,one,CARDINAL
+140,Justice Dingra,ORG
+140,first,ORDINAL
+140,the supreme court,ORG
+140,SLP,ORG
+141,three,CARDINAL
+142,two,CARDINAL
+142,One,CARDINAL
+143,20,CARDINAL
+143,TKS Ilan Gowan,ORG
+143,DMK,ORG
+143,Swami Natan,PERSON
+143,two,CARDINAL
+143,Deepam,ORG
+143,Barbrey Masjid,PERSON
+143,supreme court,ORG
+143,Supreme Court,ORG
+143,two,CARDINAL
+143,Supreme Court,ORG
+143,One,CARDINAL
+143,one,CARDINAL
+143,three,CARDINAL
+143,two,CARDINAL
+143,Supreme Court,ORG
+143,Supreme Court,ORG
+143,India,GPE
+143,Supreme Court,ORG
+143,five,CARDINAL
+143,seven,CARDINAL
+143,11,CARDINAL
+143,13,CARDINAL
+143,two,CARDINAL
+143,three,CARDINAL
+144,DRA,ORG
+144,India,GPE
+144,Today,DATE
+144,Sarvan,PERSON
+144,Sarvan,PERSON
+144,DMK,ORG
+144,Rohan Gupta,PERSON
+144,the Bharty Jantaa party,ORG
+144,Ki Dhanjay,PERSON
+144,the Supreme Court,ORG
+144,Sarvan Anurak Takur,PERSON
+144,Hindus,NORP
+144,Tamil Nad,PERSON
+144,DMK,ORG
+144,Anurra Takur,PERSON
+144,the Golo Salanga,FAC
+144,Anurak Takur,PERSON
+144,Dingra,PERSON
+144,the Delhi High Court,ORG
+144,Murderer,PERSON
+144,midnight,TIME
+144,F,PRODUCT
+144,Goli Maru Salona,PERSON
+144,Mury,PERSON
+144,midnight,TIME
+144,the Madras High Court,ORG
+145,BJP,ORG
+145,BJP,ORG
+145,one,CARDINAL
+145,North India,LOC
+145,BJP,ORG
+145,Hinduism,NORP
+145,sanatan dharma,PERSON
+145,us sanatan dharma,ORG
+145,Hinduism,GPE
+145,Hindus,NORP
+145,DMK BJP,ORG
+145,Rohan Gupta,GPE
+145,Rohan Gupta,PERSON
+145,Tamil Nad,PERSON
+145,Hindu,NORP
+146,Sarvan,PERSON
+146,Hindu,NORP
+146,anti-Sunatan,NORP
+146,anti-Hindu,NORP
+146,Hindu,NORP
+146,India,GPE
+146,India,GPE
+146,India,GPE
+146,Indi,PERSON
+146,Sanatan,LOC
+146,Sanatan,GPE
+146,Sarvan,PERSON
+146,Amita,PERSON
+146,Supreme,ORG
+146,one,CARDINAL
+146,one,CARDINAL
+146,one,CARDINAL
+146,one,CARDINAL
+146,one,CARDINAL
+147,Servan,PERSON
+147,Gupta,PERSON
+147,10 seconds,TIME
+147,Amita,PERSON
+147,Amicha,PERSON
+147,one,CARDINAL
+147,one,CARDINAL
+147,Tamil Nadu,PERSON
+147,Tamil Nadu,PERSON
+147,Delhi,GPE
+147,Tamil Nadu,PERSON
+147,Dingra,PERSON
+147,Rohan,PERSON
+147,10 seconds,TIME
+147,Sanan,PERSON
+147,Supreme Court,ORG
+147,San,PERSON
+147,Dhan,PERSON
+147,Dhan,PERSON
+147,Dhanjay,PERSON
+148,DMK,ORG
+148,CISF,ORG
+149,Number one,CARDINAL
+149,Number two,CARDINAL
+150,the next 24 hours,TIME
+150,48 hours,TIME
+150,DMK,ORG
+151,Shakharay,GPE
+151,Shaker Ayar,PERSON
+151,DMK,ORG
+151,Tamil,GPE
+151,Hindus,NORP
+151,Muslims,NORP
+151,Babri,ORG
+151,Tamil Nad,PERSON
+151,Tamil Nad,PERSON
+151,DMK,ORG
+151,Babri,ORG
+151,Babri,ORG
+151,Vijay,ORG
+151,DMK,ORG
+151,all year,DATE
+151,Vijay,ORG
+151,Tamil Nad,PERSON
+151,Hindu,NORP
+151,Vijay,PERSON
+151,Tamili,ORG
+151,Sarvan,PERSON
+151,BJP,ORG
+151,Muslim,NORP
+151,two,CARDINAL
+151,DMK,ORG
+151,Hindus,NORP
+151,Muslim,NORP
+151,DMK,ORG
+151,Hindus,NORP
+151,BJP,ORG
+151,BJP,ORG
+151,Hindus,NORP
+151,Hindus,NORP
+151,BJP DMK,ORG
+151,Hindus,NORP
+151,Tripur,PERSON
+151,Gundam,PERSON
+151,BJP,ORG
+151,today,DATE
+151,India,GPE
+151,English,LANGUAGE
+151,some years back,DATE
+151,DMK,ORG
+151,Tamil,GPE
+151,two minutes,TIME
+151,BJP,ORG
+151,Hindus Hindus,PERSON
+151,DMK,ORG
+152,Supreme Court,ORG
+152,Tamad,PERSON
+152,Hindus,NORP
+152,10 seconds,TIME
+152,BJP,ORG
+152,anti-Hindu,NORP
+152,India,GPE
+152,27%,PERCENT
+152,MK,PERSON
+152,BJP,ORG
+152,today,DATE
+153,Dhanjay,PERSON
+153,Danja,PERSON
+153,MPs,ORG
+153,DMK,ORG
+153,days,DATE
+153,midnight,TIME
+153,DMK,ORG
+153,DMK,ORG
+153,India,GPE
+153,the Congress party,ORG
+153,Samamajwadi,PERSON
+153,Udhav Takra Shiv Sa,ORG
+153,Shakharay,PERSON
+153,Rashri Syam,PERSON
+153,Bhagwat,ORG
+153,Hindu,NORP
+153,Tamil Nad,PERSON
+153,DMK,ORG
+153,Shikharay,ORG
+153,Moan Bhagwat,PERSON
+153,RSS,ORG
+153,Hindu,NORP
+153,Tamil Nad,PERSON
+153,Kundaram,PERSON
+153,Turuparam kundam,PERSON
+153,six,CARDINAL
+153,Muruga,PERSON
+153,Kartikaya,PERSON
+153,Tamil,PERSON
+153,DMK,ORG
+153,DMK,ORG
+153,Draid Karam,ORG
+153,Hindu,NORP
+153,DMK,ORG
+154,Aayodhya,PERSON
+154,Muslims,NORP
+154,a particular day,DATE
+154,Kartika,PERSON
+154,Deepawi,GPE
+155,Vijay Kachi,PERSON
+155,the days,DATE
+155,weeks,DATE
+156,Pakistan,GPE
+156,Pakistan,GPE
+156,Shavas Sharif,PERSON
+156,Shabas Sharif,PERSON
+156,about 40 minutes,TIME
+156,5 minutes,TIME
+156,10 minutes,TIME
+156,40 minutes,TIME
+156,Russian,NORP
+156,Vladimir Putin,PERSON
+156,RT,GPE
+156,Pakistani,NORP
+156,Putin,PERSON
+156,Turkeykey,GPE
+156,Erdogan,PERSON
+156,minutes,TIME
+156,Navas Shar,FAC
+156,Sharif,PERSON
+156,Putin,PERSON
+156,Turkeykey,GPE
+156,Arduh Khan,PERSON
+156,Sharif,PERSON
+156,two,CARDINAL
+156,Gita Mo,PERSON
+156,Gita,PERSON
+156,40 minutes,TIME
+156,40 minutes,TIME
+156,Putin,PERSON
+156,two,CARDINAL
+156,Turkey,GPE
+156,Russia,GPE
+156,Pakistan,GPE
+156,Turkey,GPE
+156,Russia,GPE
+156,Russia,GPE
+156,Pakistan,GPE
+156,Gita,PERSON
+156,Kangana,PERSON
+156,Navash with Shabbash Sharif,ORG
+156,Pakistan,GPE
+157,India,GPE
+157,Today,DATE
+157,50th,ORDINAL
+157,India,GPE
+157,Today,DATE
+157,NSE,ORG
+157,India,GPE
+157,Today,DATE
+157,India,GPE
+157,India,GPE
+157,Today,DATE
+157,India,GPE
+157,today,DATE
+157,first,ORDINAL
+157,India,GPE
+157,today,DATE
+157,India,GPE
+157,Today,DATE
+157,100 million,CARDINAL
+157,The India Today,ORG
+157,50 years,DATE
+157,the National Stock Exchange,ORG
+157,India,GPE
+157,two,CARDINAL
+157,India,GPE
+157,India,GPE
+157,the National Stock Exchange,ORG
+157,Mumbai,GPE
+157,Arun Puri,PERSON
+157,the India Today,ORG
+157,Kalipuri,GPE
+157,India,GPE
+157,India,GPE
+157,This afternoon,TIME
+157,the National Stock Exchange,ORG
+157,India,GPE
+157,Today,DATE
+157,50 years,DATE
+157,NYSE,ORG
+157,India,GPE
+157,two,CARDINAL
+157,India,GPE
+157,50-year,DATE
+157,India,GPE
+157,Today,DATE
+157,Today,DATE
+157,the Indire Day Group,FAC
+157,1975,DATE
+157,India,GPE
+157,every single day,DATE
+157,NYSE,ORG
+157,India,GPE
+157,50 remarkable years,DATE
+157,today,DATE
+157,India,GPE
+157,India,GPE
+157,today,DATE
+157,India,GPE
+157,50 years,DATE
+157,India,GPE
+157,today,DATE
+157,AI,GPE
+157,12 seconds,TIME
+157,11,CARDINAL
+157,India,GPE
+157,today,DATE
+157,NYSE,ORG
+157,India,GPE
+157,Mapuri,PERSON
+157,Nifty,NORP
+157,"26,000",CARDINAL
+157,first,ORDINAL
+157,5 days,DATE
+157,Business Today,ORG
+157,2025,DATE
+157,Business Today TV,ORG
+157,India,GPE
+157,today,DATE
+157,100 million,CARDINAL
+157,India,GPE
+157,Today,DATE
+157,Delhi,GPE
+157,India,GPE
+157,Today,DATE
+157,Rahul Gandhi,PERSON
+157,the Lok Sabha,FAC
+157,Kiran Riiju,PERSON
+157,urg,PERSON
+157,India,GPE
+157,today,DATE
+157,millions,CARDINAL
+157,these days,DATE
+157,at least one,CARDINAL
+158,zero hour,TIME
+158,one,CARDINAL
+158,the next 5 or 10 years,DATE
+158,the day,DATE
+158,Rahul Gandhi G. Government,PERSON
+158,BAC,ORG
+158,the second day in a row,DATE
+158,Roy,PERSON
+158,Gajendra Singh Shakawad,PERSON
+158,Girat Singh,PERSON
+158,TMC,ORG
+158,Roy,PERSON
+158,BJP,ORG
+158,Delhi,GPE
+158,AQI,ORG
+158,BJP,ORG
+158,Anat Takur,PERSON
+158,Omir,PERSON
+158,Lok Sabha,PERSON
+158,India,GPE
+158,PMC,ORG
+158,Delhi,PERSON
+158,Shivani Sharma,ORG
+158,Delhi,GPE
+158,India,GPE
+158,today,DATE
+159,the India Today,ORG
+159,India,GPE
+159,Today,DATE
+159,India,GPE
+159,Today,DATE
+159,India,GPE
+159,today,DATE
+159,100 million,CARDINAL
+159,"Over 1,600",CARDINAL
+159,Indigo,ORG
+159,December 5th,DATE
+159,"4,63",CARDINAL
+159,one week,DATE
+159,Nearly six,CARDINAL
+159,winter,DATE
+159,week,DATE
+159,a week,DATE
+159,India,GPE
+159,India,GPE
+159,Indigo Airlines,ORG
+159,thousands,CARDINAL
+159,"over 1,600",CARDINAL
+159,a single day,DATE
+159,Today,DATE
+159,India,GPE
+159,Sumit Susilan,ORG
+159,Amit Singh,PERSON
+159,Sanjay Lazar,PERSON
+159,Aayas Consultants,ORG
+159,Jitendra Bharava,PERSON
+159,Air India,ORG
+159,Sanat K,ORG
+159,Sherik Panag,PERSON
+159,first,ORDINAL
+159,Indigo,ORG
+159,Indigo,ORG
+159,K Rammon Naidu,PERSON
+159,Rammon Naidu,PERSON
+159,Indigo,ORG
+159,third,ORDINAL
+159,fourth,ORDINAL
+159,fifth,ORDINAL
+159,first,ORDINAL
+159,Indigo,ORG
+159,first,ORDINAL
+159,Indigo,ORG
+159,Indigo,ORG
+159,DGCA,ORG
+159,January 2024,DATE
+159,Indigo,ORG
+159,"5,463",CARDINAL
+159,March,DATE
+159,"5,85",CARDINAL
+159,December,DATE
+159,four,CARDINAL
+159,DGCA,ORG
+159,Indigo,ORG
+159,DGCA,ORG
+159,Indigo,ORG
+159,winter,DATE
+159,Indigo,ORG
+159,"1,200",CARDINAL
+159,November,DATE
+159,Indigo,ORG
+159,DGCA,ORG
+159,December 4th,DATE
+159,625,CARDINAL
+159,the next day,DATE
+159,last Friday,DATE
+159,1623,DATE
+159,13,CARDINAL
+159,Air India,ORG
+159,26,CARDINAL
+159,Accasa Air 15:1,ORG
+159,SpiceJet,ORG
+159,7:1,CARDINAL
+159,first,ORDINAL
+159,Indigo,ORG
+159,Jitendra Bharava,PERSON
+159,day one,DATE
+159,Indigo,ORG
+159,six,CARDINAL
+159,first,ORDINAL
+159,DGCA,ORG
+159,DGC,ORG
+159,Indigo,ORG
+159,DGCA,ORG
+159,all these months,DATE
+159,Rajiv,PERSON
+159,second,ORDINAL
+159,MDTL,ORG
+159,1st,DATE
+159,November,DATE
+159,DGCA,PERSON
+159,DGCA,PERSON
+159,Air India DGC,ORG
+159,Indigo,ORG
+159,Sanjay Lazar,PERSON
+159,DGCA,ORG
+159,Bargov,PERSON
+159,DGCA,ORG
+159,section 8,LAW
+159,DGCA,NORP
+159,1934,DATE
+159,1937,DATE
+159,134A,CARDINAL
+159,section 3,LAW
+159,Ahmedabad,PERSON
+159,Marshall Keeler,PERSON
+159,monthly,DATE
+159,Air India,ORG
+159,last years,DATE
+159,two months,DATE
+159,DGCA,ORG
+159,seven,CARDINAL
+159,12,CARDINAL
+160,that day,DATE
+160,a few months ago,DATE
+160,Rajib,PERSON
+161,today,DATE
+161,DGCA,ORG
+161,four,CARDINAL
+161,DGC,ORG
+161,Indigo,ORG
+161,Indigo,ORG
+161,90%,PERCENT
+161,10%,PERCENT
+161,DGCA,GPE
+161,DGCA,ORG
+161,FDDT,ORG
+161,Indigo,ORG
+161,90%,PERCENT
+161,95%,PERCENT
+161,Indigo,ORG
+161,Indigo,ORG
+161,Sumit Susilan,PERSON
+161,Indigo,ORG
+161,Indigo,ORG
+161,Indigo,ORG
+161,every 9 days,DATE
+161,one,CARDINAL
+161,the winter,DATE
+161,the winter,DATE
+161,past 6 month,DATE
+161,Indigo,ORG
+161,Indigo,ORG
+161,65%,PERCENT
+161,November,DATE
+161,DGC,ORG
+161,first week of December,DATE
+161,1600,CARDINAL
+161,Indigo,ORG
+161,last month,DATE
+161,Indigo,ORG
+161,Amit Singh,PERSON
+161,Indigo,ORG
+161,DGCA,ORG
+161,DGCA,ORG
+161,Indigo,ORG
+161,first,ORDINAL
+161,four,CARDINAL
+161,Indigo,ORG
+161,Yesterday,DATE
+161,November,DATE
+161,FTL,ORG
+161,1st of December,DATE
+161,DGCA,ORG
+161,Indigo,ORG
+161,DGC,ORG
+161,DGCA,ORG
+161,Indigo,ORG
+161,the 1st of December,DATE
+161,FDLTL,ORG
+161,a few months,DATE
+161,three more months,DATE
+161,Amit Singh,PERSON
+162,DGCA,ORG
+162,Jendra,GPE
+162,Indigo,ORG
+162,Indigo,ORG
+162,66%,PERCENT
+162,FDTL,ORG
+162,two,CARDINAL
+162,Raji,PERSON
+162,first,ORDINAL
+162,DGC,ORG
+162,Indigo,ORG
+162,November 30th,DATE
+162,3rd,ORDINAL
+162,fourth,ORDINAL
+162,5th,ORDINAL
+162,December,DATE
+162,DGCA,ORG
+162,65%,PERCENT
+162,2011,DATE
+162,six,CARDINAL
+162,Indigo,ORG
+162,20%,PERCENT
+162,Indigo,ORG
+162,IND of Kingfisher,ORG
+162,28%,PERCENT
+162,2019,DATE
+162,Javis,PERSON
+162,up to 50%,PERCENT
+162,first,ORDINAL
+162,60%,PERCENT
+162,SpiceJet,ORG
+162,18%,PERCENT
+162,4%,PERCENT
+162,Indigo,ORG
+162,3rd,ORDINAL
+162,fourth,ORDINAL
+162,fifth,ORDINAL
+162,December,DATE
+162,DGC,ORG
+162,DGC,ORG
+162,last minute,TIME
+162,Indigo,ORG
+162,Indigo,ORG
+162,65%,PERCENT
+162,another couple of months,DATE
+162,DGCA,ORG
+162,DGCA,ORG
+162,Sanjay Lazar,PERSON
+162,the 1st of December,DATE
+162,Indigo,ORG
+162,call,PERSON
+162,90%,PERCENT
+162,DGCA,NORP
+163,CBC,ORG
+163,JDG,ORG
+163,a thousand,CARDINAL
+163,November,DATE
+163,the 1st of December,DATE
+163,one minute,TIME
+163,winter,DATE
+163,number one,CARDINAL
+163,two,CARDINAL
+163,November,DATE
+163,1200,CARDINAL
+163,the 1st of December,DATE
+163,Indigo,ORG
+163,Sherb Panag Sherbir,FAC
+163,Indigo,ORG
+163,Indigo,ORG
+163,two,CARDINAL
+163,First,ORDINAL
+163,Indigo,ORG
+163,Indigo,ORG
+163,Rahi,PERSON
+163,Indian,NORP
+163,Indigo,ORG
+163,Indian,NORP
+163,2024,DATE
+163,2020,DATE
+163,mid 2025,DATE
+163,1st November,DATE
+163,Indigo,ORG
+163,Indigo,ORG
+163,FDTL,ORG
+163,1st of December,DATE
+164,1st of June,DATE
+164,1st of November,DATE
+164,1st of November to February 2026,DATE
+164,up to 1st,DATE
+164,November,DATE
+164,February,DATE
+165,Indian,NORP
+165,one,CARDINAL
+165,one,CARDINAL
+165,second,ORDINAL
+165,Rajiv,PERSON
+165,the last couple of years,DATE
+165,the Reserve Bank of India,ORG
+165,RBI,ORG
+165,DGCA,ORG
+165,DGCA,ORG
+165,17,CARDINAL
+165,NOC,ORG
+165,two years,DATE
+165,Indigo,ORG
+165,Indigo,ORG
+165,Indigo,ORG
+165,tomorrow,DATE
+165,Sebie,PERSON
+165,two,CARDINAL
+165,T plus two days,DATE
+165,RBI,ORG
+165,DGC,ORG
+165,Indigo,ORG
+165,second,ORDINAL
+165,Indigo,ORG
+165,first,ORDINAL
+165,Amit Singh,PERSON
+165,10%,PERCENT
+165,every day,DATE
+165,DGCA,NORP
+165,DGCA,ORG
+165,the 10%,PERCENT
+165,10%,PERCENT
+165,No 10%,PERCENT
+165,up to 100%,PERCENT
+165,Indigo,ORG
+165,about 90,CARDINAL
+165,5%,PERCENT
+165,another 5%,PERCENT
+165,Firstly,ORDINAL
+165,One minute,TIME
+165,One minute,TIME
+165,One minute,TIME
+165,one minute,TIME
+165,Indigo,ORG
+165,India,GPE
+165,DGCA,ORG
+165,DGC,ORG
+165,DGCA,PERSON
+165,yesterday,DATE
+165,Indigo,ORG
+165,Yani,PERSON
+166,DGCA,ORG
+166,One,CARDINAL
+166,DGCA,ORG
+166,CAS,ORG
+166,UK,GPE
+166,Today,DATE
+166,DGCA,PERSON
+166,50%,PERCENT
+166,DGCA,ORG
+166,five,CARDINAL
+166,10%,PERCENT
+166,DGCA,ORG
+167,100%,PERCENT
+167,Susilan,PERSON
+167,India,GPE
+167,India,GPE
+167,first,ORDINAL
+167,DC,GPE
+167,NOOCC,ORG
+167,Turkish,NORP
+167,Air India,ORG
+167,NOC,ORG
+167,Campbell,ORG
+167,Air India,ORG
+167,DGCA,NORP
+167,NOC,ORG
+167,DCA,ORG
+167,Air India,ORG
+167,Indigo,ORG
+167,2500,CARDINAL
+167,A320,PRODUCT
+167,3 months,DATE
+167,6 month,DATE
+167,Indigo,ORG
+168,the days ahead,DATE
+168,Sanjay Lazar,PERSON
+168,DGCA,ORG
+168,every day,DATE
+168,November,DATE
+168,Peter Elbert,PERSON
+168,Rajiv,PERSON
+168,Amit,ORG
+168,Sushilan,PERSON
+168,two,CARDINAL
+168,One,CARDINAL
+168,Peter Albert,PERSON
+168,COO,ORG
+168,second,ORDINAL
+168,Sushilan,PERSON
+168,DGCA,NORP
+168,Sanjay,NORP
+168,one,CARDINAL
+168,one,CARDINAL
+168,Lazar,PERSON
+168,10%,PERCENT
+168,DGCA,ORG
+168,India,GPE
+168,DGCA,ORG
+168,DGCA,ORG
+168,Jendra Bharava,PERSON
+168,Indigo,ORG
+168,Third,ORDINAL
+168,fourth,ORDINAL
+168,fifth,ORDINAL
+168,10%,PERCENT
+168,10%,PERCENT
+168,Indigo,ORG
+168,Indigo,ORG
+168,Indigo,ORG
+168,Indian,NORP
+168,Indigo,ORG
+168,Peter Elbert,PERSON
+168,Tamal,GPE
+168,Peter Elers,PERSON
+168,Indigo,ORG
+168,15 more days,DATE
+168,the second day 4th of December,DATE
+168,DGC,ORG
+168,Indigo,ORG
+169,day,DATE
+169,day,DATE
+169,Indigo,ORG
+169,marshall Danoa,PERSON
+169,Rahul Barta,PERSON
+169,Switzerland,GPE
+169,today,DATE
+169,DGC,ORG
+169,Indigo,ORG
+169,DGCA,PERSON
+169,first,ORDINAL
+170,DGCA,ORG
+170,DGCA,ORG
+170,scan,NORP
+170,second,ORDINAL
+170,Rajep,PERSON
+170,Indigo,ORG
+170,India,GPE
+170,DGCA,ORG
+170,winter,DATE
+170,Indigo,ORG
+170,one,CARDINAL
+170,NOOCC,ORG
+170,NOC,ORG
+170,NOC,ORG
+170,DGCA,ORG
+170,NOC,ORG
+170,Rob,PERSON
+170,10 minutes,TIME
+170,third,ORDINAL
+170,the years,DATE
+170,Indian,NORP
+170,the years,DATE
+170,Sahara Airways,ORG
+170,the mid '90s to 2019,DATE
+170,Air Dean,PERSON
+170,2003 to 2008,DATE
+170,Kingfisher,PERSON
+170,2012,DATE
+170,"9,000",CARDINAL
+170,Vijay Malia,PERSON
+170,Paramount Airways,ORG
+170,first,ORDINAL
+170,Go Airlines,ORG
+170,2005,DATE
+170,23,CARDINAL
+170,MDLR,ORG
+170,Air Costa,ORG
+170,Zumeare,PERSON
+170,Air Asia,ORG
+170,Vistara,LOC
+170,Air India,ORG
+170,Susilan,PERSON
+170,India,GPE
+170,Rahul Barti,PERSON
+170,Rahul Gangal,PERSON
+170,Indigo,ORG
+170,billions,CARDINAL
+170,Indian,NORP
+170,India,GPE
+170,India,GPE
+170,India,GPE
+170,Udan,GPE
+170,months,DATE
+170,162,CARDINAL
+170,around 74,DATE
+170,Udan,PERSON
+170,only 10,CARDINAL
+170,days,DATE
+170,Bombay,GPE
+170,Bombay,GPE
+170,Pune,LOC
+170,India,GPE
+170,India,GPE
+170,Sanjay Lazar,PERSON
+170,five,CARDINAL
+170,the next 5 years,DATE
+170,the years,DATE
+170,Prul Patel,PERSON
+170,20 years ago,DATE
+170,Ram,PERSON
+170,two,CARDINAL
+170,at least one,CARDINAL
+170,Sushilan,PERSON
+170,50,CARDINAL
+170,ATF,ORG
+170,UDF,ORG
+170,Indigo,ORG
+170,Indigo,ORG
+170,15 20,CARDINAL
+170,1992,DATE
+170,Barava,GPE
+170,Air India,ORG
+170,Air India,ORG
+170,Air India's,ORG
+170,Air India,ORG
+170,Today,DATE
+170,Barava,PERSON
+170,65%,PERCENT
+170,five,CARDINAL
+170,Indigo,ORG
+170,Air India 570,ORG
+170,90%,PERCENT
+170,Rajep,PERSON
+170,one,CARDINAL
+170,India,GPE
+170,India,GPE
+170,India,GPE
+171,mediumsiz,ORG
+171,Amit Singh,PERSON
+171,February,DATE
+171,the last week,DATE
+171,FTL,ORG
+171,1992,DATE
+171,2007,DATE
+171,FTL,ORG
+171,2011,DATE
+171,FTL,ORG
+171,2012,DATE
+171,FTL,ORG
+171,2019,DATE
+171,24,CARDINAL
+171,fourth,ORDINAL
+171,India,GPE
+171,Indigo,ORG
+171,one,CARDINAL
+171,only one,CARDINAL
+171,India,GPE
+171,five years,DATE
+171,Indian,NORP
+171,Indigo,ORG
+171,Rahul Bhya,PERSON
+171,Indigo,ORG
+171,United States,GPE
+171,876 million,CARDINAL
+171,5.2,CARDINAL
+171,the previous year,DATE
+171,China,GPE
+171,741 million,CARDINAL
+171,18.7,CARDINAL
+171,UK,GPE
+171,third,ORDINAL
+171,261 million,CARDINAL
+171,7.3,CARDINAL
+171,Spain,GPE
+171,India,GPE
+171,fifth,ORDINAL
+171,211,CARDINAL
+171,11.1,CARDINAL
+172,the years,DATE
+172,Ronald Reagan,PERSON
+172,nine,CARDINAL
+172,English,LANGUAGE
+172,DGCA,ORG
+172,5 years later,DATE
+172,Indigo,ORG
+172,India,GPE
+172,more than two decades ago,DATE
+173,Lazar,PERSON
+173,a 30 second,TIME
+173,Sherb,PERSON
+174,PMO,ORG
+174,three,CARDINAL
+174,the next 5 years,DATE
+174,Indigo,ORG
+174,the new year,DATE
+174,Jin,PERSON
+175,India,GPE
+175,today,DATE
+175,India,GPE
+175,India,GPE
+175,Today,DATE
+175,India,GPE
+175,today,DATE
+175,first,ORDINAL
+175,India,GPE
+175,today,DATE
+175,India,GPE
+175,Today,DATE
+175,100 million,CARDINAL
+175,tonight,TIME
+175,India,GPE
+175,Today,DATE
+175,100 million,CARDINAL
+175,India,GPE
+175,Today,DATE
+175,100 million,CARDINAL
+175,evening,TIME
+175,BJP,ORG
+175,DMK,ORG
+175,Tamil Nad,PERSON
+175,BJP,ORG
+175,DMK,ORG
+175,anti-Satan Dharm,ORG
+175,DMK,ORG
+175,BJP,ORG
+175,Barbrey,PERSON
+175,Tamil Nad,PERSON
+175,56,CARDINAL
+175,Supreme Court,ORG
+175,Supreme Court,ORG
+175,Tamil Nad,PERSON
+175,The Tamil Nadhar,FAC
+175,India,GPE
+175,first,ORDINAL
+175,One,CARDINAL
+175,India,GPE
+175,anti-sanatan,NORP
+175,Deepam Rao,ORG
+175,BJP,ORG
+175,Stalin,PERSON
+175,BNK,ORG
+175,56,CARDINAL
+175,Ahmed Sha,PERSON
+175,India,GPE
+175,first,ORDINAL
+175,Deep,NORP
+175,Tamil Nad,PERSON
+175,BJP,ORG
+175,DMK,ORG
+175,More than 50,CARDINAL
+175,Madras,LOC
+175,DMK,ORG
+175,Deepun,GPE
+175,DMK,ORG
+175,BJP,ORG
+175,DMK,ORG
+175,One,CARDINAL
+175,India,GPE
+175,anti-sanatan,NORP
+175,sanatan dharma,ORG
+175,Ram,ORG
+175,DMK,ORG
+175,Maduray,ORG
+175,Madras,LOC
+175,Tamiladu,ORG
+175,Aarthikai Deepam,ORG
+175,Maduray,PRODUCT
+175,Madras,LOC
+175,DMK,ORG
+175,Earlier this week,DATE
+175,56,CARDINAL
+175,Swami Natan,PERSON
+175,DMK,ORG
+176,DMK,ORG
+176,today,DATE
+176,Deepatun,PERSON
+176,decade,DATE
+177,Pmod Madhav Bureau,ORG
+177,India,GPE
+177,today,DATE
+177,Madhav,PERSON
+177,two,CARDINAL
+177,One,CARDINAL
+177,Justice Senra,PERSON
+177,the Delhi High Court,ORG
+177,one,CARDINAL
+177,Justice Dingra,ORG
+177,first,ORDINAL
+177,the supreme court,ORG
+177,SLP,ORG
+178,three,CARDINAL
+178,two,CARDINAL
+179,20,CARDINAL
+179,TKS Ilan Gowan,ORG
+179,DMK,ORG
+179,Swami Natan,PERSON
+179,two,CARDINAL
+179,Deepam,ORG
+179,Barry Masjid,PERSON
+179,supreme court,ORG
+179,Supreme Court,ORG
+179,two,CARDINAL
+179,Supreme Court,ORG
+179,One,CARDINAL
+179,one,CARDINAL
+179,three,CARDINAL
+179,two,CARDINAL
+179,Supreme Court,ORG
+179,Supreme Court,ORG
+179,India,GPE
+179,Supreme Court,ORG
+179,five,CARDINAL
+179,seven,CARDINAL
+179,11,CARDINAL
+179,13,CARDINAL
+179,two,CARDINAL
+179,three,CARDINAL
+179,Dra,PERSON
+180,India,GPE
+180,Today,DATE
+180,Sarvan,PERSON
+180,Sarvan,PERSON
+180,DMK,ORG
+180,Rohan Gupta,PERSON
+180,the Bharty Jantaa party,ORG
+180,Ki Dhanjay,PERSON
+180,the Supreme Court,ORG
+180,Sarvan Anurak Takur,PERSON
+180,Hindus,NORP
+180,Tamil Nad,PERSON
+180,DMK,ORG
+180,Anurra Takur,PERSON
+180,Dingra,PERSON
+180,the Delhi High Court,ORG
+180,Muriel,PERSON
+180,midnight,TIME
+180,F,PRODUCT
+180,Maru Salona,PERSON
+180,Muriger,PERSON
+180,midnight,TIME
+180,the Madras High Court,ORG
+180,BJP,ORG
+180,BJP,ORG
+181,one,CARDINAL
+181,North India,LOC
+181,BJP,ORG
+181,Hinduism,NORP
+181,Foras Hinduism,PERSON
+181,sanatan dharma,PERSON
+181,Foras,PERSON
+181,Hinduism,GPE
+181,Hindus,NORP
+181,DMK,ORG
+181,BJP,ORG
+181,Sanatan Dharm,ORG
+181,Rohan Gupta,GPE
+181,Rohan Gupta,PERSON
+181,the Tamil Nad,FAC
+182,Hindu,NORP
+182,Sarvan,PERSON
+183,Hindu,NORP
+183,anti-Satan,NORP
+183,anti-Hindu,NORP
+183,Hindu,NORP
+183,India,GPE
+183,India,GPE
+183,India,GPE
+183,India,GPE
+183,Sanatan,LOC
+183,Sanatan,GPE
+183,Saran,PERSON
+183,Amita,PERSON
+183,Supreme,ORG
+183,one,CARDINAL
+183,one,CARDINAL
+183,one,CARDINAL
+183,one,CARDINAL
+184,Servan,PERSON
+184,Gupta,PERSON
+184,Servin,PERSON
+184,10 seconds,TIME
+184,Amita,PERSON
+184,Ramicha,PERSON
+184,one,CARDINAL
+184,one,CARDINAL
+184,Tamil Nadu,PERSON
+184,Tamil Nadu,PERSON
+184,Delhi,GPE
+184,Tamil Nadu,PERSON
+184,Justice Digra,PERSON
+184,Rohan,PERSON
+184,10 seconds,TIME
+184,Sarvan,PERSON
+184,Supreme Court,ORG
+184,Sanatan,GPE
+184,San,PERSON
+184,Dhan,PERSON
+184,Dhanjay,PERSON
+184,Dhanjay,PERSON
+185,DMK,ORG
+185,CISF,ORG
+186,Number two,CARDINAL
+187,the next 24 hours,TIME
+187,48 hours,TIME
+187,DMK,ORG
+188,Shakharay,GPE
+188,Shaker Ayar,PERSON
+188,DMK,ORG
+188,Tamil,GPE
+188,Hindus,NORP
+188,Muslims,NORP
+188,Babri,ORG
+188,Tamil Nad,PERSON
+188,Tamil Nad,PERSON
+188,DMK,ORG
+188,Badri,ORG
+188,Babri,ORG
+188,Vijay,ORG
+188,DMK,ORG
+188,all year,DATE
+188,all year,DATE
+188,Tamil Nad,PERSON
+188,Hindu,NORP
+188,Vijay,PERSON
+188,Tamili,ORG
+188,Sarvan,PERSON
+188,BJP,ORG
+188,Muslim,NORP
+188,two,CARDINAL
+188,DMK,ORG
+188,Hindus,NORP
+188,Muslim,NORP
+188,DMK,ORG
+188,Hindus,NORP
+188,BJP,ORG
+188,BJP,ORG
+188,Hindus,NORP
+188,Hindus,NORP
+188,BJP DMK,ORG
+188,Hindus,NORP
+188,triparang gundam,PERSON
+188,last 100 years,DATE
+188,BJP,ORG
+188,today,DATE
+188,India,GPE
+188,Deepam,ORG
+188,English,LANGUAGE
+188,existence some 100 years back,DATE
+188,Rohan Gupta,PERSON
+188,Gupta,PERSON
+188,DMK,ORG
+188,Tamil,GPE
+188,two minutes,TIME
+188,BJP,ORG
+188,Hindus Hindus,PERSON
+188,DMK,ORG
+188,supreme court,ORG
+188,Tamil Nadu,PERSON
+188,Hindus,NORP
+188,10 seconds,TIME
+188,10 seconds,TIME
+188,BJP,ORG
+188,India,GPE
+188,27%,PERCENT
+188,MK,PERSON
+188,BJP,ORG
+188,Gentlemen,PERSON
+188,Dhanjay,PERSON
+188,Dhanjay,PERSON
+188,MPs,ORG
+188,DMK,ORG
+188,days,DATE
+188,midnight,TIME
+188,DMK,ORG
+188,DMK,ORG
+188,India,GPE
+188,the Congress party,ORG
+188,the samajwadi party,ORG
+188,Udhav,GPE
+188,san chalak,GPE
+188,Tamil Nad,PERSON
+188,DMK,ORG
+188,Bhagwat,GPE
+188,RSS,ORG
+188,Hindu,NORP
+188,Tamil Nad,PERSON
+188,Thiruparan Kundaram,LOC
+188,kundam,PERSON
+188,six,CARDINAL
+188,muruga,PERSON
+188,Tamil,PERSON
+188,DMK,ORG
+188,DMK,ORG
+188,Davir,PERSON
+188,Hindu,NORP
+188,DMK,ORG
+188,Aayodhya,PERSON
+188,Muslims,NORP
+188,a particular day,DATE
+188,Kartika,PERSON
+190,the days,DATE
+190,weeks,DATE
+190,Pakistan,GPE
+190,Pakistan,GPE
+190,Shaw Sharif,PERSON
+190,Shabas Sharif,PERSON
+190,about 40 minutes,TIME
+190,5 minutes,TIME
+190,10 minutes,TIME
+190,40 minutes,TIME
+190,Russian,NORP
+190,Vladimir Putin,PERSON
+190,RT,GPE
+190,Pakistani,NORP
+190,Putin,PERSON
+190,Turkeykey,GPE
+190,Erdogan,PERSON
+190,minutes,TIME
+190,Navas Sharif,ORG
+190,Shavas Sharif,ORG
+190,Putin,PERSON
+190,Turkeykey,GPE
+190,Arduhan,PERSON
+190,Sharif,PERSON
+190,two,CARDINAL
+190,Gita Mo,PERSON
+190,Gita,PERSON
+190,40 minutes,TIME
+190,40 minutes,TIME
+190,Putin,PERSON
+190,two,CARDINAL
+190,Turkey,GPE
+190,Russia,GPE
+190,Pakistan,GPE
+190,Turkey,GPE
+190,Russia,GPE
+190,Russia,GPE
+190,Pakistan,GPE
+190,Kangana Ranaut,PERSON
+190,abal,PERSON
+191,Sharif,PERSON
+191,Pakistan,GPE
+191,India,GPE
+191,Today,DATE
+191,50th,ORDINAL
+191,India,GPE
+191,Today,DATE
+191,NC,GPE
+191,five decades,DATE
+191,India,GPE
+191,today,DATE
+191,India,GPE
+191,This December,DATE
+191,50th,ORDINAL
+191,India,GPE
+191,Today,DATE
+191,India,GPE
+191,Five decades,DATE
+191,one,CARDINAL
+191,India,GPE
+191,this December,DATE
+191,India,GPE
+191,Today,DATE
+191,100 million,CARDINAL
+191,The India Today,ORG
+191,50 years,DATE
+191,the national stock exchange ceremonial bell,ORG
+191,India,GPE
+191,two,CARDINAL
+191,India,GPE
+191,India,GPE
+191,4 3,CARDINAL
+191,the National Stock Exchange,ORG
+191,Mumbai,GPE
+191,Arun Puri,PERSON
+191,the India Today,ORG
+191,Khalipuri,GPE
+191,India,GPE
+191,India,GPE
+191,This afternoon,TIME
+191,the National Stock Exchange,ORG
+191,India,GPE
+191,Today,DATE
+191,50 years,DATE
+191,NC,GPE
+191,India,GPE
+191,two,CARDINAL
+191,India,GPE
+191,50-year,DATE
+191,India,GPE
+191,Today,DATE
+191,Today,DATE
+191,India,GPE
+191,1975,DATE
+191,India,GPE
+191,every single day,DATE
+191,India,GPE
+191,50 remarkable years,DATE
+191,today,DATE
+191,India,GPE
+191,India,GPE
+191,today,DATE
+191,India,GPE
+191,50 years,DATE
+191,India,GPE
+191,today,DATE
+191,AI,GPE
+191,12 seconds,TIME
+191,11,CARDINAL
+192,India,GPE
+192,today,DATE
+192,NYD,ORG
+192,India,GPE
+192,Muri,PERSON
+192,Nifty,NORP
+192,"26,000",CARDINAL
+192,first,ORDINAL
+192,5 days,DATE
+192,Business Today,ORG
+192,2025,DATE
+192,Business Today TV,ORG
+192,India,GPE
+192,Today,DATE
+192,100 million,CARDINAL
+192,India,GPE
+192,Today,DATE
+192,Delhi,GPE
+193,India,GPE
+193,Today,DATE
+193,Rahul Gandhi,PERSON
+193,the Lok Sabha,FAC
+193,Kiran Rajigu,PERSON
+193,urg,PERSON
+193,India,GPE
+193,today,DATE
+193,millions,CARDINAL
+193,these days,DATE
+193,zero hour,TIME
+193,one,CARDINAL
+193,the next 5 or 10 years,DATE
+193,the day one,DATE
+193,Rahul Gandhi G. Government,PERSON
+193,BAC,ORG
+193,the second day in a row,DATE
+193,DMC,ORG
+193,Shogata Roy,PERSON
