@@ -1,4 +1,7 @@
-numpy==2.5.1
-pandas==3.0.5
-python-dateutil==2.9.0.post0
-six==1.17.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+scikit-learn==1.9.0
+sentence-transformers==6.0.1
+spacy==3.8.16
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+youtube-transcript-api==1.2.4
