@@ -1,71 +1,152 @@
-# Unsupervised Narrative Segmentation & Entity Extraction
+# Unsupervised Narrative Segmentation & Entity Extraction from Noisy ASR Transcripts
 
-An NLP pipeline for converting long, noisy, auto-generated YouTube news transcripts into meaningful narrative segments with timestamps and extracted entities.
+An end-to-end Natural Language Processing (NLP) pipeline for transforming long, noisy, automatically generated YouTube news transcripts into structured narrative stories with timestamps, topics, keywords, and named entities.
 
-## Problem
+---
 
-News reporters often discuss multiple stories continuously without explicit topic boundaries. Automatically generated YouTube transcripts are also noisy and usually lack reliable punctuation and sentence boundaries.
+## 📌 Project Overview
 
-This project uses an unsupervised semantic approach to identify likely narrative boundaries.
+Long-form news videos often contain multiple news stories presented continuously without explicit boundaries.
 
-## Pipeline
+Automatically generated YouTube transcripts make this problem more difficult because they commonly contain:
 
-YouTube Transcript
-→ Preprocessing & Exploration
-→ Fixed-size Word Windows
-→ Sentence Embeddings
-→ Consecutive Cosine Similarity
-→ Unsupervised Boundary Detection
-→ Narrative Segmentation
-→ Named Entity Recognition
-→ Structured JSON Output
+- Missing or unreliable punctuation
+- Incorrect words caused by Automatic Speech Recognition (ASR)
+- Poor sentence boundaries
+- Repeated phrases
+- Long continuous streams of text
+- No explicit indication of where one story ends and another begins
 
-## Method
+This project addresses the problem using an **unsupervised semantic narrative segmentation approach**.
 
-1. Extract the transcript using `youtube-transcript-api`.
-2. Explore transcript length, snippets, punctuation and word distribution.
-3. Divide the transcript into fixed 75-word windows.
-4. Generate 384-dimensional semantic embeddings using `all-MiniLM-L6-v2`.
-5. Calculate cosine similarity between consecutive windows.
-6. Detect potential narrative boundaries using a statistical similarity threshold.
-7. Filter closely adjacent boundaries.
-8. Construct narrative segments with timestamps.
-9. Extract named entities using spaCy's `en_core_web_sm`.
-10. Store the final segments and entities in structured JSON.
+Instead of requiring manually labelled story boundaries, the system:
 
-## Output
+1. Extracts the transcript from a YouTube video.
+2. Preprocesses and explores the transcript.
+3. Divides the transcript into fixed-size semantic windows.
+4. Converts each window into a sentence embedding.
+5. Calculates semantic similarity between consecutive windows.
+6. Detects potential narrative boundaries from significant changes in similarity.
+7. Constructs timestamped narrative segments.
+8. Assigns semantic topic categories to the segments.
+9. Extracts named entities using Named Entity Recognition (NER).
+10. Extracts important keywords.
+11. Produces structured JSON output.
+12. Displays the results through a Streamlit web application.
 
-The final output contains:
+---
 
-- Segment ID
-- Start timestamp
-- End timestamp
-- Word count
-- Segment text
-- Extracted entities and their labels
+# 🎯 Problem Statement
 
-The current transcript produces **133 narrative segments**.
+Given a long YouTube news video containing noisy ASR-generated subtitles:
 
-## Technologies
+> **Automatically identify meaningful narrative/story boundaries and extract useful structured information from each story without relying on manually labelled segmentation data.**
 
-- Python
-- pandas
-- NumPy
-- Sentence Transformers
-- scikit-learn
-- spaCy
-- YouTube Transcript API
+The system is designed for long-form news content where multiple topics can occur within the same transcript.
 
-## Project Structure
+---
+
+# 💡 Core Idea
+
+The central assumption of this project is:
+
+> **When the narrative changes, the semantic similarity between neighbouring portions of the transcript is likely to decrease.**
+
+For example:
 
 ```text
-news-pipeline/
-├── notebooks/
-│   └── 01_data_exploration.ipynb
-├── data/
-│   ├── narrative_segments.csv
-│   ├── entities.csv
-│   └── final_segments.json
-├── requirements.txt
-├── README.md
-└── .gitignore
+Window A:
+"The government introduced a new climate bill..."
+                    ↓
+              HIGH SIMILARITY
+                    ↓
+Window B:
+"Parliament members debated the proposed legislation..."
+
+The semantic content has changed substantially.
+
+The system uses these semantic changes as signals for possible narrative boundaries.
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                         ┌──────────────────────┐
+                         │     YouTube URL      │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Transcript Extraction│
+                         │ youtube-transcript-  │
+                         │ api                  │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Preprocessing & EDA  │
+                         │                      │
+                         │ Words / Characters  │
+                         │ Snippets / Timing   │
+                         │ Punctuation         │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Semantic Windowing   │
+                         │                      │
+                         │ Fixed 75-word       │
+                         │ windows              │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Sentence Embeddings  │
+                         │ all-MiniLM-L6-v2     │
+                         │ 384 dimensions       │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Consecutive Cosine   │
+                         │ Similarity            │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Boundary Detection   │
+                         │                      │
+                         │ Statistical          │
+                         │ Thresholding         │
+                         │ Local Minima         │
+                         │ Segment Constraints  │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Narrative Segments   │
+                         │ + Timestamps         │
+                         └──────────┬───────────┘
+                                    │
+                    ┌───────────────┼────────────────┐
+                    │               │                │
+                    ▼               ▼                ▼
+          ┌────────────────┐ ┌──────────────┐ ┌──────────────┐
+          │ Topic          │ │ Named Entity │ │ Keyword      │
+          │ Classification │ │ Recognition  │ │ Extraction   │
+          └───────┬────────┘ └──────┬───────┘ └──────┬───────┘
+                  │                 │                │
+                  └─────────────────┼────────────────┘
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Structured JSON      │
+                         │ Output               │
+                         └──────────┬───────────┘
+                                    │
+                                    ▼
+                         ┌──────────────────────┐
+                         │ Streamlit Application│
+                         └──────────────────────┘
+
+                         
