@@ -35,7 +35,6 @@ video_url = st.text_input(
 if st.button("Analyze Video", type="primary"):
 
     if not video_url:
-
         st.warning(
             "Please enter a YouTube URL."
         )
@@ -56,6 +55,7 @@ if st.button("Analyze Video", type="primary"):
                 video_id
             )
 
+
         # --------------------------------------------------
         # Metadata
         # --------------------------------------------------
@@ -72,10 +72,12 @@ if st.button("Analyze Video", type="primary"):
             "segmentation_quality"
         ]
 
+
         st.success(
             f"Found {metadata['total_stories']} "
             f"narrative stories."
         )
+
 
         # --------------------------------------------------
         # Summary
@@ -83,19 +85,25 @@ if st.button("Analyze Video", type="primary"):
 
         col1, col2, col3 = st.columns(3)
 
+
         with col1:
+
             st.metric(
                 "Stories",
                 metadata["total_stories"]
             )
 
+
         with col2:
+
             st.metric(
                 "Duration",
                 f"{metadata['duration_minutes']:.1f} min"
             )
 
+
         with col3:
+
             st.metric(
                 "Topics",
                 len(
@@ -103,7 +111,9 @@ if st.button("Analyze Video", type="primary"):
                 )
             )
 
+
         st.divider()
+
 
         # --------------------------------------------------
         # Story Display
@@ -117,29 +127,46 @@ if st.button("Analyze Video", type="primary"):
                 f"{story['subtopic']}"
             ):
 
+                # Timestamps are already formatted
+                # by pipeline.py as strings such as 1:05.
                 st.write(
-                    f"⏱️ **{story['timestamp_start']:.1f}s "
-                    f"→ {story['timestamp_end']:.1f}s**"
+                    f"⏱️ **{story['timestamp_start']} "
+                    f"→ {story['timestamp_end']}**"
                 )
+
 
                 st.write(
                     f"**Topic:** {story['topic']}"
                 )
 
+
                 st.write(
                     f"**Subtopic:** {story['subtopic']}"
                 )
+
+
+                st.write(
+                    f"**Confidence:** "
+                    f"{story['confidence_score']:.3f}"
+                )
+
 
                 st.write(
                     f"**Words:** "
                     f"{len(story['raw_text'].split())}"
                 )
 
+
+                # --------------------------------------------------
+                # Transcript
+                # --------------------------------------------------
+
                 st.write("### Transcript")
 
                 st.write(
                     story["raw_text"]
                 )
+
 
                 # --------------------------------------------------
                 # Entities
@@ -149,6 +176,7 @@ if st.button("Analyze Video", type="primary"):
 
                 st.write("### Entities")
 
+
                 for category, entity_list in entities.items():
 
                     if entity_list:
@@ -156,6 +184,7 @@ if st.button("Analyze Video", type="primary"):
                         st.write(
                             f"**{category.title()}**"
                         )
+
 
                         for entity in entity_list:
 
@@ -170,6 +199,7 @@ if st.button("Analyze Video", type="primary"):
                                 st.write(
                                     f"- {entity['value']}"
                                 )
+
 
                 # --------------------------------------------------
                 # Keywords

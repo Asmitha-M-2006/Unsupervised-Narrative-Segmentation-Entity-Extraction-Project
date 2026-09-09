@@ -65,11 +65,6 @@ def create_windows(transcript, window_size=75):
     Convert small ASR transcript snippets into fixed-size
     word windows.
 
-    Why:
-        ASR snippets are too short and noisy to compare directly.
-        Grouping approximately 75 words gives the embedding model
-        enough context to represent the underlying topic.
-
     Args:
         transcript: Fetched transcript snippets.
         window_size (int): Number of words per semantic window.
@@ -113,7 +108,7 @@ def create_windows(transcript, window_size=75):
             current_start = None
             current_end = None
 
-    # Preserve the final partial window.
+    # Preserve final partial window.
     if current_words:
 
         windows.append(
@@ -145,7 +140,10 @@ def create_embeddings(windows):
 
     model = load_embedding_model()
 
-    texts = [window["text"] for window in windows]
+    texts = [
+        window["text"]
+        for window in windows
+    ]
 
     embeddings = model.encode(
         texts,
@@ -160,25 +158,177 @@ def create_embeddings(windows):
 # NARRATIVE SEGMENTATION
 # ============================================================
 
+def _calculate_consecutive_similarity(embeddings):
+    """
+    Calculate cosine similarity between consecutive windows.
+
+    Args:
+        embeddings (np.ndarray): Window embeddings.
+
+    Returns:
+        np.ndarray: Similarity between every consecutive pair.
+    """
+
+    if len(embeddings) < 2:
+        return np.array([])
+
+    similarities = cosine_similarity(
+        embeddings[:-1],
+        embeddings[1:]
+    ).diagonal()
+
+    return np.asarray(
+        similarities,
+        dtype=np.float32
+    )
+
+
+def _smooth_similarity(
+    similarities,
+    smoothing_radius=2
+):
+    """
+    Smooth the consecutive similarity curve.
+
+    This reduces isolated noisy similarity changes caused
+    by ASR errors.
+
+    Args:
+        similarities (np.ndarray): Raw similarities.
+        smoothing_radius (int): Smoothing radius.
+
+    Returns:
+        np.ndarray: Smoothed similarities.
+    """
+
+    if len(similarities) == 0:
+        return similarities
+
+    kernel_size = (
+        smoothing_radius * 2
+    ) + 1
+
+    kernel = (
+        np.ones(kernel_size, dtype=np.float32)
+        / kernel_size
+    )
+
+    padded = np.pad(
+        similarities,
+        (
+            smoothing_radius,
+            smoothing_radius
+        ),
+        mode="edge"
+    )
+
+    return np.convolve(
+        padded,
+        kernel,
+        mode="valid"
+    )
+
+
+def _calculate_context_change(
+    embeddings,
+    radius=4
+):
+    """
+    Measure semantic change around every possible boundary.
+
+    Instead of comparing only:
+
+        window i <-> window i+1
+
+    we compare:
+
+        average(previous context)
+                    vs
+        average(next context)
+
+    This makes the score more representative of a narrative
+    transition rather than a small local change.
+
+    Args:
+        embeddings (np.ndarray): Window embeddings.
+        radius (int): Number of windows used on each side.
+
+    Returns:
+        np.ndarray: Context-change score for each boundary.
+    """
+
+    if len(embeddings) < (radius * 2 + 1):
+        return np.zeros(
+            max(len(embeddings) - 1, 0),
+            dtype=np.float32
+        )
+
+    scores = np.zeros(
+        len(embeddings) - 1,
+        dtype=np.float32
+    )
+
+    for boundary in range(
+        radius,
+        len(embeddings) - radius
+    ):
+
+        left_context = embeddings[
+            boundary - radius:boundary
+        ]
+
+        right_context = embeddings[
+            boundary + 1:boundary + radius + 1
+        ]
+
+        left_mean = np.mean(
+            left_context,
+            axis=0,
+            keepdims=True
+        )
+
+        right_mean = np.mean(
+            right_context,
+            axis=0,
+            keepdims=True
+        )
+
+        similarity = cosine_similarity(
+            left_mean,
+            right_mean
+        )[0][0]
+
+        scores[boundary] = 1.0 - similarity
+
+    return scores
+
+
 def _find_candidate_boundaries(
     similarities,
+    context_change,
     threshold,
+    context_threshold,
     local_radius=2
 ):
     """
-    Find strong local semantic drops.
+    Find candidate narrative boundaries.
 
-    A point is considered a candidate boundary when:
-        1. Its similarity is below the global threshold.
-        2. It is a local minimum compared with nearby windows.
+    A candidate must satisfy two conditions:
 
-    This is better than simply selecting every similarity value
-    below the threshold.
+    1. Consecutive similarity is locally low.
+    2. The broader context on either side is sufficiently
+       different.
+
+    This prevents small changes inside the same story from
+    being treated as narrative boundaries.
     """
 
     candidates = []
 
-    for i in range(local_radius, len(similarities) - local_radius):
+    for i in range(
+        local_radius,
+        len(similarities) - local_radius
+    ):
 
         current = similarities[i]
 
@@ -197,9 +347,13 @@ def _find_candidate_boundaries(
             [left, right]
         )
 
-        if current <= np.min(neighborhood):
+        if current > np.min(neighborhood):
+            continue
 
-            candidates.append(i)
+        if context_change[i] < context_threshold:
+            continue
+
+        candidates.append(i)
 
     return candidates
 
@@ -207,27 +361,34 @@ def _find_candidate_boundaries(
 def _select_boundaries(
     candidates,
     similarities,
+    context_change,
     min_segment_windows
 ):
     """
-    Select candidate boundaries while enforcing a minimum
-    distance between consecutive boundaries.
+    Select the strongest candidate boundaries.
 
-    If multiple candidate boundaries are too close together,
-    keep the strongest semantic drop.
+    Candidates that occur close to each other are treated as
+    belonging to the same transition region. Only the strongest
+    boundary in that region is retained.
+
+    Boundary strength combines:
+
+        - semantic context change
+        - local similarity drop
     """
 
     if not candidates:
         return []
 
-    selected = []
-
-    # Process candidates from strongest semantic drop
-    # to weakest.
     ranked = sorted(
         candidates,
-        key=lambda i: similarities[i]
+        key=lambda i: (
+            -context_change[i],
+            similarities[i]
+        )
     )
+
+    selected = []
 
     for candidate in ranked:
 
@@ -263,7 +424,10 @@ def _add_max_length_boundaries(
 
     for boundary in boundaries:
 
-        while boundary - previous > max_segment_windows:
+        while (
+            boundary - previous
+            > max_segment_windows
+        ):
 
             start = previous + 1
 
@@ -275,13 +439,17 @@ def _add_max_length_boundaries(
             if end <= start:
                 break
 
-            local_range = similarities[start:end]
+            local_range = similarities[
+                start:end
+            ]
 
             forced_offset = int(
                 np.argmin(local_range)
             )
 
-            forced_boundary = start + forced_offset
+            forced_boundary = (
+                start + forced_offset
+            )
 
             if (
                 result
@@ -289,14 +457,21 @@ def _add_max_length_boundaries(
             ):
                 break
 
-            result.append(forced_boundary)
+            result.append(
+                forced_boundary
+            )
+
             previous = forced_boundary
 
         result.append(boundary)
+
         previous = boundary
 
-    # Handle the final segment.
-    while total_windows - 1 - previous > max_segment_windows:
+    # Handle final segment.
+    while (
+        total_windows - 1 - previous
+        > max_segment_windows
+    ):
 
         start = previous + 1
 
@@ -308,13 +483,17 @@ def _add_max_length_boundaries(
         if end <= start:
             break
 
-        local_range = similarities[start:end]
+        local_range = similarities[
+            start:end
+        ]
 
         forced_offset = int(
             np.argmin(local_range)
         )
 
-        forced_boundary = start + forced_offset
+        forced_boundary = (
+            start + forced_offset
+        )
 
         if (
             result
@@ -322,132 +501,165 @@ def _add_max_length_boundaries(
         ):
             break
 
-        result.append(forced_boundary)
+        result.append(
+            forced_boundary
+        )
+
         previous = forced_boundary
 
-    return sorted(set(result))
+    return sorted(
+        set(result)
+    )
 
 
 def detect_boundaries(
     embeddings,
-    min_segment_windows=20,
+    min_segment_windows=12,
     max_segment_windows=100,
-    smoothing_radius=2
+    smoothing_radius=2,
+    context_radius=4
 ):
     """
-    Detect narrative boundaries using consecutive semantic
-    similarity.
+    Detect narrative boundaries using semantic context change.
 
     Pipeline:
 
         embeddings
             ↓
-        cosine similarity
+        consecutive cosine similarity
             ↓
-        local smoothing
+        similarity smoothing
             ↓
-        adaptive threshold
+        broader context comparison
             ↓
-        local semantic minima
+        adaptive thresholds
+            ↓
+        candidate boundaries
             ↓
         minimum-distance filtering
             ↓
         maximum-length protection
 
     Args:
-        embeddings (np.ndarray): Window embeddings.
-        min_segment_windows (int): Minimum distance between
-            narrative boundaries.
-        max_segment_windows (int): Maximum allowed segment length.
-        smoothing_radius (int): Radius used for local smoothing.
+        embeddings (np.ndarray):
+            Window embeddings.
+
+        min_segment_windows (int):
+            Minimum distance between selected boundaries.
+
+        max_segment_windows (int):
+            Maximum allowed segment length.
+
+        smoothing_radius (int):
+            Radius for similarity smoothing.
+
+        context_radius (int):
+            Number of windows compared on each side.
 
     Returns:
         tuple:
-            boundaries: List of boundary indices.
-            similarities: Raw consecutive similarities.
+            boundaries
+            raw consecutive similarities
     """
 
     if len(embeddings) < 2:
         return [], np.array([])
 
-    similarities = cosine_similarity(
-        embeddings[:-1],
-        embeddings[1:]
-    ).diagonal()
+    # --------------------------------------------------------
+    # 1. Consecutive semantic similarity
+    # --------------------------------------------------------
 
-    similarities = np.asarray(
+    similarities = (
+        _calculate_consecutive_similarity(
+            embeddings
+        )
+    )
+
+    # --------------------------------------------------------
+    # 2. Smooth the similarity curve
+    # --------------------------------------------------------
+
+    smoothed = _smooth_similarity(
         similarities,
-        dtype=np.float32
+        smoothing_radius
     )
 
     # --------------------------------------------------------
-    # Smooth the similarity curve.
-    #
-    # This reduces the effect of one noisy ASR window causing
-    # an artificial boundary.
+    # 3. Calculate broader context change
     # --------------------------------------------------------
 
-    kernel_size = (
-        smoothing_radius * 2
-    ) + 1
-
-    kernel = np.ones(
-        kernel_size,
-        dtype=np.float32
-    ) / kernel_size
-
-    padded = np.pad(
-        similarities,
-        (
-            smoothing_radius,
-            smoothing_radius
-        ),
-        mode="edge"
-    )
-
-    smoothed = np.convolve(
-        padded,
-        kernel,
-        mode="valid"
+    context_change = (
+        _calculate_context_change(
+            embeddings,
+            radius=context_radius
+        )
     )
 
     # --------------------------------------------------------
-    # Adaptive threshold.
-    #
-    # We do not use a fixed similarity value because different
-    # videos naturally have different similarity distributions.
+    # 4. Adaptive thresholds
     # --------------------------------------------------------
 
-    mean_similarity = np.mean(smoothed)
-    std_similarity = np.std(smoothed)
-
-    threshold = (
-        mean_similarity
-        - 0.90 * std_similarity
+    similarity_mean = np.mean(
+        smoothed
     )
 
+    similarity_std = np.std(
+        smoothed
+    )
+
+    similarity_threshold = (
+        similarity_mean
+        - 0.90 * similarity_std
+    )
+
+    valid_context = context_change[
+        context_change > 0
+    ]
+
+    if len(valid_context) > 0:
+
+        context_mean = np.mean(
+            valid_context
+        )
+
+        context_std = np.std(
+            valid_context
+        )
+
+        context_threshold = (
+            context_mean
+            + 0.50 * context_std
+        )
+
+    else:
+
+        context_threshold = 0.0
+
     # --------------------------------------------------------
-    # Candidate boundaries.
+    # 5. Candidate boundaries
     # --------------------------------------------------------
 
     candidates = _find_candidate_boundaries(
         smoothed,
-        threshold,
+        context_change,
+        similarity_threshold,
+        context_threshold,
         local_radius=smoothing_radius
     )
 
     # --------------------------------------------------------
-    # Remove candidates that are too close together.
+    # 6. Select strongest boundaries
     # --------------------------------------------------------
 
     boundaries = _select_boundaries(
         candidates,
         smoothed,
+        context_change,
         min_segment_windows
     )
 
     # --------------------------------------------------------
-    # Prevent extremely long stories.
+    # 7. Prevent extremely long segments
     # --------------------------------------------------------
 
     boundaries = _add_max_length_boundaries(
@@ -473,7 +685,7 @@ def build_segments(windows, boundaries):
         boundaries (list[int]): Boundary indices.
 
     Returns:
-        list[dict]: Narrative segments with timestamps.
+        list[dict]: Narrative segments.
     """
 
     if not windows:
@@ -512,7 +724,9 @@ def build_segments(windows, boundaries):
             }
         )
 
-        start_window = end_window + 1
+        start_window = (
+            end_window + 1
+        )
 
     # Final segment.
     if start_window < len(windows):
@@ -546,23 +760,6 @@ def build_segments(windows, boundaries):
 def extract_entities(segments):
     """
     Extract named entities from each narrative segment.
-
-    spaCy is used for:
-        PERSON
-        GPE
-        LOC
-        FAC
-        ORG
-        CARDINAL
-        ORDINAL
-        PERCENT
-        QUANTITY
-
-    Args:
-        segments (list[dict]): Narrative segments.
-
-    Returns:
-        list[dict]: Segments with entity information.
     """
 
     nlp = load_nlp_model()
@@ -589,7 +786,9 @@ def extract_entities(segments):
 
             if ent.label_ == "PERSON":
 
-                entities["people"].append(item)
+                entities["people"].append(
+                    item
+                )
 
             elif ent.label_ in {
                 "GPE",
@@ -597,11 +796,15 @@ def extract_entities(segments):
                 "FAC"
             }:
 
-                entities["places"].append(item)
+                entities["places"].append(
+                    item
+                )
 
             elif ent.label_ == "ORG":
 
-                entities["organizations"].append(item)
+                entities["organizations"].append(
+                    item
+                )
 
             elif ent.label_ in {
                 "CARDINAL",
@@ -627,6 +830,7 @@ def extract_entities(segments):
 # ============================================================
 
 TOPIC_DESCRIPTIONS = {
+
     "Politics": (
         "politics, government, elections, parliament, "
         "ministers, political parties, legislation and policy"
@@ -677,12 +881,7 @@ TOPIC_DESCRIPTIONS = {
 @lru_cache(maxsize=1)
 def create_topic_embeddings():
     """
-    Create embeddings for the predefined topic descriptions.
-
-    Returns:
-        tuple:
-            topic names
-            topic embeddings
+    Create embeddings for predefined topic descriptions.
     """
 
     model = load_embedding_model()
@@ -707,12 +906,6 @@ def create_topic_embeddings():
 def classify_topic(text):
     """
     Assign the most semantically similar predefined topic.
-
-    Args:
-        text (str): Narrative segment text.
-
-    Returns:
-        str: Predicted topic.
     """
 
     model = load_embedding_model()
@@ -748,16 +941,6 @@ def extract_keywords(
 ):
     """
     Extract simple frequency-based keywords.
-
-    Uses nouns, proper nouns and adjectives while removing
-    stopwords and very short words.
-
-    Args:
-        text (str): Segment text.
-        max_keywords (int): Maximum keywords to return.
-
-    Returns:
-        list[str]: Keywords.
     """
 
     nlp = load_nlp_model()
@@ -788,7 +971,9 @@ def extract_keywords(
             token.text.lower()
         )
 
-    counts = Counter(candidates)
+    counts = Counter(
+        candidates
+    )
 
     return [
         word
@@ -809,8 +994,10 @@ def enrich_segments(segments):
 
     for segment in segments:
 
-        segment["topic"] = classify_topic(
-            segment["text"]
+        segment["topic"] = (
+            classify_topic(
+                segment["text"]
+            )
         )
 
         segment["keywords"] = (
@@ -822,7 +1009,9 @@ def enrich_segments(segments):
         segment["subtopic"] = (
             " ".join(
                 word.title()
-                for word in segment["keywords"][:3]
+                for word in segment[
+                    "keywords"
+                ][:3]
             )
         )
 
@@ -839,20 +1028,16 @@ def calculate_confidence(
     similarities
 ):
     """
-    Estimate confidence for each segment.
+    Estimate segmentation confidence.
 
-    Important:
-        This is a heuristic confidence score, NOT a calibrated
-        probability.
-
-    Lower similarity at a boundary means a stronger semantic
-    transition and therefore higher segmentation confidence.
+    This is a heuristic score, not a calibrated probability.
     """
 
     if not segments:
         return []
 
     if len(similarities) == 0:
+
         for segment in segments:
             segment["confidence"] = 0.5
 
@@ -862,7 +1047,10 @@ def calculate_confidence(
 
     for boundary in boundaries:
 
-        if 0 <= boundary < len(similarities):
+        if (
+            0 <= boundary
+            < len(similarities)
+        ):
 
             boundary_scores.append(
                 similarities[boundary]
@@ -891,23 +1079,38 @@ def calculate_confidence(
 
         if index < len(boundaries):
 
-            boundary = boundaries[index]
+            boundary = boundaries[
+                index
+            ]
 
-            if 0 <= boundary < len(similarities):
+            if (
+                0 <= boundary
+                < len(similarities)
+            ):
 
                 similarity = (
-                    similarities[boundary]
+                    similarities[
+                        boundary
+                    ]
                 )
 
                 if max_score > min_score:
 
                     normalized = (
-                        (similarity - min_score)
-                        / (max_score - min_score)
+                        (
+                            similarity
+                            - min_score
+                        )
+                        /
+                        (
+                            max_score
+                            - min_score
+                        )
                     )
 
                     confidence = (
-                        1.0 - normalized
+                        1.0
+                        - normalized
                     )
 
         segment["confidence"] = round(
@@ -930,16 +1133,18 @@ def calculate_confidence(
 
 def _format_timestamp(seconds):
     """
-    Convert seconds into a human-readable timestamp.
-
-    Example:
-        65.4 -> 1:05
+    Convert seconds to m:ss format.
     """
 
     seconds = int(seconds)
 
-    minutes = seconds // 60
-    remaining_seconds = seconds % 60
+    minutes = (
+        seconds // 60
+    )
+
+    remaining_seconds = (
+        seconds % 60
+    )
 
     return (
         f"{minutes}:"
@@ -950,9 +1155,6 @@ def _format_timestamp(seconds):
 def build_final_output(segments):
     """
     Build the final JSON-compatible project output.
-
-    Returns:
-        dict: Final structured result.
     """
 
     if not segments:
@@ -964,7 +1166,9 @@ def build_final_output(segments):
                 "duration_minutes": 0,
                 "total_stories": 0
             },
+
             "stories": [],
+
             "segmentation_quality": {
                 "total_segments": 0,
                 "average_confidence": 0,
@@ -981,6 +1185,7 @@ def build_final_output(segments):
     ):
 
         story = {
+
             "story_id": (
                 f"story_{index:03d}"
             ),
@@ -995,20 +1200,28 @@ def build_final_output(segments):
                 ""
             ),
 
-            "timestamp_start": _format_timestamp(
-                segment["start"]
+            "timestamp_start": (
+                _format_timestamp(
+                    segment["start"]
+                )
             ),
 
-            "timestamp_end": _format_timestamp(
-                segment["end"]
+            "timestamp_end": (
+                _format_timestamp(
+                    segment["end"]
+                )
             ),
 
-            "confidence_score": segment.get(
-                "confidence",
-                0.5
+            "confidence_score": (
+                segment.get(
+                    "confidence",
+                    0.5
+                )
             ),
 
-            "raw_text": segment["text"],
+            "raw_text": segment[
+                "text"
+            ],
 
             "entities": segment.get(
                 "entities",
@@ -1026,7 +1239,9 @@ def build_final_output(segments):
             )
         }
 
-        stories.append(story)
+        stories.append(
+            story
+        )
 
     confidences = [
         story["confidence_score"]
@@ -1040,8 +1255,6 @@ def build_final_output(segments):
         )
     )
 
-    # Stories with relatively weak confidence are flagged
-    # for manual review.
     requires_manual_review = [
         story["story_id"]
         for story in stories
@@ -1049,28 +1262,43 @@ def build_final_output(segments):
     ]
 
     duration_minutes = (
-        segments[-1]["end"] / 60
+        segments[-1]["end"]
+        / 60
     )
 
     return {
+
         "bulletin_metadata": {
-            "source": "YouTube News Bulletin",
+
+            "source": (
+                "YouTube News Bulletin"
+            ),
+
             "date": None,
+
             "duration_minutes": round(
                 duration_minutes,
                 2
             ),
-            "total_stories": len(stories)
+
+            "total_stories": len(
+                stories
+            )
         },
 
         "stories": stories,
 
         "segmentation_quality": {
-            "total_segments": len(stories),
+
+            "total_segments": len(
+                stories
+            ),
 
             "average_confidence": round(
                 float(
-                    np.mean(confidences)
+                    np.mean(
+                        confidences
+                    )
                 ),
                 3
             ),
@@ -1102,7 +1330,7 @@ def analyze_video(video_id):
             ↓
         Sentence embeddings
             ↓
-        Semantic similarity
+        Semantic context comparison
             ↓
         Unsupervised boundary detection
             ↓
@@ -1117,12 +1345,6 @@ def analyze_video(video_id):
         Keyword extraction
             ↓
         Structured JSON output
-
-    Args:
-        video_id (str): YouTube video ID.
-
-    Returns:
-        dict: Final structured analysis.
     """
 
     # --------------------------------------------------------
@@ -1157,7 +1379,7 @@ def analyze_video(video_id):
     boundaries, similarities = (
         detect_boundaries(
             embeddings,
-            min_segment_windows=20,
+            min_segment_windows=12,
             max_segment_windows=100
         )
     )
@@ -1213,7 +1435,7 @@ def analyze_video(video_id):
         )
 
     # --------------------------------------------------------
-    # 10. Build final JSON-compatible result
+    # 10. Build final JSON result
     # --------------------------------------------------------
 
     return build_final_output(
