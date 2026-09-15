@@ -678,15 +678,22 @@ Unsupervised-Narrative-Segmentation-Entity-Extraction-Project/
 │   └── pipeline.py
 │
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   └── data/
-│       ├── entities.csv
-│       ├── final_segments.json
-│       └── narrative_segments.csv
+│   └── 01_data_exploration.ipynb
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── video_01/
+│   ├── video_02/
+│   ├── video_03/
+│   ├── video_04/
+│   └── video_05/
+│
+├── docs/
+│   ├── graphs/
+│   │   ├── stories_per_video.png
+│   │   ├── words_per_video.png
+│   │   └── entities_per_video.png
+│   ├── archi_dia.png
+│   └── index.html
 │
 ├── requirements.txt
 │
@@ -694,7 +701,6 @@ Unsupervised-Narrative-Segmentation-Entity-Extraction-Project/
 │
 └── .gitignore
 ```
-
 ---
 
 # 🚀 Installation
