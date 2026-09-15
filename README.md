@@ -1030,11 +1030,11 @@ to transform unstructured news transcripts into structured narrative information
 
 ## Project Presentation Video
 
-*To be added after the final screen-recorded presentation is uploaded.*
+*The final screen-recorded presentation will be embedded here after the recording is uploaded.*
 
 ## GitHub Project Website
 
-*To be added after GitHub Pages is configured.*
+The project website is available on GitHub Pages.
 
 ---
 
