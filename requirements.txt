@@ -4,5 +4,6 @@ matplotlib
 scikit-learn
 sentence-transformers
 spacy
+en_core_web_sm
 youtube-transcript-api
 streamlit
