@@ -18,152 +18,153 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                         Roboto, Helvetica, Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #222;
             line-height: 1.7;
-            color: #1f2937;
-            background: #f8fafc;
         }
 
         a {
-            color: inherit;
-        }
-
-        .hero {
-            background: linear-gradient(135deg, #111827, #1e3a8a);
-            color: white;
-            padding: 90px 20px 80px;
-            text-align: center;
-        }
-
-        .hero .tag {
-            display: inline-block;
-            padding: 7px 15px;
-            border: 1px solid rgba(255,255,255,0.3);
-            border-radius: 999px;
-            font-size: 0.85rem;
-            margin-bottom: 22px;
-            background: rgba(255,255,255,0.08);
-        }
-
-        .hero h1 {
-            max-width: 1000px;
-            margin: auto;
-            font-size: clamp(2.2rem, 5vw, 4rem);
-            line-height: 1.15;
-        }
-
-        .hero p {
-            max-width: 800px;
-            margin: 24px auto 0;
-            color: #dbeafe;
-            font-size: 1.15rem;
-        }
-
-        .hero-buttons {
-            margin-top: 32px;
-            display: flex;
-            justify-content: center;
-            gap: 14px;
-            flex-wrap: wrap;
-        }
-
-        .button {
-            display: inline-block;
+            color: #111;
             text-decoration: none;
-            padding: 12px 22px;
-            border-radius: 8px;
-            font-weight: 600;
-            background: white;
-            color: #1e3a8a;
         }
 
-        .button.secondary {
-            background: transparent;
-            color: white;
-            border: 1px solid rgba(255,255,255,0.5);
+        a:hover {
+            text-decoration: underline;
         }
 
         nav {
             position: sticky;
             top: 0;
-            z-index: 100;
-            background: rgba(255,255,255,0.96);
-            border-bottom: 1px solid #e5e7eb;
-            padding: 12px 15px;
+            z-index: 1000;
+            background: #111;
+            color: white;
+            padding: 14px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 14px;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            line-height: 1.15;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
             display: flex;
             justify-content: center;
-            gap: 18px;
+            gap: 15px;
             flex-wrap: wrap;
-            backdrop-filter: blur(10px);
         }
 
-        nav a {
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: #374151;
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            border-radius: 6px;
+            font-weight: bold;
+            border: 1px solid #111;
         }
 
-        nav a:hover {
-            color: #1d4ed8;
+        .btn-primary {
+            background: #111;
+            color: white;
         }
 
-        main {
-            max-width: 1150px;
-            margin: auto;
-            padding: 55px 20px;
+        .btn-secondary {
+            background: white;
+            color: #111;
         }
 
         section {
-            margin-bottom: 70px;
-            scroll-margin-top: 80px;
+            max-width: 1150px;
+            margin: auto;
+            padding: 80px 25px;
         }
 
         .section-title {
-            margin-bottom: 28px;
+            margin-bottom: 35px;
         }
 
         .section-title h2 {
-            font-size: 2rem;
-            color: #111827;
+            font-size: 32px;
+            margin-bottom: 10px;
         }
 
         .section-title p {
-            color: #6b7280;
-            margin-top: 7px;
+            color: #666;
         }
 
         .card {
             background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 14px;
+            border-radius: 10px;
             padding: 28px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 18px rgba(15,23,42,0.04);
+            margin-bottom: 25px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
         }
 
         .card h3 {
-            margin-bottom: 12px;
-            color: #111827;
+            margin-bottom: 15px;
+            font-size: 22px;
         }
 
-        .card p {
-            margin-bottom: 12px;
+        .card h4 {
+            margin-top: 20px;
+            margin-bottom: 8px;
         }
 
-        .card p:last-child {
-            margin-bottom: 0;
+        .card ul {
+            padding-left: 22px;
+        }
+
+        .card li {
+            margin-bottom: 7px;
         }
 
         .video-container {
             position: relative;
             width: 100%;
             padding-bottom: 56.25%;
-            height: 0;
+            background: #111;
+            border-radius: 10px;
             overflow: hidden;
-            border-radius: 12px;
-            background: #111827;
         }
 
         .video-container iframe {
@@ -176,210 +177,141 @@
         }
 
         .video-placeholder {
-            height: 100%;
-            width: 100%;
             position: absolute;
+            inset: 0;
             display: flex;
             align-items: center;
             justify-content: center;
+            color: #aaa;
             text-align: center;
-            color: #d1d5db;
-            padding: 30px;
-        }
-
-        .video-placeholder strong {
-            display: block;
-            color: white;
-            font-size: 1.2rem;
-            margin-bottom: 8px;
-        }
-
-        .architecture {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            align-items: stretch;
-        }
-
-        .architecture-step {
-            background: white;
-            border: 1px solid #dbeafe;
-            border-radius: 12px;
-            padding: 22px;
-            text-align: center;
-            position: relative;
-        }
-
-        .architecture-step .number {
-            width: 34px;
-            height: 34px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 12px;
-            border-radius: 50%;
-            background: #1d4ed8;
-            color: white;
-            font-weight: 700;
-        }
-
-        .architecture-step h3 {
-            font-size: 1rem;
-            margin-bottom: 7px;
-        }
-
-        .architecture-step p {
-            color: #6b7280;
-            font-size: 0.9rem;
-        }
-
-        .arrow {
-            display: none;
-        }
-
-        .pipeline {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .pipeline-item {
-            display: flex;
-            gap: 18px;
-            align-items: flex-start;
-            background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
             padding: 20px;
         }
 
-        .pipeline-number {
-            min-width: 38px;
-            height: 38px;
+        .architecture img {
+            width: 100%;
+            display: block;
             border-radius: 8px;
-            background: #eff6ff;
-            color: #1d4ed8;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-        }
-
-        .pipeline-item h3 {
-            margin-bottom: 5px;
-        }
-
-        .pipeline-item p {
-            color: #6b7280;
-            font-size: 0.95rem;
+            border: 1px solid #ddd;
         }
 
         .formula {
-            background: #111827;
-            color: #f9fafb;
-            padding: 24px;
-            border-radius: 12px;
-            margin: 18px 0;
+            background: #f1f1f1;
+            border-left: 4px solid #111;
+            padding: 15px 20px;
+            margin: 15px 0;
+            font-family: "Courier New", monospace;
             overflow-x: auto;
-            font-family: "SFMono-Regular", Consolas, monospace;
-            text-align: center;
-            font-size: 1rem;
         }
 
-        .code {
-            background: #111827;
-            color: #e5e7eb;
+        .pipeline {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .pipeline-step {
+            background: white;
             padding: 22px;
-            border-radius: 12px;
-            overflow-x: auto;
-            font-family: "SFMono-Regular", Consolas, monospace;
-            font-size: 0.9rem;
-            line-height: 1.6;
-            white-space: pre;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .pipeline-step strong {
+            display: block;
+            margin-bottom: 8px;
         }
 
         .stats {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 16px;
+            gap: 18px;
         }
 
         .stat {
             background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
-            padding: 24px;
+            padding: 25px;
+            border-radius: 10px;
             text-align: center;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
         }
 
         .stat strong {
             display: block;
-            font-size: 1.8rem;
-            color: #1d4ed8;
+            font-size: 32px;
+            margin-bottom: 5px;
         }
 
         .stat span {
-            color: #6b7280;
-            font-size: 0.9rem;
+            color: #666;
+            font-size: 14px;
         }
 
-        .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 14px;
-        }
-
-        .tech {
+        .graph-card {
             background: white;
-            border: 1px solid #e5e7eb;
+            padding: 25px;
             border-radius: 10px;
-            padding: 17px;
+            margin-top: 20px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
         }
 
-        .tech strong {
+        .graph-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .graph-card p {
+            color: #666;
+            margin-bottom: 18px;
+        }
+
+        .graph-card img {
+            width: 100%;
+            max-width: 950px;
             display: block;
-            margin-bottom: 4px;
-        }
-
-        .tech span {
-            color: #6b7280;
-            font-size: 0.9rem;
+            margin: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
         }
 
         .two-column {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            gap: 25px;
         }
 
-        ul {
-            padding-left: 22px;
+        pre {
+            background: #111;
+            color: #eee;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.6;
         }
 
-        li {
-            margin-bottom: 8px;
+        code {
+            font-family: "Courier New", monospace;
         }
 
-        .people {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
+        .tag-list {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
         }
 
-        .person {
-            background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
-            padding: 24px;
+        .tag {
+            background: #eee;
+            padding: 7px 12px;
+            border-radius: 20px;
+            font-size: 13px;
         }
 
-        .person small {
-            color: #6b7280;
+        .highlight {
+            font-weight: bold;
         }
 
         footer {
-            background: #111827;
-            color: #9ca3af;
+            background: #111;
+            color: #aaa;
             text-align: center;
             padding: 40px 20px;
         }
@@ -389,27 +321,31 @@
         }
 
         @media (max-width: 850px) {
-            .architecture,
-            .stats,
-            .tech-grid {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .stats {
                 grid-template-columns: repeat(2, 1fr);
             }
 
-            .two-column,
-            .people {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 550px) {
-            .architecture,
-            .stats,
-            .tech-grid {
+            .two-column {
                 grid-template-columns: 1fr;
             }
 
             nav {
+                flex-direction: column;
                 gap: 10px;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .stats {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 30px;
             }
         }
     </style>
@@ -417,160 +353,177 @@
 
 <body>
 
-<!-- =========================================================
-     HERO
-     ========================================================= -->
+<!-- ========================= NAVIGATION ========================= -->
+
+<nav>
+    <div class="logo">
+        Narrative Segmentation
+    </div>
+
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#methodology">Methodology</a></li>
+        <li><a href="#math">Mathematical Logic</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#repository">GitHub</a></li>
+    </ul>
+</nav>
+
+
+<!-- ========================= HERO ========================= -->
 
 <header class="hero">
 
-    <div class="tag">
-        NLP • Unsupervised Learning • Information Extraction
-    </div>
+    <div class="hero-content">
 
-    <h1>
-        Unsupervised Narrative Segmentation
-        & Entity Extraction
-    </h1>
+        <h1>
+            Unsupervised Narrative Segmentation
+            & Entity Extraction
+        </h1>
 
-    <p>
-        An NLP pipeline for transforming long, noisy
-        ASR-generated news transcripts into meaningful narrative
-        segments and structured information.
-    </p>
+        <p>
+            A general-purpose NLP pipeline for transforming noisy
+            ASR-generated YouTube transcripts into meaningful narrative
+            segments enriched with entities, keywords and semantic topics.
+        </p>
 
-    <div class="hero-buttons">
+        <div class="hero-buttons">
 
-        <a class="button"
-           href="https://github.com/Asmitha-M-2006/Unsupervised-Narrative-Segmentation-Entity-Extraction-Project"
-           target="_blank">
-            View GitHub Repository
-        </a>
+            <a
+                class="btn btn-primary"
+                href="https://github.com/Asmitha-M-2006/Unsupervised-Narrative-Segmentation-Entity-Extraction-Project"
+                target="_blank"
+            >
+                View GitHub Repository
+            </a>
 
-        <a class="button secondary" href="#video">
-            Watch Presentation
-        </a>
+            <a
+                class="btn btn-secondary"
+                href="#architecture"
+            >
+                Explore Architecture
+            </a>
+
+        </div>
 
     </div>
 
 </header>
 
 
-<!-- =========================================================
-     NAVIGATION
-     ========================================================= -->
-
-<nav>
-
-    <a href="#introduction">Introduction</a>
-    <a href="#video">Presentation</a>
-    <a href="#architecture">Architecture</a>
-    <a href="#methodology">Methodology</a>
-    <a href="#mathematics">Logic</a>
-    <a href="#results">Results</a>
-    <a href="#implementation">Implementation</a>
-    <a href="#technologies">Technologies</a>
-
-</nav>
-
-
-<main>
-
-
-<!-- =========================================================
-     INTRODUCTION
-     ========================================================= -->
+<!-- ========================= 1. INTRODUCTION ========================= -->
 
 <section id="introduction">
 
     <div class="section-title">
+
         <h2>1. Introduction</h2>
-        <p>Understanding the problem and the motivation behind the project.</p>
+
+        <p>
+            Project overview and problem definition.
+        </p>
+
     </div>
+
 
     <div class="card">
 
         <h3>Project Overview</h3>
 
         <p>
-            News videos often contain multiple stories within a single
-            long video. When subtitles are automatically generated using
-            Automatic Speech Recognition (ASR), the resulting transcript
-            can contain spelling errors, missing punctuation, fragmented
-            sentences, repeated words, and incorrect entity names.
+            Automatic transcripts generated by Automatic Speech Recognition
+            systems are often noisy, fragmented and difficult to organize.
+            A long transcript may contain several different stories or
+            topics without explicit section boundaries.
         </p>
 
         <p>
-            This project develops an unsupervised NLP pipeline that
-            identifies narrative boundaries in such transcripts and
-            converts the resulting segments into structured information.
-        </p>
-
-        <p>
-            The system combines semantic embeddings, cosine similarity,
-            contextual change detection, spaCy Named Entity Recognition,
-            semantic topic classification, keyword extraction, and
-            heuristic confidence estimation.
+            This project develops an unsupervised NLP pipeline that detects
+            narrative boundaries based on semantic changes in the transcript.
+            After segmentation, each narrative segment is enriched with
+            named entities, keywords, topic information and a confidence
+            score.
         </p>
 
     </div>
 
 
-    <div class="two-column">
+    <div class="card">
 
-        <div class="card">
+        <h3>Problem Statement</h3>
 
-            <h3>Problem Statement</h3>
+        <p>
+            Given a noisy ASR-generated transcript from a YouTube video,
+            automatically identify meaningful narrative segments without
+            relying on manually labelled segmentation data.
+        </p>
 
-            <p>
-                Given a long and noisy ASR-generated transcript,
-                automatically identify meaningful narrative segments
-                without requiring manually labelled segmentation data.
-            </p>
+        <h4>Core Requirements</h4>
 
-        </div>
+        <ul>
 
+            <li>
+                Extract the transcript from a YouTube video.
+            </li>
 
-        <div class="card">
+            <li>
+                Divide the transcript into manageable semantic windows.
+            </li>
 
-            <h3>Goal</h3>
+            <li>
+                Generate semantic embeddings for each window.
+            </li>
 
-            <p>
-                Produce a structured JSON representation containing
-                individual stories, timestamps, topics, entities,
-                keywords, and confidence information.
-            </p>
+            <li>
+                Detect potential narrative boundaries using semantic similarity.
+            </li>
 
-        </div>
+            <li>
+                Construct complete narrative segments.
+            </li>
+
+            <li>
+                Estimate segmentation confidence.
+            </li>
+
+            <li>
+                Extract named entities and keywords.
+            </li>
+
+            <li>
+                Classify the semantic topic of each segment.
+            </li>
+
+            <li>
+                Produce structured JSON output.
+            </li>
+
+        </ul>
 
     </div>
 
 </section>
 
 
-<!-- =========================================================
-     VIDEO
-     ========================================================= -->
+<!-- ========================= VIDEO ========================= -->
 
 <section id="video">
 
     <div class="section-title">
-        <h2>2. Project Presentation</h2>
-        <p>Complete explanation and demonstration of the project.</p>
+
+        <h2>Project Presentation</h2>
+
+        <p>
+            Video presentation explaining the complete project,
+            architecture and implementation.
+        </p>
+
     </div>
 
     <div class="card">
-
-        <!-- =====================================================
-             REPLACE THIS PLACEHOLDER AFTER UPLOADING THE VIDEO.
-
-             Example:
-
-             <iframe
-                 src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                 allowfullscreen>
-             </iframe>
-
-             ===================================================== -->
 
         <div class="video-container">
 
@@ -578,11 +531,12 @@
 
                 <div>
 
-                    <strong>Project Presentation Video</strong>
+                    <h3>Project Presentation Video</h3>
 
-                    <span>
-                        VIDEO_EMBED_URL_HERE
-                    </span>
+                    <p>
+                        Video will be embedded here after the final
+                        screen recording is uploaded.
+                    </p>
 
                 </div>
 
@@ -590,240 +544,159 @@
 
         </div>
 
-        <p style="margin-top:15px;color:#6b7280;">
-            The presentation video will demonstrate the complete
-            pipeline, explain the core logic, and show the system
-            running on transcript data.
+    </div>
+
+</section>
+
+
+<!-- ========================= 2. ARCHITECTURE ========================= -->
+
+<section id="architecture" class="architecture">
+
+    <div class="section-title">
+
+        <h2>2. System Architecture</h2>
+
+        <p>
+            End-to-end architecture of the NLP pipeline.
         </p>
 
     </div>
 
-</section>
 
+    <div class="card">
 
-<!-- =========================================================
-     ARCHITECTURE
-     ========================================================= -->
+        <img
+            src="archi_dia.png"
+            alt="Unsupervised Narrative Segmentation Pipeline Architecture"
+        >
 
-<section id="architecture">
-
-    <div class="section-title">
-        <h2>3. System Architecture</h2>
-        <p>From raw YouTube video to structured narrative information.</p>
     </div>
-    <img src="archi_dia.png"
-     alt="System Architecture Diagram"
-     style="width:100%; max-width:1400px; display:block; margin:30px auto; border-radius:12px;">
 
 </section>
 
 
-<!-- =========================================================
-     METHODOLOGY
-     ========================================================= -->
+<!-- ========================= 3. METHODOLOGY ========================= -->
 
 <section id="methodology">
 
     <div class="section-title">
-        <h2>4. Methodology</h2>
-        <p>How the complete NLP pipeline works.</p>
+
+        <h2>3. Methodology</h2>
+
+        <p>
+            The project follows a sequence of unsupervised NLP processing
+            stages.
+        </p>
+
     </div>
 
 
     <div class="pipeline">
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">01</div>
+            <strong>1. Transcript Extraction</strong>
 
-            <div>
-                <h3>Transcript Extraction</h3>
-
-                <p>
-                    The system accepts a YouTube video ID and retrieves
-                    the available transcript using the YouTube
-                    Transcript API. Each transcript snippet contains
-                    text, start time, and duration.
-                </p>
-            </div>
+            <p>
+                The transcript is extracted from the target YouTube video.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">02</div>
+            <strong>2. Semantic Windowing</strong>
 
-            <div>
-                <h3>Semantic Windowing</h3>
-
-                <p>
-                    Instead of processing thousands of tiny ASR
-                    snippets independently, consecutive transcript
-                    words are grouped into windows of approximately
-                    75 words. Timestamp information is preserved.
-                </p>
-            </div>
+            <p>
+                Transcript snippets are accumulated into approximately
+                75-word windows.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">03</div>
+            <strong>3. Sentence Embeddings</strong>
 
-            <div>
-                <h3>Text Embeddings</h3>
-
-                <p>
-                    Each window is converted into a numerical vector
-                    using the all-MiniLM-L6-v2 Sentence Transformer.
-                    Similar meanings produce vectors that are close
-                    together in embedding space.
-                </p>
-            </div>
+            <p>
+                Each window is converted into a dense semantic vector using
+                Sentence Transformers.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">04</div>
+            <strong>4. Similarity Analysis</strong>
 
-            <div>
-                <h3>Semantic Similarity</h3>
-
-                <p>
-                    Consecutive windows are compared using cosine
-                    similarity. A large drop in semantic similarity
-                    can indicate a transition from one story to
-                    another.
-                </p>
-            </div>
+            <p>
+                Consecutive semantic windows are compared using cosine
+                similarity.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">05</div>
+            <strong>5. Boundary Detection</strong>
 
-            <div>
-                <h3>Contextual Change Detection</h3>
-
-                <p>
-                    The system also compares broader surrounding
-                    contexts rather than relying only on adjacent
-                    windows. This helps identify stronger topic
-                    transitions.
-                </p>
-            </div>
+            <p>
+                Significant semantic changes are used as candidate narrative
+                boundaries.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">06</div>
+            <strong>6. Segment Construction</strong>
 
-            <div>
-                <h3>Adaptive Boundary Selection</h3>
-
-                <p>
-                    Statistical properties of the similarity values
-                    are used to determine candidate boundaries.
-                    Minimum-distance constraints reduce excessive
-                    segmentation, while maximum segment length
-                    prevents extremely long segments.
-                </p>
-            </div>
+            <p>
+                Windows between detected boundaries are combined into
+                narrative segments.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">07</div>
+            <strong>7. Entity Extraction</strong>
 
-            <div>
-                <h3>Segment Construction</h3>
-
-                <p>
-                    Detected boundaries are used to combine windows
-                    into complete narrative segments while preserving
-                    their start and end timestamps.
-                </p>
-            </div>
+            <p>
+                Named entities are extracted using spaCy and regular
+                expression based processing.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">08</div>
+            <strong>8. Topic & Keyword Enrichment</strong>
 
-            <div>
-                <h3>Topic Classification</h3>
-
-                <p>
-                    Each segment is semantically compared against
-                    predefined topic descriptions such as Politics,
-                    Sports, Weather, Technology, Business and
-                    International News.
-                </p>
-            </div>
+            <p>
+                Each segment is enriched with topic labels and important
+                keywords.
+            </p>
 
         </div>
 
 
-        <div class="pipeline-item">
+        <div class="pipeline-step">
 
-            <div class="pipeline-number">09</div>
+            <strong>9. JSON Generation</strong>
 
-            <div>
-                <h3>Named Entity Recognition</h3>
-
-                <p>
-                    spaCy's English NER model identifies entities
-                    including people, places, organizations and
-                    numerical information.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="pipeline-item">
-
-            <div class="pipeline-number">10</div>
-
-            <div>
-                <h3>Keyword Extraction</h3>
-
-                <p>
-                    Important nouns, proper nouns and adjectives are
-                    selected to create a concise keyword representation
-                    for each segment.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="pipeline-item">
-
-            <div class="pipeline-number">11</div>
-
-            <div>
-                <h3>Structured JSON Output</h3>
-
-                <p>
-                    All extracted information is combined into a
-                    structured JSON format containing bulletin metadata,
-                    story information, entities, keywords and
-                    segmentation quality information.
-                </p>
-            </div>
+            <p>
+                The final enriched output is stored in a structured JSON
+                format.
+            </p>
 
         </div>
 
@@ -832,15 +705,48 @@
 </section>
 
 
-<!-- =========================================================
-     MATHEMATICAL LOGIC
-     ========================================================= -->
+<!-- ========================= 4. MATHEMATICAL LOGIC ========================= -->
 
-<section id="mathematics">
+<section id="math">
 
     <div class="section-title">
-        <h2>5. Mathematical Logic</h2>
-        <p>The main mathematical ideas behind semantic segmentation.</p>
+
+        <h2>4. Mathematical Logic</h2>
+
+        <p>
+            Mathematical foundations behind the unsupervised segmentation
+            process.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Sentence Embeddings</h3>
+
+        <p>
+            Each transcript window is represented as a numerical vector
+            containing semantic information about the text.
+        </p>
+
+        <div class="formula">
+
+            window text
+            →
+            SentenceTransformer
+            →
+            embedding vector
+
+        </div>
+
+        <p>
+            The project uses the
+            <strong>all-MiniLM-L6-v2</strong>
+            sentence-transformer model, which produces
+            384-dimensional embeddings.
+        </p>
+
     </div>
 
 
@@ -849,20 +755,23 @@
         <h3>Cosine Similarity</h3>
 
         <p>
-            Each transcript window is represented by an embedding
-            vector. Cosine similarity measures how similar two
-            vectors are based on the angle between them.
+            Consecutive transcript windows are compared using cosine
+            similarity. This measures how similar their semantic directions
+            are.
         </p>
 
         <div class="formula">
-            similarity(A, B) =
-            (A · B) / (||A|| × ||B||)
+
+            similarity(A, B)
+            =
+            (A · B) / (||A|| ||B||)
+
         </div>
 
         <p>
-            A value closer to 1 indicates greater semantic similarity,
-            while a lower value indicates that the two windows are
-            less semantically related.
+            A high similarity value suggests that two neighboring windows
+            discuss related content, while a lower value can indicate a
+            possible topic or narrative transition.
         </p>
 
     </div>
@@ -870,26 +779,28 @@
 
     <div class="card">
 
-        <h3>Similarity-Based Boundary Detection</h3>
+        <h3>Adaptive Boundary Detection</h3>
 
         <p>
-            For consecutive transcript windows, the pipeline calculates
-            a sequence of similarity values:
+            Instead of manually selecting one universal similarity threshold,
+            the pipeline derives a threshold from the similarity distribution
+            of the current transcript.
         </p>
 
         <div class="formula">
-            S₁, S₂, S₃, ..., Sₙ
+
+            threshold
+            =
+            mean(similarity)
+            -
+            α × standard_deviation(similarity)
+
         </div>
 
         <p>
-            A significant reduction in similarity can indicate a
-            possible transition between narratives.
-        </p>
-
-        <p>
-            The implementation smooths similarity values and combines
-            local similarity with broader contextual change. Statistical
-            thresholds are then used to identify candidate boundaries.
+            Windows with similarity below the derived threshold become
+            candidate narrative boundaries, subject to minimum and maximum
+            segment-size constraints.
         </p>
 
     </div>
@@ -897,101 +808,271 @@
 
     <div class="card">
 
-        <h3>Adaptive Thresholding</h3>
+        <h3>Why Unsupervised Segmentation?</h3>
 
-        <p>
-            Instead of using one arbitrary similarity value for every
-            transcript, the system derives thresholds from the
-            distribution of similarity scores within the input.
-        </p>
+        <ul>
 
-        <div class="formula">
-            similarity threshold =
-            mean(similarity) − 0.90 × standard deviation(similarity)
-        </div>
+            <li>
+                No manually labelled narrative boundaries are required.
+            </li>
 
-        <div class="formula">
-            context threshold =
-            mean(context change) + 0.50 × standard deviation(context change)
-        </div>
+            <li>
+                The approach can generalize to different videos and topics.
+            </li>
 
-        <p>
-            This makes the segmentation decision dependent on the
-            characteristics of the current transcript.
-        </p>
+            <li>
+                Semantic similarity captures meaning rather than relying
+                only on specific keywords.
+            </li>
+
+            <li>
+                Adaptive thresholds reduce dependence on a fixed threshold
+                selected for one particular dataset.
+            </li>
+
+        </ul>
 
     </div>
 
 </section>
 
 
-<!-- =========================================================
-     RESULTS
-     ========================================================= -->
+<!-- ========================= 5. PROCESSING FLOW ========================= -->
+
+<section id="processing">
+
+    <div class="section-title">
+
+        <h2>5. End-to-End Processing Flow</h2>
+
+        <p>
+            How raw YouTube content becomes structured narrative information.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <pre><code>YouTube Video
+      │
+      ▼
+Transcript Extraction
+      │
+      ▼
+Transcript Snippets
+      │
+      ▼
+75-Word Semantic Windows
+      │
+      ▼
+Sentence Embeddings
+      │
+      ▼
+Cosine Similarity
+      │
+      ▼
+Adaptive Boundary Detection
+      │
+      ▼
+Narrative Segments
+      │
+      ├───────────────┐
+      ▼               ▼
+Entity Extraction   Keyword Extraction
+      │               │
+      └───────┬───────┘
+              ▼
+       Topic Classification
+              │
+              ▼
+        Confidence Score
+              │
+              ▼
+        Structured JSON</code></pre>
+
+    </div>
+
+</section>
+
+
+<!-- ========================= 6. RESULTS ========================= -->
 
 <section id="results">
 
     <div class="section-title">
+
         <h2>6. Data Exploration & Results</h2>
-        <p>Observed characteristics of the processed transcript.</p>
+
+        <p>
+            Observed processing statistics across five test videos.
+        </p>
+
     </div>
 
+
+    <!-- Aggregate statistics -->
 
     <div class="stats">
 
         <div class="stat">
-            <strong>14,409</strong>
-            <span>Transcript snippets</span>
+
+            <strong>5</strong>
+
+            <span>
+                Videos Processed
+            </span>
+
         </div>
 
-        <div class="stat">
-            <strong>92,133</strong>
-            <span>Approximate words</span>
-        </div>
 
         <div class="stat">
-            <strong>512,923</strong>
-            <span>Characters</span>
+
+            <strong>75</strong>
+
+            <span>
+                Narrative Stories
+            </span>
+
         </div>
 
+
         <div class="stat">
-            <strong>1,183</strong>
-            <span>Semantic windows</span>
+
+            <strong>269,965</strong>
+
+            <span>
+                Words Processed
+            </span>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>10,244</strong>
+
+            <span>
+                Entities Extracted
+            </span>
+
         </div>
 
     </div>
 
 
+    <!-- Evaluation explanation -->
+
     <div class="card" style="margin-top:20px;">
 
-        <h3>Observations</h3>
+        <h3>Evaluation Summary</h3>
+
+        <p>
+            These statistics summarize the outputs produced by the pipeline
+            on the five test videos. They describe processing volume and the
+            amount of structured information extracted from the transcripts.
+        </p>
+
+        <p style="margin-top:12px;">
+
+            <strong>Important:</strong>
+            No manually labelled ground-truth narrative boundaries were
+            available for these videos. Therefore, these values should not
+            be interpreted as accuracy, precision, recall or F1-score.
+
+        </p>
+
+    </div>
+
+
+    <!-- Stories graph -->
+
+    <div class="graph-card">
+
+        <h3>Stories Detected per Video</h3>
+
+        <p>
+            Number of narrative segments detected independently for each
+            processed video.
+        </p>
+
+        <img
+            src="graphs/stories_per_video.png"
+            alt="Stories detected per video"
+        >
+
+    </div>
+
+
+    <!-- Words graph -->
+
+    <div class="graph-card">
+
+        <h3>Words Processed per Video</h3>
+
+        <p>
+            Total approximate transcript word volume processed for each
+            video.
+        </p>
+
+        <img
+            src="graphs/words_per_video.png"
+            alt="Words processed per video"
+        >
+
+    </div>
+
+
+    <!-- Entities graph -->
+
+    <div class="graph-card">
+
+        <h3>Entities Extracted per Video</h3>
+
+        <p>
+            Total named entities extracted from the narrative segments
+            of each video.
+        </p>
+
+        <img
+            src="graphs/entities_per_video.png"
+            alt="Entities extracted per video"
+        >
+
+    </div>
+
+
+    <!-- Per-video summary -->
+
+    <div class="card" style="margin-top:25px;">
+
+        <h3>Per-Video Processing Summary</h3>
 
         <ul>
 
             <li>
-                The source transcript contained a very large number
-                of short ASR-generated snippets.
+                <strong>Video 1:</strong>
+                25 stories, 92,133 words, 4,489 entities
             </li>
 
             <li>
-                Consecutive snippets frequently overlapped in their
-                semantic content.
+                <strong>Video 2:</strong>
+                2 stories, 6,739 words, 350 entities
             </li>
 
             <li>
-                Fixed-size semantic windows reduced the fragmentation
-                caused by processing every ASR snippet independently.
+                <strong>Video 3:</strong>
+                3 stories, 7,906 words, 390 entities
             </li>
 
             <li>
-                Embeddings allowed semantic relationships to be
-                measured even when exact words differed because of
-                ASR errors.
+                <strong>Video 4:</strong>
+                14 stories, 38,201 words, 1,680 entities
             </li>
 
             <li>
-                The number of final narrative segments depends on the
-                input transcript and the detected semantic boundaries.
+                <strong>Video 5:</strong>
+                31 stories, 124,986 words, 3,335 entities
             </li>
 
         </ul>
@@ -999,73 +1080,57 @@
     </div>
 
 
+    <!-- Observations -->
+
     <div class="card">
 
-        <h3>Example Structured Output</h3>
+        <h3>Observations</h3>
 
-        <div class="code">{
-  "bulletin_metadata": {
-    "source": "YouTube News Bulletin",
-    "date": null,
-    "duration_minutes": 30,
-    "total_stories": 6
-  },
-  "stories": [
-    {
-      "story_id": "story_001",
-      "topic": "Politics",
-      "subtopic": "Climate Bill Vote",
-      "timestamp_start": "0:05",
-      "timestamp_end": "1:15",
-      "confidence_score": 0.89,
-      "raw_text": "...",
-      "entities": {
-        "people": [],
-        "places": [],
-        "numbers": [],
-        "organizations": []
-      },
-      "keywords": [
-        "climate bill",
-        "parliament vote",
-        "environmental policy"
-      ]
-    }
-  ]
-}</div>
+        <ul>
+
+            <li>
+                The transcript data contains substantial ASR-generated noise,
+                including fragmented words and incorrect entity spellings.
+            </li>
+
+            <li>
+                Semantic embeddings allow the system to compare neighboring
+                transcript windows based on meaning.
+            </li>
+
+            <li>
+                Semantic similarity drops provide candidate locations where
+                the narrative may have changed.
+            </li>
+
+            <li>
+                Segment sizes vary because boundaries are detected from the
+                semantic structure of each transcript rather than using a
+                fixed number of segments.
+            </li>
+
+            <li>
+                Entity extraction provides additional structured information
+                that can be used to understand the contents of each segment.
+            </li>
+
+        </ul>
 
     </div>
 
 </section>
 
 
-<!-- =========================================================
-     IMPLEMENTATION
-     ========================================================= -->
+<!-- ========================= 7. IMPLEMENTATION ========================= -->
 
 <section id="implementation">
 
     <div class="section-title">
+
         <h2>7. Core Implementation</h2>
-        <p>Important components of the Python pipeline.</p>
-    </div>
 
-
-    <div class="card">
-
-        <h3>Embedding Generation</h3>
-
-        <div class="code">model = SentenceTransformer("all-MiniLM-L6-v2")
-
-embeddings = model.encode(
-    [window["text"] for window in windows],
-    convert_to_numpy=True
-)</div>
-
-        <p style="margin-top:15px;">
-            The Sentence Transformer converts each text window into
-            a fixed-dimensional semantic representation. These
-            representations are then used for similarity calculations.
+        <p>
+            Main components implemented in the Python pipeline.
         </p>
 
     </div>
@@ -1073,26 +1138,98 @@ embeddings = model.encode(
 
     <div class="card">
 
-        <h3>Narrative Boundary Detection</h3>
+        <h3>Pipeline Structure</h3>
 
-        <div class="code">similarities = _calculate_consecutive_similarity(
-    embeddings
+        <p>
+            The main pipeline is implemented in
+            <strong>src/pipeline.py</strong>.
+        </p>
+
+        <pre><code>analyze_video(video_id)
+
+    │
+    ├── extract_transcript()
+    │
+    ├── create_windows()
+    │
+    ├── create_embeddings()
+    │
+    ├── detect_boundaries()
+    │
+    ├── build_segments()
+    │
+    ├── calculate_confidence()
+    │
+    ├── extract_entities()
+    │
+    ├── enrich_segments()
+    │
+    └── build_final_output()</code></pre>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Transcript Windowing</h3>
+
+        <p>
+            The transcript is initially represented as many small ASR
+            snippets. These snippets are accumulated into approximately
+            75-word windows.
+        </p>
+
+        <pre><code>WINDOW_SIZE = 75
+
+windows = create_windows(
+    transcript,
+    window_size=WINDOW_SIZE
+)</code></pre>
+
+        <p>
+            Windowing reduces the number of semantic comparisons and provides
+            a practical unit for embedding-based analysis.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Embedding Generation</h3>
+
+        <pre><code>model = SentenceTransformer(
+    "all-MiniLM-L6-v2"
 )
 
-smoothed = _smooth_similarity(
-    similarities,
-    smoothing_radius
-)
+embeddings = model.encode(
+    texts,
+    convert_to_numpy=True,
+    show_progress_bar=True
+)</code></pre>
 
-context_change = _calculate_context_change(
+        <p>
+            The resulting matrix contains one 384-dimensional vector for
+            every semantic window.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Boundary Detection</h3>
+
+        <pre><code>boundaries = detect_boundaries(
     embeddings,
-    context_radius
-)</div>
+    min_segment_windows=12,
+    max_segment_windows=100
+)</code></pre>
 
-        <p style="margin-top:15px;">
-            The implementation combines local semantic similarity,
-            smoothed similarity trends and broader contextual changes
-            before selecting candidate boundaries.
+        <p>
+            Similarity between neighboring windows is calculated first.
+            The similarity distribution is then used to identify unusually
+            low-similarity transitions as candidate narrative boundaries.
         </p>
 
     </div>
@@ -1102,176 +1239,168 @@ context_change = _calculate_context_change(
 
         <h3>Entity Extraction</h3>
 
-        <div class="code">doc = nlp(segment["text"])
-
-for ent in doc.ents:
-
-    if ent.label_ == "PERSON":
-        people.append(ent.text)
-
-    elif ent.label_ in {"GPE", "LOC", "FAC"}:
-        places.append(ent.text)
-
-    elif ent.label_ == "ORG":
-        organizations.append(ent.text)</div>
-
-        <p style="margin-top:15px;">
-            spaCy's Named Entity Recognition identifies important
-            entities from each narrative segment.
+        <p>
+            Named entities are extracted from each narrative segment using
+            spaCy's NLP pipeline. Additional regular-expression processing
+            is used to support noisy transcript patterns.
         </p>
+
+        <pre><code>entities = extract_entities(
+    segment["text"]
+)</code></pre>
 
     </div>
 
 
     <div class="card">
 
-        <h3>Final Pipeline Function</h3>
+        <h3>Structured Output</h3>
 
-        <div class="code">def analyze_video(video_id):
-
-    transcript = extract_transcript(video_id)
-
-    windows = create_windows(transcript)
-
-    embeddings = create_embeddings(windows)
-
-    boundaries = detect_boundaries(embeddings)
-
-    segments = build_segments(windows, boundaries)
-
-    segments = enrich_segments(segments)
-
-    return build_final_output(segments)</div>
-
-        <p style="margin-top:15px;">
-            This function acts as the main orchestration layer,
-            connecting transcript extraction, segmentation,
-            information extraction and final output generation.
+        <p>
+            The final output is organized into metadata, stories and
+            segmentation-quality information.
         </p>
+
+        <pre><code>{
+    "bulletin_metadata": {
+        ...
+    },
+
+    "stories": [
+        {
+            "story_id": "...",
+            "topic": "...",
+            "subtopic": "...",
+            "timestamp_start": "...",
+            "timestamp_end": "...",
+            "confidence_score": ...,
+            "raw_text": "...",
+            "entities": {
+                ...
+            },
+            "keywords": [
+                ...
+            ]
+        }
+    ],
+
+    "segmentation_quality": {
+        ...
+    }
+}</code></pre>
 
     </div>
 
 </section>
 
 
-<!-- =========================================================
-     STREAMLIT
-     ========================================================= -->
+<!-- ========================= 8. STREAMLIT ========================= -->
 
-<section>
+<section id="streamlit">
 
     <div class="section-title">
-        <h2>8. Application Interface</h2>
-        <p>Interactive demonstration using Streamlit.</p>
+
+        <h2>8. Streamlit Application</h2>
+
+        <p>
+            A lightweight interface was built to make the pipeline easier
+            to run and demonstrate.
+        </p>
+
     </div>
 
 
     <div class="card">
 
-        <h3>Streamlit Application</h3>
+        <h3>Frontend Workflow</h3>
 
         <p>
-            A Streamlit interface provides a simple way to run the
-            complete pipeline without interacting directly with the
-            Python functions.
+            The Streamlit application allows a user to provide a YouTube
+            video identifier and run the complete analysis pipeline.
         </p>
 
-        <p>
-            The user enters a YouTube URL and selects
-            <strong>Analyze Video</strong>. The application then
-            displays the extracted stories, timestamps, topics,
-            confidence scores, transcript text, entities and keywords.
-        </p>
-
-        <div class="code">YouTube URL
-      ↓
-Analyze Video
-      ↓
+        <pre><code>YouTube Video ID
+        │
+        ▼
+Streamlit Interface
+        │
+        ▼
 analyze_video()
-      ↓
+        │
+        ▼
 Narrative Segmentation
-      ↓
-Entity + Topic + Keyword Extraction
-      ↓
-Structured Results</div>
+        │
+        ▼
+Entity / Topic / Keyword Extraction
+        │
+        ▼
+Structured Results</code></pre>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Running the Application</h3>
+
+        <pre><code>streamlit run app.py</code></pre>
 
     </div>
 
 </section>
 
 
-<!-- =========================================================
-     TECHNOLOGIES
-     ========================================================= -->
+<!-- ========================= 9. TECHNOLOGIES ========================= -->
 
 <section id="technologies">
 
     <div class="section-title">
-        <h2>9. Technologies & Skills</h2>
-        <p>Tools and concepts used throughout the project.</p>
+
+        <h2>9. Technologies Used</h2>
+
+        <p>
+            Libraries, frameworks and methodologies used in the project.
+        </p>
+
     </div>
 
 
-    <div class="tech-grid">
+    <div class="card">
 
-        <div class="tech">
-            <strong>Python</strong>
-            <span>Primary programming language</span>
-        </div>
+        <div class="tag-list">
 
-        <div class="tech">
-            <strong>Natural Language Processing</strong>
-            <span>Transcript and text processing</span>
-        </div>
+            <span class="tag">Python</span>
 
-        <div class="tech">
-            <strong>Sentence Transformers</strong>
-            <span>Semantic text embeddings</span>
-        </div>
+            <span class="tag">Natural Language Processing</span>
 
-        <div class="tech">
-            <strong>all-MiniLM-L6-v2</strong>
-            <span>Embedding model</span>
-        </div>
+            <span class="tag">Sentence Transformers</span>
 
-        <div class="tech">
-            <strong>Cosine Similarity</strong>
-            <span>Semantic similarity measurement</span>
-        </div>
+            <span class="tag">all-MiniLM-L6-v2</span>
 
-        <div class="tech">
-            <strong>Unsupervised Segmentation</strong>
-            <span>Semantic boundary detection</span>
-        </div>
+            <span class="tag">spaCy</span>
 
-        <div class="tech">
-            <strong>spaCy</strong>
-            <span>Named Entity Recognition</span>
-        </div>
+            <span class="tag">NumPy</span>
 
-        <div class="tech">
-            <strong>scikit-learn</strong>
-            <span>Similarity and machine-learning utilities</span>
-        </div>
+            <span class="tag">Pandas</span>
 
-        <div class="tech">
-            <strong>NumPy</strong>
-            <span>Numerical computation</span>
-        </div>
+            <span class="tag">Matplotlib</span>
 
-        <div class="tech">
-            <strong>Streamlit</strong>
-            <span>Interactive application interface</span>
-        </div>
+            <span class="tag">Regular Expressions</span>
 
-        <div class="tech">
-            <strong>YouTube Transcript API</strong>
-            <span>Transcript acquisition</span>
-        </div>
+            <span class="tag">Streamlit</span>
 
-        <div class="tech">
-            <strong>Git & GitHub</strong>
-            <span>Version control and project hosting</span>
+            <span class="tag">YouTube Transcript API</span>
+
+            <span class="tag">Git</span>
+
+            <span class="tag">GitHub</span>
+
+            <span class="tag">Unsupervised Learning</span>
+
+            <span class="tag">Semantic Embeddings</span>
+
+            <span class="tag">Cosine Similarity</span>
+
         </div>
 
     </div>
@@ -1279,15 +1408,18 @@ Structured Results</div>
 </section>
 
 
-<!-- =========================================================
-     DESIGN DECISIONS
-     ========================================================= -->
+<!-- ========================= 10. DESIGN DECISIONS ========================= -->
 
-<section>
+<section id="design">
 
     <div class="section-title">
+
         <h2>10. Design Decisions</h2>
-        <p>Why the project uses this approach.</p>
+
+        <p>
+            Important engineering choices made during implementation.
+        </p>
+
     </div>
 
 
@@ -1295,13 +1427,25 @@ Structured Results</div>
 
         <div class="card">
 
+            <h3>Why Semantic Embeddings?</h3>
+
+            <p>
+                Keyword matching can fail when two pieces of text discuss
+                the same idea using different vocabulary. Embeddings provide
+                a representation based on semantic meaning.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
             <h3>Why Unsupervised?</h3>
 
             <p>
-                Manual story-boundary labels are expensive to create.
-                An unsupervised approach allows the system to identify
-                potential narrative transitions directly from semantic
-                relationships in the transcript.
+                Manually labelled narrative boundaries are expensive to
+                create. An unsupervised method allows the pipeline to operate
+                without requiring a labelled segmentation dataset.
             </p>
 
         </div>
@@ -1309,12 +1453,13 @@ Structured Results</div>
 
         <div class="card">
 
-            <h3>Why Embeddings?</h3>
+            <h3>Why 75-Word Windows?</h3>
 
             <p>
-                Exact word matching is unreliable for noisy ASR text.
-                Embeddings provide a semantic representation that can
-                capture related meaning even when the wording differs.
+                Very small windows contain insufficient context, while very
+                large windows can combine multiple topics. A fixed
+                approximately 75-word window provides a practical balance
+                between context and computational cost.
             </p>
 
         </div>
@@ -1322,25 +1467,12 @@ Structured Results</div>
 
         <div class="card">
 
-            <h3>Why Multiple Signals?</h3>
+            <h3>Why Adaptive Thresholding?</h3>
 
             <p>
-                A single similarity score can produce false boundaries.
-                Combining local similarity, smoothing and contextual
-                change provides a stronger segmentation signal.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>Why Modular Design?</h3>
-
-            <p>
-                Separating extraction, windowing, embedding,
-                segmentation and entity extraction makes the pipeline
-                easier to test, debug and extend.
+                Different videos can have different semantic similarity
+                distributions. An adaptive threshold reduces dependence on
+                one manually chosen global value.
             </p>
 
         </div>
@@ -1350,15 +1482,18 @@ Structured Results</div>
 </section>
 
 
-<!-- =========================================================
-     LIMITATIONS
-     ========================================================= -->
+<!-- ========================= 11. LIMITATIONS ========================= -->
 
-<section>
+<section id="limitations">
 
     <div class="section-title">
+
         <h2>11. Limitations & Future Improvements</h2>
-        <p>Known limitations and possible production improvements.</p>
+
+        <p>
+            Current limitations and possible extensions.
+        </p>
+
     </div>
 
 
@@ -1371,26 +1506,23 @@ Structured Results</div>
             <ul>
 
                 <li>
-                    ASR errors can affect semantic segmentation and NER.
+                    ASR transcription errors can affect segmentation and
+                    entity extraction.
                 </li>
 
                 <li>
-                    Boundary detection depends on heuristic parameters.
+                    Similarity-based segmentation can sometimes detect
+                    boundaries that are not true narrative transitions.
                 </li>
 
                 <li>
-                    spaCy NER may produce incorrect or incomplete
-                    entities for noisy transcripts.
+                    Entity extraction quality depends on the underlying
+                    language model and transcript quality.
                 </li>
 
                 <li>
-                    Confidence scores are heuristic and are not
-                    calibrated probabilities.
-                </li>
-
-                <li>
-                    The current system does not use manually labelled
-                    ground-truth boundaries for quantitative evaluation.
+                    Without labelled ground truth, quantitative segmentation
+                    accuracy cannot be directly measured.
                 </li>
 
             </ul>
@@ -1405,28 +1537,27 @@ Structured Results</div>
             <ul>
 
                 <li>
-                    Evaluate against a manually annotated benchmark.
+                    Evaluate against manually annotated narrative boundaries.
                 </li>
 
                 <li>
-                    Tune segmentation parameters using validation data.
+                    Experiment with stronger embedding models.
                 </li>
 
                 <li>
-                    Use stronger or domain-specific embedding models.
+                    Add multilingual transcript support.
                 </li>
 
                 <li>
-                    Add ASR correction or normalization before NER.
+                    Improve noisy-ASR entity normalization.
                 </li>
 
                 <li>
-                    Introduce better topic and subtopic modelling.
+                    Introduce more sophisticated topic modelling.
                 </li>
 
                 <li>
-                    Add automated evaluation metrics such as boundary
-                    precision, recall and F1.
+                    Optimize processing for very large video collections.
                 </li>
 
             </ul>
@@ -1438,148 +1569,171 @@ Structured Results</div>
 </section>
 
 
-<!-- =========================================================
-     PROJECT STRUCTURE
-     ========================================================= -->
+<!-- ========================= 12. PROJECT STRUCTURE ========================= -->
 
-<section>
+<section id="structure">
 
     <div class="section-title">
+
         <h2>12. Project Structure</h2>
-        <p>Organisation of the GitHub repository.</p>
+
+        <p>
+            Organization of the project repository.
+        </p>
+
     </div>
 
 
     <div class="card">
 
-        <div class="code">Unsupervised-Narrative-Segmentation-Entity-Extraction-Project/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
+        <pre><code>.
+├── data/
+│   ├── video_01/
+│   ├── video_02/
+│   ├── video_03/
+│   ├── video_04/
+│   └── video_05/
 │
 ├── docs/
-│   └── index.html
+│   ├── index.html
+│   ├── archi_dia.png
+│   └── graphs/
+│       ├── stories_per_video.png
+│       ├── words_per_video.png
+│       └── entities_per_video.png
+│
+├── notebooks/
+│   └── 01_data_exploration.ipynb
 │
 ├── src/
 │   └── pipeline.py
 │
-└── notebooks/
-    ├── 01_data_exploration.ipynb
-    └── data/</div>
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── README.md</code></pre>
 
     </div>
 
 </section>
 
 
-<!-- =========================================================
-     PEOPLE
-     ========================================================= -->
+<!-- ========================= 13. PEOPLE ========================= -->
 
-<section>
+<section id="people">
 
     <div class="section-title">
-        <h2>13. Project Guidance</h2>
-        <p>Academic and mentorship information.</p>
-    </div>
 
-
-    <div class="people">
-
-        <div class="person">
-
-            <small>Assigned Mentor</small>
-
-            <h3>Parth Dhola</h3>
-
-        </div>
-
-
-        <div class="person">
-
-            <small>Mentor</small>
-
-            <h3>Amaan Irfan Sir</h3>
-
-        </div>
-
-
-        <div class="person">
-
-            <small>Faculty Advisor</small>
-
-            <h3>Prof. Prithwijit Guha</h3>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================================================
-     REPOSITORY
-     ========================================================= -->
-
-<section>
-
-    <div class="section-title">
-        <h2>14. Project Repository</h2>
-        <p>Source code, notebooks and documentation.</p>
-    </div>
-
-
-    <div class="card" style="text-align:center;">
-
-        <h3>
-            Unsupervised Narrative Segmentation & Entity Extraction
-        </h3>
+        <h2>13. Project Mentorship</h2>
 
         <p>
-            The complete implementation is available on GitHub.
+            Project mentor and faculty advisor.
         </p>
 
-        <div style="margin-top:20px;">
+    </div>
 
-            <a class="button"
-               style="background:#1d4ed8;color:white;"
-               href="https://github.com/Asmitha-M-2006/Unsupervised-Narrative-Segmentation-Entity-Extraction-Project"
-               target="_blank">
+
+    <div class="two-column">
+
+        <div class="card">
+
+            <h3>Assigned Mentor</h3>
+
+            <p>
+                <strong>Parth Dhola</strong>
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Faculty Advisor</h3>
+
+            <p>
+                <strong>Prof. Prithwijit Guha</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Additional Mentor</h3>
+
+        <p>
+            <strong>Amaan Irfan Sir</strong>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ========================= 14. REPOSITORY ========================= -->
+
+<section id="repository">
+
+    <div class="section-title">
+
+        <h2>14. GitHub Repository</h2>
+
+        <p>
+            Source code, notebooks, data outputs and documentation.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h3>Project Repository</h3>
+
+        <p>
+            The complete implementation and supporting documentation are
+            available on GitHub.
+        </p>
+
+        <p style="margin-top:15px;">
+
+            <a
+                class="btn btn-primary"
+                href="https://github.com/Asmitha-M-2006/Unsupervised-Narrative-Segmentation-Entity-Extraction-Project"
+                target="_blank"
+            >
                 Open GitHub Repository
             </a>
 
-        </div>
+        </p>
 
     </div>
 
 </section>
 
 
-</main>
-
-
-<!-- =========================================================
-     FOOTER
-     ========================================================= -->
+<!-- ========================= FOOTER ========================= -->
 
 <footer>
 
     <p>
-        <strong>Unsupervised Narrative Segmentation & Entity Extraction</strong>
+        <strong>
+            Unsupervised Narrative Segmentation & Entity Extraction
+        </strong>
     </p>
 
-    <p style="margin-top:8px;">
-        NLP Project • Semantic Segmentation • Entity Extraction
+    <p>
+        NLP Project · Python · Sentence Transformers · spaCy · Streamlit
     </p>
 
-    <p style="margin-top:18px;font-size:0.85rem;">
-        Built with Python, Sentence Transformers, spaCy,
-        scikit-learn and Streamlit.
+    <p style="margin-top:10px;">
+        Built as an unsupervised NLP pipeline for noisy ASR-generated
+        transcripts.
     </p>
 
 </footer>
+
 
 </body>
 </html>
