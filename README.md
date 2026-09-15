@@ -696,9 +696,7 @@ Unsupervised-Narrative-Segmentation-Entity-Extraction-Project/
 │   └── index.html
 │
 ├── requirements.txt
-│
 ├── README.md
-│
 └── .gitignore
 ```
 ---
