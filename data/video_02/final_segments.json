@@ -1,0 +1,1470 @@
+{
+  "bulletin_metadata": {
+    "source": "YouTube News Bulletin",
+    "date": null,
+    "duration_minutes": 47.93,
+    "total_stories": 2
+  },
+  "stories": [
+    {
+      "story_id": "story_001",
+      "topic": "Local News",
+      "subtopic": "Music Vikram Singh",
+      "timestamp_start": "0:01",
+      "timestamp_end": "9:56",
+      "confidence_score": 0.5,
+      "raw_text": "[music] But the story that's breaking at this moment amidst the uproar over the death of a Manipuri musician who was beaten to death in the national capital. The Manipur chief minister has now written to the Delhi Chief Minister over the death of C Vikram Singh, a musician who was beaten to death in a tragic incident in the national capital. The Manipur chief minister has now sought the Delhi chief minister's personal intervention demanded an expedited highlevel investigation. Rahul Gandhi had earlier taken up the issue questioned law and order in Delhi once again. Rahul Gandhi had said a father killed outside his own home in our country's capital. After many such incidents, every northeast family in Delhi is asking the same question today. Are we safe here? What are Amit Sha's [music] Ministry of Home Affairs and Delhi police to doing to stop this growing lawlessness especially against people from the northeast? So very strong tweet coming in there from Rahul Gandhi. This is what Kiran Reuju the parliamentary affairs minister [music] had to say in response. or singer Vikram Singh music. Police strong. really racial discriminations and mipuries are also Indian. Why this racial discrimination happened in di is it this a good law and order? In fact, it shows that it is a lawless uh capital of India. Many of the civilians are also still there. They are filled afraid of it. Remember uh see Vikram Singh was a 54 year old musician and music teachers Chong Tam Vikram Singh brutally assaulted outside his home in Delhi's Kilokri over the weekend after he reportedly confronted a group over the loud noise they were making. He tragically later died in hospital due to the injuries. While the police have arrested all those responsible for the assault, his family is insisting they want a fair, impartial investigation and more importantly swift justice. Take a look at the capital shame. Chong Tam Vikram [music] Singh spent 20 years in Delhi, his home away from home. On Saturday late night, the 54 yearear-old music teacher was brutally assaulted [music] right outside his house in Kiloki village. Hours later, he breathed [music] his last. Around midnight, Vikram Singh has stepped out of his house. He asked a group of youngsters at Adhaba to cut down the noise. [music] The argument escalated out of control and the group started assaulting [music] him. Vikram Singh ran up the stairs asking his son to open the door. Family finds Vikram is badly injured. He was rushed to Hodi family hospital. He was declared dead on Sunday morning. Concerns have been raised by the residents of the northeastern community who are in Delhi, who are in National Capital particular the Manipur. They are saying that they are now feeling unsafe. >> CCTV images show the suspects leaving the building. The police have arrested the suspects. Unfortunately, Vikram Singh's family is demanding justice. We are not seeking revenge. We are seeking justice. He had a name, a family, and a life that matters. Chongam Vikram Singh was an accomplished guitarist who played for rock bands in Manipur. >> He was running a music school in the national capital shaping young talent. A city on a short fuse has killed a gifted musician. Vishwani Sharma and Himmanu Mishra Bureau report India today. Let me go straight across to Sangeita Kesam. She's a social activist and a neighbor of Vikram Singh. Appreciate Sangeita you joining us. I have you were outside the police station earlier. You tell us Sangeita what do you know about this incident? What really happened? >> Actually sir this incident happened uh before yesterday around 11:30 between 11:30 to 12. Uh normally uh he used to go down after dinner for a walk sometimes for a walk or sometimes to throw the dust bin. Uh so that day also he went down and because of that as it it's being a normal routine for him uh his family like his family members his wife and his son uh did uh are not aware that he was not inside the home. Then at that time they were uh they could heard some sound uh uh near the b near uh their houses. It was uh sound like uh something like you know um some people are climbing up their staircase running towards their towards their houses. Then all of a sudden uh they could hear that that madam could hear uh her uh her husband u speaking in Manipuri to open the door. Then they ran away and opened the door. Then they found out uh that uh Mr. Bikram was laying there and eight of them were attacking him. >> So did they actually see him getting attacked by this mob? They saw Bikram being attacked by this mob when they opened the door. >> Yes. >> Then after that sis then uh after sis then only uh eight of them they ran away. You know you you knew Vikram very well. Was he a a kind of person who would have ever got into these kind of fights? Was he a man of peace? >> That's true sir. Uh and again uh he was around uh his age was around 54 55 and again he was a music lover. uh then because of the ace factor and because he being an artist he was more into uh like calmness and he was very he was a very cumbersome sir >> you know we're seeing the images of those people trying to run away that's on CCTV I mean I can imagine ma'am his wife and son must have been totally terrified uh by what happened because they have this is a family that has lived in this area in the national capital for several years am I right >> yes uh While his son was uh on his uh on his third standard they shifted to that area then now his son is in graduation uh third semester and still they are there only so they are very familiar with that location. >> Why why did none of the neighbors try and help him? Did nobody try and help him when Vikram Singh was being chased and hit like this? Actually it happens around 11:30 to 12 maybe because mostly at that time people used to be inside their house and they were not expecting this type of things to be happen in that location. So maybe they were just avoiding that it might be a normal uh sound which uh normally used to happen there in that place maybe >> you know but there's a lot of anger presumably among the Manipuri community in Delhi over what has happened. Manipur politicians are getting involved speaking out. Is Raul Gandhi has spoken out. Is there a sense of fear and anger among the Manipuris as a result of what has happened? Ma'am, >> see uh like anger is definitely anger is there because this things is happening again and again to to the to our communities. It's happening again and again. So uh like somewhere it has to be stopped. Earlier also it happens in Malanagar side also. Now uh this type of uh racism I I will say this type of racism we are facing again and again which is not acceptable to us. We are",
+      "entities": {
+        "people": [
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rahul Gandhi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rahul Gandhi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rahul Gandhi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kiran Reuju",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Chong Tam Vikram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh's",
+            "label": "PERSON"
+          },
+          {
+            "name": "Chongam Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vishwani Sharma",
+            "label": "PERSON"
+          },
+          {
+            "name": "Himmanu Mishra Bureau",
+            "label": "PERSON"
+          },
+          {
+            "name": "Sangeita Kesam",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Sangeita",
+            "label": "PERSON"
+          },
+          {
+            "name": "bin",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bikram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bikram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Manipur",
+            "label": "PERSON"
+          },
+          {
+            "name": "Raul Gandhi",
+            "label": "PERSON"
+          }
+        ],
+        "places": [
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Singh",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Kiloki",
+            "label": "GPE"
+          },
+          {
+            "name": "Adhaba",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuris",
+            "label": "GPE"
+          },
+          {
+            "name": "Malanagar",
+            "label": "GPE"
+          }
+        ],
+        "numbers": [
+          {
+            "value": "54",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "eight",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "eight",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "third",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "third",
+            "label": "ORDINAL"
+          }
+        ],
+        "organizations": [
+          {
+            "name": "Ministry of Home Affairs",
+            "label": "ORG"
+          },
+          {
+            "name": "Chong Tam Vikram Singh",
+            "label": "ORG"
+          },
+          {
+            "name": "Kilokri",
+            "label": "ORG"
+          },
+          {
+            "name": "National Capital",
+            "label": "ORG"
+          },
+          {
+            "name": "CCTV",
+            "label": "ORG"
+          },
+          {
+            "name": "CCTV",
+            "label": "ORG"
+          }
+        ]
+      },
+      "keywords": [
+        "music",
+        "vikram",
+        "singh",
+        "delhi",
+        "family"
+      ]
+    },
+    {
+      "story_id": "story_002",
+      "topic": "Local News",
+      "subtopic": "People Police Music",
+      "timestamp_start": "9:53",
+      "timestamp_end": "47:55",
+      "confidence_score": 0.5,
+      "raw_text": "also Indian. So the protection the other Indians are getting we also should get uh that protection. >> You know you're using the word racism. Do you feel targeted in some way as a Manipuri? You've lived in Delhi also Sangeita for a long time. Do you feel that because you are from Manipur or from the northeast you get targeted easily? Maybe because of our looks or maybe because of our uh this one our officer is little bit different from the uh from the other maybe from the others. So like yes always uh people used to call us Chinese this so many terms they used to they use for us but uh sir uh you are an Indian. I'm also an Indian as much as you are an Indian sir. >> Of course you are as much as an Indian as I am. I you know we are proud of the the Manipuris and the contribution they've made to the country. What do you expect the police now to do given the fact that all the eight people have been identified and they've been arrested? uh they have been uh we have heard that they have been arrested and uh they were put inside um like uh what we want is that this punishment we want to set an example at this time that this this time we give uh the punishment a severe punishment we want to give to them and if then only there will be a fear fear to the to those persons who wants to like you know attack or who wants to mock of the northeast people. What is your message though ma'am to the people of Delhi to the people of India to the neighbors of Vikram to those who will you know are close to him what would you like to tell the people of India today >> that uh particularly in that area I would like to say that all the all the neighbors are not bad but the things if the things happen like this then we all need to stand together then only we feel safe only when they they stood with us. I appreciate Sangeita you joining us. That was Sangeita Keshum speaking to me outside the police station earlier this evening. I want to raise this question. Is the national capital simply a city on a short fuse where rage can turn into death? How is police going to curb these rage [music] crimes? Does society need to be sensitized particularly when you've got people from the northeast involved? Will quick justice be deterrent at all? Joining me now Dr. Alana Golmai is general secretary northeast [music] support center and helpline. Colin Gonzalez, senior advocate, Supreme Court. Vikram Singh, former DGP UP. Bina Lakshmi Nepram, founder of Manipur Women Gun Survivors Network. Appreciate you joining us. Bina Lakshmi, you go first. You were there today. Tell us what your sense is. Do you classify this as a normal rage crime or do you see it as a targeted crime in any way because uh uh Vikram was Manipuri? Because what we know this happened on the spur because of the noise and commotion in the area. Rash first of all the whole of Manipur and the whole country is mourning today at the loss of a brilliant music teacher whose lives and music should be with us today but he is right now lying in a mortuary in all India medical institute sciences in the mortuary I was with his wife his brother and his family whole day yesterday till the postmodm was conducted till about 900 p.m. at the moment. His wife is grieving. His son is still trying to come at the loss. This is this was something that it has hurt all of us and the whole country and the whole state is grieving at this stage. I just returned uh from the family at 8:00 p.m. too. So first of all we wanted to say this was a clear case of racial violence. The reason is the narrative that is spread by Delhi police and others that Vikram went down and tried to tell those people not this is wrong. Vikram Tamo Vikram usually goes down to to take away the waste or take a walk after a meal. He went down at 11:30 and then at about 12:06 he came running up. his wife opened the door and eight men followed him to the third floor of his building and and in front of his wife and son assaulted him and this is exactly what happened. As a musician, as an artist, Tamo Vikram was known to his family and friends as a absolutely peaceloving person who would raise a voice as a result. >> But are you are you calling it a hate crime? Are you calling it a hate crime or a rage crime? >> It is a clear case of racial violence. Eight men attacking an a Manipuri men and beating him to death in the streets in in in the capital city is a clear case of racial violence and as happened it is a is exactly what happened to our brother Nidotanya in 2013. 13 years down the line this violence against people of Manipur and northeast of India has not ended. We hang our heads in shame at the way that not only in Manipur are we feeling unsafe after three years of violence when we even come to the national capital region we are attacked for who we are and what we are aren't why are we treated as secondclass citizens why are we being looked at different but we also know Alanda is here with us that we also we created the Northeast India forum against racism after Nidotana was killed beaten into that in the streets of Delhi and we had asked for the formation of a bisbbor committee report we asked the government of India to implement this in letter and spirit we had asked for the creation of an anti-racial law kiran riu was with us uh current union minister we had put all we have worked very closely with the union home ministry to create so that we do not have this kind of debts again it is a failure of just not in low and order failure of Indian policies failure at the at the central level failure at the prime minister's level to ensure that people from northeast in Delhi >> I hear you ma'am I hear you Dr. Alana Goldmay, you're a general secretary of the northeast support center. Are you also going to classify this as a hate crime? Because there are conflicting version that this was a scuffle that went horribly wrong in the sense that um Vikram did not raise his hand but he was targeted but was he targeted because he's a manipuri or because we have rage building in the national capital of course we are vulnerable very vulnerable we are a soft target. Had Bikram's face been some other non northeast face, this attack wouldn't have happened. This attack wouldn't have happened. Whe whether we speak Hindi, good Hindi or not, it is not because we're fluent in language. The moment they see our face, that's where the discrimination starts. Like Bina was saying, yes, of course, in 2014 when Nido was lynched, we have been asking for anti-Russia law. We need to set some deterrence. But until today, why? In 2023 when the new laws the when the three new laws that was passed why not we have been asking to at least have some kind of amendment that is in the best bora committee recommendations that is IPC 153C that is to be amended but then till today that did not happen when the new >> what is the specific what is the specific law that you believe would stop a case like this and act as a deterrent what is that specific >> beacial law there has to be some guidelines so that people are aware there but they know that they will be let free because they know that there's no law during 2020 when there was a covid time there was a massive distress am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am am amongst the nish people because they were called as careers of corona virus even during that time there was a spat on a young girl was spat on and then they they called corona virus the accused till today we're handling that case but then it was not invoked under any sections that is under wisdom so you're saying, but it was invoked under 509, which is outrageous. >> Specific law, I take your point, specific law that looks at such crimes in the context of what you're calling anti-racism. Colin Gonzalez, is that really a deterrent? Do you believe that that would actually deter eight people from targeting a a Manipuri musician allegedly because there was noise and commotion in the area which he protested against? Actually the reason runs quite deeper and over the last 10 years at least I know last 10 years there have been hundreds of crimes against northeast people hundreds so there's something about Indian mentality that we have become so intolerant and so violent when it comes to people who look slightly different who talk slightly differently and they are called chinkis homos And no policeman will ever take serious view of this. It starts with that. And then of course the violence has been extreme right across the country and he's Faru and he was appointed by the government to make a report and he did and wonderful recommendations but I think it's been more than 10 years and the Indian government has not moved an inch. So you're also not willing to accept this is a rage crime. You're also insisting this is a hate crime. >> This is a hate crime and this is a a hate crime of a very serious nature where people are lynched, people are killed, people are chased in Delhi as well. I have a case of a woman, a Manipuri woman who was found dead in a room and after 10 years that crime was never solved. So the police don't care really for people of the northeast who suffer these injuries and I don't expect they will. I'm I'm going to stop you for a moment because I want to just put out before I go to Vikram Singh, take a look at the crimes against people from northeast just in the national capital between 2014 and April 30th, 2026 over the last 12 years. 2,656 FIRS. Take a look at those numbers. Crimes against people from the northeast, 2,656 FIS have been filed. Investigation pending in 74 cases. Trial pending in 771 cases. 330 cases squashed only 33 convictions so 2,656 only 33 convicted conviction rate 1.82% that's all Vikram Singh respond I mean this really if this happens in the national capital god forbid what happens in in places outside Delhi police used to claim we are among the best police in the world here you've got a 1.82% 82% conviction rate and all my guests yes human rights activists are saying they don't see this as rage crime they see it as hate crime good evening Rajep and my esteemed fellow panelist I would say this is a very dismal and a terrible picture that has come out 2656 1.33 conviction >> 33 convictions and therefore the conviction rate is just 1.82%. We'll try and come back to you. The the the the image is frozen for a moment. Mila Lakshmi, you want to quickly respond though to those numbers that I put up on my screen. >> This just shows that the lives of people of northeast in India in this country does not matter. But the fact is our lives matter. We have 45 million northeast people living in one of the most sensitive areas of the country. A region which has given Olympians which has brought laurels to this country. The country which gave the region which gave polo to the world the country which produced Indian classical dancers yet even after 80 years of India's independence. What a shame that we have not understood 45 million citizens of our country. Not even our history of northeast of India is in the textbooks of our country. If only our children learn to live both in rural and urban areas to understand the beauty the the the joy the the the the rigorous and and and and the sensitivity and the beauty of the people of northeast we did not have this kind where I take your point a musician yeah >> I take your point ma'am I just want to go back to Vikram Singh who rejoins us Vikram Singh look at those numbers again 2656 FIRS convicted 33 conviction rate 1.8 82% untraceed 1,465 quashtra 313. Those are shocking statistics really that are staring us in the face. You're not surprised Colin Gonzalez with them, are you? Colin Gonzalez, are you surprised with those statistics? >> Yes. >> No, I'm not surprised at all. We all knew that actually the Indian police is scarcely interested in prosecuting these kind of cases. There's a special police unit in Delhi called Spooner which is headed by a senior officer from the northeast and these spooner units were supposed to be set up right across the country not done all the recommendations of Buru are not done. So there is it's just that India has become such a violent country. We have a specific northeast cell. The Delhi police claims Delhi police Mr. Delhi police Mr. Gonzal is claimed there is a northeast cell to address specific grievances. >> Yes, Spooner Spooner is the northeast cell. >> He went to the Supreme Court. Alana's case, Alana went to the Supreme Court and she asked that these Spooner units should be set up across the country. Now Delhi has a spooner unit. It does reasonably good work. So it's successful. It could be successful. But across the country that's not the situation. >> The Indian government should have taken it. >> Let me get Alana level. >> Let me get Alana on that. Alana. Are there are there enough units where specifically if you go if a person from the northeast goes to a police station, what is the experience like? Has that northeast cell helped or not? uh the as far as Delhi is concerned they have the special police unit for northeastern region. This was constituted after the death of the Nidotana in 2014. But today yes there is uh for Delhi the 1093 1093 is the helpline number but then this also this unit also needs to be strengthened. They do not have even allocated budget but then they functions under a very very limited facilities and then they do not have a power of a police station but they are just a unit who can >> is it there is it there Alana in other parts of India? Is it there in other parts of India? Not at all. >> No no best bar recommendations committee recommendations says that such kind of unit should be replicated in other metro cities of India and also the helpline number should be nationalized at 109. So are you saying none of the other metros have it? Are you saying Alana none of the other metros have it? They do not have they do not have and just looking at the data looking at the questioning the convicted rate I am like you know I'm so I am not shocked although but then what kind of investigations are the police doing based on the investigation it is supposed to be evidence are supposed to be brought in exhibits are supposed to be doing what are they doing at the crime sport what kind of job are they doing there's so much of loopholes in the investigation that even I have taken up a case supper ganged raped in Dara. Now the the the victim is being actually she did not get justice is being already acquitted. The accused are acquitted. Also there is a case in Kotla Mubarakur way back in 2014. The case of a young boy guy from Manipur. The case is still happening till today. What kind of investigation? Who are the experts? You need to have a team experts to do all these things. But till today >> Vikram Singh Vikram Singh you're on you know Vikram Singh really you're on the mat. I know that our line has been breaking to you but I want a quick response from you. There is something dastardly wrong. If there is a recommendation of a committee to set up these cells across India to ensure quick justice, why does it not happen? According to the my guests from the northeast, they are treated as secondclass citizens. Unacceptable. They are as Indian as you and me. Absolutely Rajib I share the anguish of all the fellow panelists and I said that there's merit in Dr. Alana says 1.82 82 convictions percentage convictions is indicative and mirrors what active steps has been taken. This is a very dismal and failure and an absolute failure by all standards. I had experienc no who do you play >> when you showed the visuals I'm absolutely scandalized also to see that the Delhi police who was standing behind those arrested had a very smirk and a smile. This is no occasion to smile. This is a moment of deep tragedy and I the smile is indicative of the fact how contemptuous the Delhi police are when it comes to such sensitive matters. Empathy is something that is expected of all upright police officers. What is wrong is of the fact that Delhi police should have been more proactive more police presence in the sensitive areas and also the conviction rate obviously registered the case and forget about it because had they >> so you're accepting you're accepting that the Delhi police or indeed the police in general is not sensitized when it comes to people from the northeast >> very much absolutely and I have no I mean I have no reservations about that I had expected a lot more and whatever action has been taken it is not reassuring to say the least Okay, I just want to give one quick last minute to you Binina Lakshmi Npran within a minute sum it up for us. I've seen you uh over the years. Are things better today than they were 20 years ago when I first met you when it comes to uh uh crimes against northeast or you believe they've actually got worse? Honest answer. >> Rashid, >> are people more sensitized? >> Worse, it has become worse because what happened to Tamo Vikram in Kiloki? This is not the first. This year a young girl from Manipur was also thrown from the second floor and died in Kilogree Rajib. So many crimes against northeast people have increased over the past years. It's we hang our heads in shame that in the 80th year of our democracy our citizens are being killed just because they look different. We are a country a multicultural a multi-religious country. It's time to reclaim that back that we are a huge nation which can progress together and not be racially profiled and attacked and killed just because of who we are. The music of Tamo Vikram should be with us today, tomorrow, the years to come. He deserved to have lived. His wife deserved to have a husband and his son deserved a father. We have lost him and we weep with him and his family and we hope it doesn't happen again to another family again. The country must unite to condemn this crime. Those culprits must be brought and to justice and his family must get the relief that they deserve so they can get on as a strong nation as strong state and this is the only way to move forward in this particular part of our country and the world. >> I'm going to leave it there. I've heard your voices. And I hope those voices are loud and clear. When these stories happen, we will continue to focus on them. There are parts of this country lynching in the heart of the national capital. And most prime time eliminates the news. That's the problem. Also, the media needs to recognize that the northeast matters as much as any corner of this country for God's sake. And I hope that they realize and sensitize themselves as well. I thank my guests for joining me. I want to turn from there to some news that's breaking. The Food and Drug Administration now has raided more eeries this time at Mumbai's [music] Iscon in Juu. Licenses of three outlets at Iscon in Ju have been suspended. There you have Tukaram Mundai at it again at Iscon's [music] restaurant. FDA inspectors have found pest infest infestation, [music] choke drains, water accumulation in the cold storage room. This is of course in Mumbai. license. Also, one of the IRCTC [music] suppliers to railways has been suspended. FDA officials found cockroaches in the food storage processing areas being prepared near open garbage. 17 broken tiles in the [music] kitchen. Let's go straight across to Dh Singh who's joining us. Dive give us the very latest. We are getting Tukara Mundday now. is once again on the prowl every day some restaurant or the other being found to wave uh found to violate food safety norms. Well, the crackdown by FDA commissioner Tukaram Mundday is on in Maharashtra and uh four such establishments, one supplying food to the IRCTC has been uh there were four outlets which were checked and out of which one license has [music] been revoked. It has been cancelled because uh there were broken tiles that were found. There was hygiene that was not being followed. There were uh food segregation was not proper and at three establishments at the Iscon Juu uh there were uh it has been found uh that uh at these establishments uh there was pest infestation, choke drains, water accumulation in the cold storage area and there was inadequate segregation of raw and cooked food. So these three establishments at the Iscon Juu there also action has been taken by the FDA commissioner by FDA teams which conducted rates which conducted checks at these establishments and it has also been found that there were insect feces [music] which were uh found in the kitchen area. Uh there was clo there was choke drains there was food accumulation in drains. There was water accumulation in the cold [music] storage area at these three establishment including the Goindas restaurant in at isconju. >> Okay D Singh joining us now uh we will continue to track that story as that FDA drive continues. Let's turn to the controversy of the day which comes from Paris where uh controversy erupted after a large delegation linked to the Hindu organization BPS visited the Eiffel Tower. Employee unions alleged that the female staff were asked to step aside during the visit to accommodate the delegation triggering protest and a one-day closure of the iconic monument. Babs has claimed that they had no objections. However, over the years, BA's monks have tended to be staying away from women. The allegations sparking a wider debate now over gender discrimination, drawing criticism also from French political leaders and doing no good for India's global image. Take a look. The Eiffel Tower, one of the world's most iconic tourist places, was shot on Monday after a visit by spiritual leaders of a Hindu sect sparked a controversy. It all started when a delegation of around 100 people linked to the Basanvasi, Akar, Pushutam, Swami, Nar and Sansa visited the monument on Saturday. Employees Union claimed the delegation had asked for the trip to be organized in such a way that limited their interaction with women. According to union representatives, female employees were told to leave the areas where they were working as members of the delegation passed through allowing male employees to take their places. The move angered women workers, unions, and French politicians, sparking a full-blown face off. The incident led to the closure of the tower for a day with its employees staging a protest. Paris Mayor Emmanuel Gregor assured an investigation would be launched as soon as possible, adding that he is aware of the employees anger and agreed that dissatisfaction was legitimate. Yale Brown PE the president of the French National Assembly slammed the incident and said she refuses to allow women to be [music] compelled to step aside in order to meet the demands of foreign visitors. French hard right leader Marine Lee said in France we will never accept that the presence of women be limited as the controversy snowballed the Hindu religious group said it understood the concerns raised over the Eiffel Tower visit and was taking them very seriously. The group further said that the visit by its large delegation was organized in coordination with Eiffel Tower authorities. Pap said the visit was scheduled at the start of normal opening hours to minimize inconvenience to other visitors and added that to its knowledge no one was denied access to the Eiffel Tower during the visit. The group apologized to anyone who may have felt hurt or inconvenienced by the situation. Meanwhile, MEA has distanced itself from the controversy. We are aware of the opening of a temple of the BAPS BAPS uh Sansa in the Paris area. As to the particular issue pertaining to the tower, this is a matter purely between the entities concerned. >> The pap's delegation was in Paris for the inauguration of a temple on the suburbs. The newly opened temple is being described as the largest Hindu shrine in mainland Europe. The ceremony however has been overshadowed by controversy surrounding the Eiffel Tower bureau report India today. I keep saying you can't have nari shaki at home and then nari bahishkar when you go abroad. Baps needs to relook at some of these issues in the 21st century to a controversy over remarks on Muslim women. that has now turned into a legal and political battle in Kerala where a TV journalist Apernna Kurup has been booked over comments made while questioning remarks made by an Islamic cleric and scholar. Even though she was forced to apologize, she's received a series of threats and the threats of FIRS being filed against her. Take a look at this report from Kerala. Keralam police have registered a case against journalist Aperna Kurup over remarks made during a discussion on Kapuram AP Abu Bakr Musia's comments on women appearing in public. The FI alleges that Kurup's remarks could hurt religious sentiments, provoke a breach of peace and promote enimity [music] between communities. Kurup had criticized Kapuram's statement. Amid the backlash, Kurup apologized. Big TV also removed the videos from its social media platforms. But the controversy did not end there. Based on a complaint by Kurup, state police registered a case against Abdullah Basil, CP of the Wisdom Islamic Organization who had taken part in the debate. Kurup alleged that Basil circulated misleading [music] videos. Basil alleged the controversy is aimed at creating a narrative against one religion. for Congress's ally IUML stepped in demanding a withdrawal of the case against Pas state BJP president [music] Rajiv Chandra Shakerhar called the situation Taliban like Rahul Gandhi the leader of the Congress party sits in Delhi and talks about patriarchy and maintains a studied silence about what is going on in Keralum. If the Muslim League with the mute meek support of the Congress party thinks that they can take Keralum back into the stone ages, I will assure you we will fight you tooth and nail. Not only will we fight you politically, but we will fight you legally and we will defeat this effort. >> Meanwhile, Kapuram has appealed for restraint, urging his followers not to be provoked. The Keralum Rao has now become a larger debate over religion, free speech and the freedom to question ideas with Shibim Mali from Thiruanapuram report India today. >> Okay, let's turn to another political storm this time in Punjab over the state's drug menace. Kular Singh a Sangru resident who questioned Punjab's finance minister Harpal Singh Chima over the easy availability of drugs has died by suicide after consuming poison. Before his death, Gulzar named the minister and the village Sarpunch for allegedly putting pressure on him after he raised the drug issue. Opposition parties ahead of the elections in Punjab have picked on the story and saying that the app minister must be held accountable. Take a look. Punjab's Chitta scourge has claimed yet another life. Gular Singh of Sangur died by suicide after consuming poison on Monday. Days earlier, he had confronted state finance minister Harpal Singh Chima over the easy availability of chitta or drugs. Before his death, Gulzar recorded a statement blaming Chima and the village Sar Punch for his plight. Gulz's family alleges that after confronting the minister, local Amadi party leaders pressured him to apologize. The allegations have now exploded into a full-blown political battle. The opposition has accused the man government of failing to curb the drug menace seeking the arrest of Harpal Singh Chima and a CBI probe. CV. The ruling Amani party insists [music] the BJP and Congress are trying to milk a tragedy for political gains. An abetment to suicide case has been registered. Harpal Sikima however has not been named in the FIR. The NHRC2 has stepped in directing the Punjab government to submit an action taken report within two weeks. The controversy comes barely days after another anti-drug protest plunged the man government into a storm. Moanjit Singh had waved a black flag at Chief Minister Bhagwant Man while protesting over the drug menace. He was detained and later allegedly faced brutal torture in custody, including being given electric shocks. The allegations forced the government to transfer a DSP and sent three other police personnel to the police lines. Punjab was promised a war on drugs. But has the war now turned on those questioning the menace? With Kamaljit Korandu, Bureau report, India Today. Let's turn to tonight's Get Real India story. [music] Now, images of roads that caved in just days after inauguration have gone viral in recent times. But today, we have a story with a slight difference. Videos of a road going are going viral after developing cracks even before the road was inaugurated. Here is a report on the highway currently under construction in Priagraj which will connect Aayodhya with Chitrakut. Take a look. Getal India. This is a road under construction in Priyagra. >> [music] >> It is a part of the Ram Ban Gamut, a 210 kilometer project to connect Aayodhya to Chitrakot. But even before its completion, the road has started breaking apart in the Nab Ganj area of Priag. road. The contractor started repair work after videos showing the damage went viral on social media. problem. Up deputy CMK of Prasad Morya played down the whole episode. The government has [music] allocated 4,400 cr rupees for the construction of the Ram Van Gamut. The cracks in the road in Priyagarj are a wakeup call for the government with Panka Shivast [music] Bureau report India today wakeup call the question is will someone wake up think about it I want to leave you with my image of the day it's an interesting one where do you usually park your car in [music] the basement outside your house or in the colony parking lot? Well, one man in Gopal Gunge has found a rather unusual parking spot, his terrace. That's right. A viral video shows a brand new [music] Scorpio classic being lifted onto the roof of a house using a crane. The reason its owner, Mano Jadam, had reportedly gone abroad, wanted to make sure his newly bought car stayed safe from theft. Ah, there are different ways to protect your car. You don't try it though. It is risky. Car on the terrace. I've got to leave you there. Thanks for watching. Stay well, stay safe. Good night. Shubati Jin Namaskar. That story [music] happens only in India. Bye for now. >> [music]",
+      "entities": {
+        "people": [
+          {
+            "name": "Sangeita",
+            "label": "PERSON"
+          },
+          {
+            "name": "Sangeita",
+            "label": "PERSON"
+          },
+          {
+            "name": "Sangeita Keshum",
+            "label": "PERSON"
+          },
+          {
+            "name": "Alana Golmai",
+            "label": "PERSON"
+          },
+          {
+            "name": "Colin Gonzalez",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bina Lakshmi Nepram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bina Lakshmi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Nidotanya",
+            "label": "PERSON"
+          },
+          {
+            "name": "Alanda",
+            "label": "PERSON"
+          },
+          {
+            "name": "Alana Goldmay",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bikram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Hindi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bina",
+            "label": "PERSON"
+          },
+          {
+            "name": "Colin Gonzalez",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rajep",
+            "label": "PERSON"
+          },
+          {
+            "name": "Mila Lakshmi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Colin Gonzalez",
+            "label": "PERSON"
+          },
+          {
+            "name": "Colin Gonzalez",
+            "label": "PERSON"
+          },
+          {
+            "name": "Spooner",
+            "label": "PERSON"
+          },
+          {
+            "name": "Delhi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Gonzal",
+            "label": "PERSON"
+          },
+          {
+            "name": "Spooner Spooner",
+            "label": "PERSON"
+          },
+          {
+            "name": "Spooner",
+            "label": "PERSON"
+          },
+          {
+            "name": "Alana",
+            "label": "PERSON"
+          },
+          {
+            "name": "Alana",
+            "label": "PERSON"
+          },
+          {
+            "name": "Vikram Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rajib",
+            "label": "PERSON"
+          },
+          {
+            "name": "Alana",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kilogree Rajib",
+            "label": "PERSON"
+          },
+          {
+            "name": "Tukaram Mundai",
+            "label": "PERSON"
+          },
+          {
+            "name": "Tukara Mundday",
+            "label": "PERSON"
+          },
+          {
+            "name": "Tukaram Mundday",
+            "label": "PERSON"
+          },
+          {
+            "name": "Goindas",
+            "label": "PERSON"
+          },
+          {
+            "name": "Akar",
+            "label": "PERSON"
+          },
+          {
+            "name": "Pushutam",
+            "label": "PERSON"
+          },
+          {
+            "name": "Swami",
+            "label": "PERSON"
+          },
+          {
+            "name": "Sansa",
+            "label": "PERSON"
+          },
+          {
+            "name": "Emmanuel Gregor",
+            "label": "PERSON"
+          },
+          {
+            "name": "Yale Brown PE",
+            "label": "PERSON"
+          },
+          {
+            "name": "Marine Lee",
+            "label": "PERSON"
+          },
+          {
+            "name": "nari shaki",
+            "label": "PERSON"
+          },
+          {
+            "name": "nari bahishkar",
+            "label": "PERSON"
+          },
+          {
+            "name": "Apernna Kurup",
+            "label": "PERSON"
+          },
+          {
+            "name": "Aperna Kurup",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kurup",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kapuram",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kurup",
+            "label": "PERSON"
+          },
+          {
+            "name": "Abdullah Basil",
+            "label": "PERSON"
+          },
+          {
+            "name": "Basil",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rajiv Chandra Shakerhar",
+            "label": "PERSON"
+          },
+          {
+            "name": "Rahul Gandhi",
+            "label": "PERSON"
+          },
+          {
+            "name": "meek",
+            "label": "PERSON"
+          },
+          {
+            "name": "Keralum",
+            "label": "PERSON"
+          },
+          {
+            "name": "Shibim Mali",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kular Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Harpal Singh Chima",
+            "label": "PERSON"
+          },
+          {
+            "name": "Gulzar",
+            "label": "PERSON"
+          },
+          {
+            "name": "Gular Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Harpal Singh Chima",
+            "label": "PERSON"
+          },
+          {
+            "name": "Gulzar",
+            "label": "PERSON"
+          },
+          {
+            "name": "Chima",
+            "label": "PERSON"
+          },
+          {
+            "name": "Gulz",
+            "label": "PERSON"
+          },
+          {
+            "name": "Amadi",
+            "label": "PERSON"
+          },
+          {
+            "name": "Harpal Singh Chima",
+            "label": "PERSON"
+          },
+          {
+            "name": "CV",
+            "label": "PERSON"
+          },
+          {
+            "name": "Amani",
+            "label": "PERSON"
+          },
+          {
+            "name": "NHRC2",
+            "label": "PERSON"
+          },
+          {
+            "name": "Singh",
+            "label": "PERSON"
+          },
+          {
+            "name": "Bhagwant Man",
+            "label": "PERSON"
+          },
+          {
+            "name": "Kamaljit Korandu",
+            "label": "PERSON"
+          },
+          {
+            "name": "Aayodhya with Chitrakut",
+            "label": "PERSON"
+          },
+          {
+            "name": "Ban Gamut",
+            "label": "PERSON"
+          },
+          {
+            "name": "Aayodhya to Chitrakot",
+            "label": "PERSON"
+          },
+          {
+            "name": "Mano Jadam",
+            "label": "PERSON"
+          },
+          {
+            "name": "Shubati Jin Namaskar",
+            "label": "PERSON"
+          }
+        ],
+        "places": [
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuris",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "helpline",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Hindi",
+            "label": "GPE"
+          },
+          {
+            "name": "Russia",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipuri",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Buru",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Dara",
+            "label": "GPE"
+          },
+          {
+            "name": "Kotla Mubarakur",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Kiloki",
+            "label": "GPE"
+          },
+          {
+            "name": "Manipur",
+            "label": "GPE"
+          },
+          {
+            "name": "Mumbai",
+            "label": "GPE"
+          },
+          {
+            "name": "Juu",
+            "label": "GPE"
+          },
+          {
+            "name": "Iscon",
+            "label": "GPE"
+          },
+          {
+            "name": "Ju",
+            "label": "GPE"
+          },
+          {
+            "name": "Mumbai",
+            "label": "GPE"
+          },
+          {
+            "name": "Singh",
+            "label": "GPE"
+          },
+          {
+            "name": "the Iscon Juu",
+            "label": "FAC"
+          },
+          {
+            "name": "the Iscon Juu",
+            "label": "FAC"
+          },
+          {
+            "name": "Paris",
+            "label": "GPE"
+          },
+          {
+            "name": "the Eiffel Tower",
+            "label": "LOC"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "The Eiffel Tower",
+            "label": "LOC"
+          },
+          {
+            "name": "Basanvasi",
+            "label": "LOC"
+          },
+          {
+            "name": "Paris",
+            "label": "GPE"
+          },
+          {
+            "name": "France",
+            "label": "GPE"
+          },
+          {
+            "name": "the Eiffel Tower",
+            "label": "LOC"
+          },
+          {
+            "name": "Eiffel Tower",
+            "label": "FAC"
+          },
+          {
+            "name": "the Eiffel Tower",
+            "label": "LOC"
+          },
+          {
+            "name": "Paris",
+            "label": "GPE"
+          },
+          {
+            "name": "Paris",
+            "label": "GPE"
+          },
+          {
+            "name": "Europe",
+            "label": "LOC"
+          },
+          {
+            "name": "the Eiffel Tower",
+            "label": "FAC"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Kerala",
+            "label": "GPE"
+          },
+          {
+            "name": "Kerala",
+            "label": "GPE"
+          },
+          {
+            "name": "Delhi",
+            "label": "GPE"
+          },
+          {
+            "name": "Keralum",
+            "label": "GPE"
+          },
+          {
+            "name": "Kapuram",
+            "label": "GPE"
+          },
+          {
+            "name": "Thiruanapuram",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Sangru",
+            "label": "GPE"
+          },
+          {
+            "name": "Sikima",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "Priagraj",
+            "label": "GPE"
+          },
+          {
+            "name": "Priyagra",
+            "label": "GPE"
+          },
+          {
+            "name": "Priag",
+            "label": "GPE"
+          },
+          {
+            "name": "Priyagarj",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          },
+          {
+            "name": "India",
+            "label": "GPE"
+          }
+        ],
+        "numbers": [
+          {
+            "value": "eight",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "first",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "first",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "first",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "about 12:06",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "eight",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "third",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "Eight",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "three",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "153C",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "509",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "eight",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "hundreds",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "hundreds",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "2,656",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "2,656",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "74",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "771",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "330",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "only 33",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "2,656",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "1.82%",
+            "label": "PERCENT"
+          },
+          {
+            "value": "1.82%",
+            "label": "PERCENT"
+          },
+          {
+            "value": "82%",
+            "label": "PERCENT"
+          },
+          {
+            "value": "1.33",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "33",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "just 1.82%",
+            "label": "PERCENT"
+          },
+          {
+            "value": "45 million",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "45 million",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "33",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "1.8 82%",
+            "label": "PERCENT"
+          },
+          {
+            "value": "1,465",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "313",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "109",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "1.82 82",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "first",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "first",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "second",
+            "label": "ORDINAL"
+          },
+          {
+            "value": "three",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "17",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "four",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "four",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "three",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "three",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "three",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "around 100",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "three",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "210 kilometer",
+            "label": "QUANTITY"
+          },
+          {
+            "value": "4,400",
+            "label": "CARDINAL"
+          },
+          {
+            "value": "one",
+            "label": "CARDINAL"
+          }
+        ],
+        "organizations": [
+          {
+            "name": "Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Supreme Court",
+            "label": "ORG"
+          },
+          {
+            "name": "Manipur Women Gun Survivors Network",
+            "label": "ORG"
+          },
+          {
+            "name": "Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Vikram Tamo Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Tamo Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Nidotana",
+            "label": "ORG"
+          },
+          {
+            "name": "the union home ministry",
+            "label": "ORG"
+          },
+          {
+            "name": "Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Nido",
+            "label": "ORG"
+          },
+          {
+            "name": "IPC",
+            "label": "ORG"
+          },
+          {
+            "name": "FIS",
+            "label": "ORG"
+          },
+          {
+            "name": "the Supreme Court",
+            "label": "ORG"
+          },
+          {
+            "name": "Alana",
+            "label": "ORG"
+          },
+          {
+            "name": "Alana",
+            "label": "ORG"
+          },
+          {
+            "name": "the Supreme Court",
+            "label": "ORG"
+          },
+          {
+            "name": "Alana",
+            "label": "ORG"
+          },
+          {
+            "name": "Nidotana",
+            "label": "ORG"
+          },
+          {
+            "name": "Alana",
+            "label": "ORG"
+          },
+          {
+            "name": "Alana",
+            "label": "ORG"
+          },
+          {
+            "name": "Binina Lakshmi Npran",
+            "label": "ORG"
+          },
+          {
+            "name": "Tamo Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "Tamo Vikram",
+            "label": "ORG"
+          },
+          {
+            "name": "The Food and Drug Administration",
+            "label": "ORG"
+          },
+          {
+            "name": "Iscon",
+            "label": "ORG"
+          },
+          {
+            "name": "Iscon",
+            "label": "ORG"
+          },
+          {
+            "name": "FDA",
+            "label": "ORG"
+          },
+          {
+            "name": "FDA",
+            "label": "ORG"
+          },
+          {
+            "name": "FDA",
+            "label": "ORG"
+          },
+          {
+            "name": "IRCTC",
+            "label": "ORG"
+          },
+          {
+            "name": "FDA",
+            "label": "ORG"
+          },
+          {
+            "name": "FDA",
+            "label": "ORG"
+          },
+          {
+            "name": "FDA",
+            "label": "ORG"
+          },
+          {
+            "name": "BPS",
+            "label": "ORG"
+          },
+          {
+            "name": "BA",
+            "label": "ORG"
+          },
+          {
+            "name": "Employees Union",
+            "label": "ORG"
+          },
+          {
+            "name": "the French National Assembly",
+            "label": "ORG"
+          },
+          {
+            "name": "MEA",
+            "label": "ORG"
+          },
+          {
+            "name": "FIRS",
+            "label": "ORG"
+          },
+          {
+            "name": "Kapuram AP Abu Bakr Musia's",
+            "label": "ORG"
+          },
+          {
+            "name": "Kurup",
+            "label": "ORG"
+          },
+          {
+            "name": "Big TV",
+            "label": "ORG"
+          },
+          {
+            "name": "Kurup",
+            "label": "ORG"
+          },
+          {
+            "name": "the Wisdom Islamic Organization",
+            "label": "ORG"
+          },
+          {
+            "name": "Congress",
+            "label": "ORG"
+          },
+          {
+            "name": "IUML",
+            "label": "ORG"
+          },
+          {
+            "name": "Pas",
+            "label": "ORG"
+          },
+          {
+            "name": "BJP",
+            "label": "ORG"
+          },
+          {
+            "name": "Taliban",
+            "label": "ORG"
+          },
+          {
+            "name": "Congress",
+            "label": "ORG"
+          },
+          {
+            "name": "the Muslim League",
+            "label": "ORG"
+          },
+          {
+            "name": "Congress",
+            "label": "ORG"
+          },
+          {
+            "name": "The Keralum Rao",
+            "label": "ORG"
+          },
+          {
+            "name": "Punjab",
+            "label": "ORG"
+          },
+          {
+            "name": "Sar Punch",
+            "label": "ORG"
+          },
+          {
+            "name": "CBI",
+            "label": "ORG"
+          },
+          {
+            "name": "BJP",
+            "label": "ORG"
+          },
+          {
+            "name": "Congress",
+            "label": "ORG"
+          },
+          {
+            "name": "FIR",
+            "label": "ORG"
+          },
+          {
+            "name": "DSP",
+            "label": "ORG"
+          },
+          {
+            "name": "Getal India",
+            "label": "ORG"
+          },
+          {
+            "name": "CMK",
+            "label": "ORG"
+          },
+          {
+            "name": "Prasad Morya",
+            "label": "ORG"
+          },
+          {
+            "name": "the Ram Van Gamut",
+            "label": "ORG"
+          },
+          {
+            "name": "Panka Shivast",
+            "label": "ORG"
+          },
+          {
+            "name": "Gopal Gunge",
+            "label": "ORG"
+          }
+        ]
+      },
+      "keywords": [
+        "people",
+        "police",
+        "music",
+        "northeast",
+        "india"
+      ]
+    }
+  ],
+  "segmentation_quality": {
+    "total_segments": 2,
+    "average_confidence": 0.5,
+    "topics_identified": [
+      "Local News"
+    ],
+    "requires_manual_review": []
+  }
+}
